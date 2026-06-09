@@ -35,13 +35,32 @@ const db = app.database();
 const _ = db.command;
 
 // ============ GitHub Actions 自动部署 ============
-const DEPLOY_PAT = process.env.DEPLOY_PAT;
 const GITHUB_REPO = 'ylfnevergiveup/yangtaixiaoyuanding';
 let deployTimer = null;
+let deployPatCache = null;
+
+/** 获取 DEPLOY_PAT — 环境变量优先，否则使用内置值 */
+async function getDeployPat() {
+  if (process.env.DEPLOY_PAT) return process.env.DEPLOY_PAT;
+  if (deployPatCache) return deployPatCache;
+  // 从数据库 settings 读取（可在运行时更新）
+  try {
+    const settingsColl = db.collection('settings');
+    const res = await settingsColl.where({ id: 'deploy-config' }).limit(1).get();
+    if (res.data && res.data.length > 0 && res.data[0].pat) {
+      deployPatCache = res.data[0].pat;
+      return deployPatCache;
+    }
+  } catch (e) {
+    console.log('[Deploy] Failed to read PAT from DB:', e.message);
+  }
+  return null;
+}
 
 /** 写操作成功后触发 GitHub Actions 部署（3 秒防抖，合并连续写入） */
-function triggerDeploy() {
-  if (!DEPLOY_PAT) return;
+async function triggerDeploy() {
+  const pat = await getDeployPat();
+  if (!pat) return;
   if (deployTimer) clearTimeout(deployTimer);
   deployTimer = setTimeout(async () => {
     try {
@@ -52,7 +71,7 @@ function triggerDeploy() {
         path: `/repos/${GITHUB_REPO}/dispatches`,
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${DEPLOY_PAT}`,
+          'Authorization': `Bearer ${pat}`,
           'Accept': 'application/vnd.github+json',
           'User-Agent': 'CloudBase-CMS/1.0',
           'Content-Type': 'application/json',
