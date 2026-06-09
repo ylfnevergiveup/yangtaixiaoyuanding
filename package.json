@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "deploy": "node scripts/sync-from-cms.mjs && ASSET_PREFIX=/v2 npm run build && node scripts/fix-deploy.mjs && cloudbase hosting deploy out /v2/ && cloudbase hosting deploy out",
-    "deploy:clean": "rm -rf out && node scripts/sync-from-cms.mjs && ASSET_PREFIX=/v2 npm run build && node scripts/fix-deploy.mjs && cloudbase hosting deploy out /v2/ && cloudbase hosting deploy out",
-    "deploy:cms": "cloudbase framework deploy",
+    "deploy": "node scripts/sync-from-cms.mjs && ASSET_PREFIX=/v2 npm run build && node scripts/fix-deploy.mjs && npx cloudbase hosting deploy out /v2/ && npx cloudbase hosting deploy out",
+    "deploy:clean": "rm -rf out && node scripts/sync-from-cms.mjs && ASSET_PREFIX=/v2 npm run build && node scripts/fix-deploy.mjs && npx cloudbase hosting deploy out /v2/ && npx cloudbase hosting deploy out",
+    "deploy:cms": "npx cloudbase framework deploy",
     "seed:db": "node cloudbase/seed-database.mjs",
     "sync:data": "node scripts/sync-data.mjs",
     "daemon": "node scripts/deploy-daemon.js"
@@ -37,6 +37,7 @@
     "swr": "^2.4.1"
   },
   "devDependencies": {
+    "@cloudbase/cli": "^3.5.6",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
