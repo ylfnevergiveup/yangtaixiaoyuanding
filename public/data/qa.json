@@ -1,0 +1,91 @@
+[
+  {
+    "id": "1",
+    "title": "番茄叶子发黄卷曲是什么原因？",
+    "content": "我的樱桃番茄最近底部叶片开始发黄并向上卷曲，新叶还好。浇水频率是两天一次，放在南向阳台。请问是什么问题？",
+    "author": "阳台新手小王",
+    "date": "2天前",
+    "tags": ["番茄", "病害"],
+    "answers": [
+      { "id": "a1", "content": "可能是缺氮或浇水过多导致的。建议检查土壤排水，减少浇水频率到3-4天一次，施一些有机肥。", "author": "种菜达人", "date": "2天前", "status": "published" },
+      { "id": "a2", "content": "南向阳台光照强，注意是不是温度太高了。可以在中午拉遮阳网试试。", "author": "阳台老手", "date": "1天前", "status": "published" },
+      { "id": "a3", "content": "底部老叶发黄是正常的生理现象，只要新叶正常就不用太担心。", "author": "园艺师小李", "date": "1天前", "status": "published" }
+    ],
+    "views": 156,
+    "isResolved": true,
+    "status": "published"
+  },
+  {
+    "id": "2",
+    "title": "多肉植物一直掉叶子怎么办？",
+    "content": "我的玉露最近一直在掉叶子，叶片也变得软软的。我以为是缺水就浇了水，但情况没有好转。",
+    "author": "肉肉爱好者",
+    "date": "5天前",
+    "tags": ["多肉", "养护"],
+    "answers": [
+      { "id": "a4", "content": "玉露掉叶子通常是浇水过多导致烂根。停止浇水，把植株连根取出晾一天，换干爽的土重新种。", "author": "多肉达人", "date": "5天前", "status": "published" },
+      { "id": "a5", "content": "检查一下盆底有没有积水，多肉最怕积水。配土要加一些珍珠岩或粗砂增加透气性。", "author": "园艺师小李", "date": "4天前", "status": "published" },
+      { "id": "a6", "content": "看看茎有没有发黑，如果发黑就是黑腐病，要立即切掉黑色部分，晾干后重新扦插。", "author": "肉友阿花", "date": "3天前", "status": "published" },
+      { "id": "a7", "content": "叶片变软也可能是缺水，但要先确认不是烂根再浇水。用手轻轻捏一下茎，如果硬朗就没问题。", "author": "阳台老手", "date": "3天前", "status": "published" },
+      { "id": "a8", "content": "建议换个素烧陶盆，透气性好，不容易烂根。", "author": "盆器玩家", "date": "2天前", "status": "published" }
+    ],
+    "views": 234,
+    "isResolved": true,
+    "status": "published"
+  },
+  {
+    "id": "3",
+    "title": "封闭阳台适合种什么开花植物？",
+    "content": "我家是封闭式阳台，光照还可以但通风一般，想养一些开花植物增加色彩，有什么推荐吗？",
+    "author": "花花世界",
+    "date": "1周前",
+    "tags": ["花卉", "阳台环境"],
+    "answers": [
+      { "id": "a9", "content": "封闭阳台推荐养长寿花、蟹爪兰、天竺葵，这些对通风要求不高。", "author": "阳台老手", "date": "1周前", "status": "published" },
+      { "id": "a10", "content": "蓝雪花也很适合，花期长而且比较皮实。", "author": "花友小美", "date": "6天前", "status": "published" },
+      { "id": "a11", "content": "非洲紫罗兰(非洲堇)非常适合封闭阳台，不需要强光，花期还长。", "author": "园艺师小李", "date": "5天前", "status": "published" },
+      { "id": "a12", "content": "球兰也不错，耐阴耐旱，开出花来还很香。", "author": "香草爱好者", "date": "5天前", "status": "published" },
+      { "id": "a13", "content": "记住要定期开窗通风，封闭阳台最大的问题是空气不流通容易生病虫害。", "author": "种菜达人", "date": "4天前", "status": "published" },
+      { "id": "a14", "content": "如果光照一般，可以试试仙客来，冬天开花很漂亮。", "author": "花友阿芳", "date": "3天前", "status": "published" },
+      { "id": "a15", "content": "蝴蝶兰也可以，放在明亮散射光的地方就行。", "author": "兰友老张", "date": "3天前", "status": "published" },
+      { "id": "a16", "content": "建议配一个循环扇，每天开几个小时模拟自然风，植物会长得好很多。", "author": "设备达人", "date": "2天前", "status": "published" }
+    ],
+    "views": 412,
+    "isResolved": false,
+    "status": "published"
+  },
+  {
+    "id": "4",
+    "title": "播种后一直不出苗，是种子问题吗？",
+    "content": "播种了一周的生菜和罗勒，到现在一点动静都没有。温度大概20度左右，每天喷水保持湿润。请问通常需要多久出苗？",
+    "author": "播种困惑",
+    "date": "3天前",
+    "tags": ["播种", "育苗"],
+    "answers": [
+      { "id": "a17", "content": "生菜一般3-7天出苗，罗勒5-10天。20度温度没问题，再耐心等几天。注意不要喷太多水，种子可能被冲太深了。", "author": "种菜达人", "date": "3天前", "status": "published" },
+      { "id": "a18", "content": "种子不要埋太深，一般是种子直径的2-3倍深度就可以。太深了出不来。", "author": "阳台老手", "date": "2天前", "status": "published" }
+    ],
+    "views": 89,
+    "isResolved": false,
+    "status": "published"
+  },
+  {
+    "id": "5",
+    "title": "蚜虫爆发了，不想用农药有什么好办法？",
+    "content": "我的辣椒上突然好多蚜虫，密密麻麻的。不想用化学农药，大家有没有什么有效的土办法？",
+    "author": "有机种植者",
+    "date": "1天前",
+    "tags": ["蚜虫", "病虫害"],
+    "answers": [
+      { "id": "a19", "content": "用洗衣粉稀释1000倍喷洒，但浓度一定要低不然伤植物。", "author": "阳台老手", "date": "1天前", "status": "published" },
+      { "id": "a20", "content": "辣椒水很有效！找一些干辣椒加水煮沸，冷却后过滤喷洒。蚜虫受不了那个辣味。也可以用大蒜水。", "author": "有机达人", "date": "1天前", "status": "published" },
+      { "id": "a21", "content": "推荐用苦楝油(neem oil)，天然植物提取的，对蚜虫效果很好而且对人和植物都安全。按说明稀释使用。", "author": "园艺师小李", "date": "1天前", "status": "published" },
+      { "id": "a22", "content": "可以买瓢虫幼虫来放，生物防治。", "author": "生态种植者", "date": "1天前", "status": "published" },
+      { "id": "a23", "content": "每天用水枪冲洗叶片，水流不要太猛，坚持几天蚜虫就少了。简单有效。", "author": "种菜达人", "date": "今天", "status": "published" },
+      { "id": "a24", "content": "洗洁精+食用油+水1:1:100比例混合摇匀喷洒，可以闷死蚜虫。但傍晚喷，白天喷会烧叶子。", "author": "老农经验", "date": "今天", "status": "published" }
+    ],
+    "views": 198,
+    "isResolved": false,
+    "status": "published"
+  }
+]

@@ -1,0 +1,11 @@
+{
+    "envId": "yangtaixiaoyuanding-d7b1c10c2d50",
+    "version": "2.0",
+    "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+    "functionRoot": "./functions",
+    "functions": [],
+    "framework": {
+        "name": "y",
+        "plugins": {}
+    }
+}

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+Disallow: /login
+Disallow: /api/
+Crawl-delay: 3
+
+# 站点地图
+Sitemap: https://yangtaixiaoyuanding.com/sitemap.xml

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.cloudbase.net/cli/cloudbaserc.schema.json",
+  "envId": "yangtaixiaoyuanding-d7b1c10c2d50",
+  "functionRoot": "cloudfunctions",
+  "functions": [
+    {
+      "name": "cms-api",
+      "timeout": 15,
+      "envVariables": {
+        "CMS_ADMIN_PASSWORD": "yelifeng19980109"
+      },
+      "public": true,
+      "httpPath": "/api/cms",
+      "httpMethods": ["GET", "POST", "PUT", "DELETE"]
+    },
+    {
+      "name": "seed-database",
+      "timeout": 30
+    }
+  ],
+  "hosting": {
+    "headers": [
+      {
+        "source": "**/*.html",
+        "headers": {
+          "Content-Disposition": "inline",
+          "Content-Type": "text/html; charset=utf-8",
+          "Cache-Control": "public, max-age=0, must-revalidate"
+        }
+      },
+      {
+        "source": "**/*.css",
+        "headers": {
+          "Content-Type": "text/css; charset=utf-8",
+          "Cache-Control": "public, max-age=3600"
+        }
+      },
+      {
+        "source": "**/*.js",
+        "headers": {
+          "Content-Type": "application/javascript; charset=utf-8",
+          "Cache-Control": "public, max-age=3600"
+        }
+      }
+    ]
+  }
+}

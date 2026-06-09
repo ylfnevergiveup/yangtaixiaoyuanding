@@ -1,0 +1,9 @@
+{
+  "name": "cms-api",
+  "version": "1.0.0",
+  "description": "CloudBase CMS API - 阳台小园丁内容管理系统",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudbase/node-sdk": "^3.18.1"
+  }
+}

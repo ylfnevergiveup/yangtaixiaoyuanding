@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "cf5a9bdd6a1d8f280029ae3212d7e10d",
+    "id": "soil-1",
+    "name": "通用营养土 10L",
+    "category": "土壤",
+    "emoji": "🪨",
+    "description": "配比科学的通用营养土，含泥炭、珍珠岩、蛭石，开袋即用。",
+    "pros": [
+      "无菌无虫卵",
+      "透气保水",
+      "开袋即用"
+    ],
+    "rating": 4.8,
+    "price": "¥20-30",
+    "recommendation": "新手必备，省去自己配土的麻烦",
+    "suitableFor": [
+      "all"
+    ],
+    "_updatedAt": "2026-06-01T13:54:48.610Z",
+    "_createdAt": "2026-06-01T13:54:48.610Z"
+  },
+  {
+    "_id": "a4342eb46a1d8f28002ef0fa6f16134c",
+    "id": "pot-1",
+    "name": "青山盆 5加仑",
+    "category": "花盆",
+    "emoji": "🪴",
+    "description": "加厚款青山盆，控根透气设计，适合番茄、辣椒等深根系植物。",
+    "pros": [
+      "控根设计防烂根",
+      "加厚耐用",
+      "底孔排水好"
+    ],
+    "rating": 4.5,
+    "price": "¥15-25",
+    "recommendation": "阳台种果菜首选，建议搭配托盘使用",
+    "suitableFor": [
+      "tomato",
+      "chili",
+      "green-bean"
+    ],
+    "_updatedAt": "2026-06-01T13:54:48.229Z",
+    "_createdAt": "2026-06-01T13:54:48.229Z"
+  }
+]

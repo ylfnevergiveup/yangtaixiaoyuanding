@@ -1,0 +1,173 @@
+{
+  "plants": [
+    {
+      "name": "番茄",
+      "scientificName": "Solanum lycopersicum",
+      "category": "vegetable",
+      "difficulty": "medium",
+      "season": ["春", "夏"],
+      "sunlight": "full",
+      "water": "medium",
+      "harvestDays": 60,
+      "description": "阳台最受欢迎的蔬菜之一。樱桃番茄品种尤其适合盆栽，果实累累，观赏性极佳。",
+      "tips": ["选择矮生或樱桃番茄品种更适合盆栽", "需要支撑杆，防止倒伏", "定期摘除侧芽，促进主茎生长"],
+      "balconyFit": "需要充足阳光和较大空间，适合南向或西向大阳台",
+      "suitableOrientations": ["south", "west"],
+      "minPotDepth": 30,
+      "suitablePot": "5加仑以上花盆或长条种植箱",
+      "minTemp": 15,
+      "featured": true
+    },
+    {
+      "name": "罗勒",
+      "scientificName": "Ocimum basilicum",
+      "category": "herb",
+      "difficulty": "easy",
+      "season": ["春", "夏", "秋"],
+      "sunlight": "full",
+      "water": "medium",
+      "harvestDays": 30,
+      "description": "最受欢迎的阳台香草。紫罗勒和甜罗勒都适合盆栽，从顶端采摘可促进分枝。",
+      "tips": ["及时摘心促进分枝", "开花前采摘叶片风味最佳", "怕寒，冬季需移入室内"],
+      "balconyFit": "喜温暖阳光，南向阳台最佳，也适应东向或西向",
+      "suitableOrientations": ["south", "east", "west"],
+      "minPotDepth": 15,
+      "suitablePot": "普通花盆或长条盆（口径20cm以上）",
+      "minTemp": 10,
+      "featured": true
+    },
+    {
+      "name": "多肉植物组合",
+      "scientificName": "Succulents spp.",
+      "category": "succulent",
+      "difficulty": "easy",
+      "season": ["春", "秋"],
+      "sunlight": "partial",
+      "water": "low",
+      "harvestDays": 0,
+      "description": "多肉植物是阳台新手最佳选择。形态多样，养护简单，适合打造迷你景观。",
+      "tips": ["宁干勿湿，浇水要节制", "需要排水良好的多肉专用土", "夏季高温休眠期减少浇水"],
+      "balconyFit": "耐半阴环境，适应各类阳台，尤其适合北向或光照不足的阳台",
+      "suitableOrientations": ["south", "east", "west", "north"],
+      "minPotDepth": 8,
+      "suitablePot": "小口径多肉专用盆或组合拼盘",
+      "minTemp": 5,
+      "featured": true
+    },
+    {
+      "name": "草莓",
+      "scientificName": "Fragaria × ananassa",
+      "category": "fruit",
+      "difficulty": "medium",
+      "season": ["春", "秋"],
+      "sunlight": "full",
+      "water": "medium",
+      "harvestDays": 90,
+      "description": "阳台种植草莓，既能观赏白花绿叶，又能收获甜蜜果实。",
+      "tips": ["选择四季草莓品种可多次结果", "使用透气性好的吊盆或长条盆", "果实接触土壤易烂，建议铺稻草或垫高"],
+      "balconyFit": "需充足阳光，适合南向阳台，东向阳台次之",
+      "suitableOrientations": ["south", "east"],
+      "minPotDepth": 20,
+      "suitablePot": "长条种植箱或吊挂盆",
+      "minTemp": 10,
+      "featured": true
+    },
+    {
+      "name": "辣椒",
+      "scientificName": "Capsicum annuum",
+      "category": "vegetable",
+      "difficulty": "easy",
+      "season": ["春", "夏"],
+      "sunlight": "full",
+      "water": "medium",
+      "harvestDays": 70,
+      "description": "阳台种辣椒又好看又实用。朝天椒、五彩椒结果时色彩缤纷。",
+      "tips": ["矮生品种更适合盆栽", "结果期增施磷钾肥", "辣椒喜温暖，温度低于10℃需入室"],
+      "balconyFit": "需充足阳光和温暖环境，南向或西向阳台最佳",
+      "suitableOrientations": ["south", "west"],
+      "minPotDepth": 25,
+      "suitablePot": "3-5加仑花盆或长条种植箱",
+      "minTemp": 10,
+      "featured": true
+    }
+  ],
+  "guides": [
+    {
+      "title": "阳台种菜小白入门指南",
+      "slug": "beginner-guide",
+      "summary": "从零开始打造你的家庭小菜园，选盆、选土、选种，看这一篇就够了。",
+      "category": "beginner",
+      "readTime": 8,
+      "author": "小园丁",
+      "content": "## 第一步：确定你的阳台条件\n在开始种植之前，你需要评估阳台的几个关键条件：光照时长、通风情况和可用空间。南向阳台光照最充足。\n\n## 第二步：选择合适的容器\n容器选择遵循'宁大勿小'原则。一般叶菜类需要15-20cm深的盆，果菜类需要25-35cm深的盆。\n\n## 第三步：配制合适的土壤\n推荐配方：泥炭土（40%）+ 珍珠岩（30%）+ 蛭石（30%）。\n\n## 第四步：选择合适的种子/幼苗\n新手推荐：樱桃番茄、生菜、薄荷、小葱。\n\n## 第五步：日常养护要点\n浇水'见干见湿'，施肥'薄肥勤施'。",
+      "tags": ["入门", "选盆", "配土"]
+    },
+    {
+      "title": "春季阳台种植计划",
+      "slug": "spring-planting",
+      "summary": "春暖花开，盘点最适合春天播种的10种阳台植物。",
+      "category": "seasonal",
+      "readTime": 6,
+      "author": "小园丁",
+      "content": "## 春季阳台种植正当时\n春季（3-5月）是阳台园艺的黄金季节。\n\n## 推荐种植清单\n1. 番茄：3-4月育苗\n2. 辣椒：3月室内育苗\n3. 罗勒：4月直接播种\n4. 生菜：可分批播种\n5. 草莓：春季购买幼苗\n\n## 春季养护要点\n春季气温波动大，注意倒春寒。",
+      "tags": ["春季", "播种", "时令"]
+    }
+  ],
+  "products": [
+    {
+      "name": "加仑盆（青山盆）",
+      "category": "花盆",
+      "emoji": "🪴",
+      "description": "目前最流行的阳台种植盆。透气性极佳。",
+      "pros": ["透气性好", "轻便耐用", "导根防烂根"],
+      "rating": 4.5,
+      "price": "¥5-15/个",
+      "buyLink": "https://s.click.taobao.com/example-pot1",
+      "recommendation": "新手首选，种番茄、辣椒选5加仑"
+    },
+    {
+      "name": "园艺三件套",
+      "category": "工具",
+      "emoji": "🔧",
+      "description": "小铲子、耙子、松土叉黄金组合。",
+      "pros": ["一件搞定", "小巧不占空间", "不锈钢耐用"],
+      "rating": 4.5,
+      "price": "¥25-60/套",
+      "buyLink": "https://s.click.taobao.com/example-tool1",
+      "recommendation": "选择一体成型不锈钢款"
+    },
+    {
+      "name": "通用营养土",
+      "category": "土壤",
+      "emoji": "🌍",
+      "description": "泥炭+珍珠岩+蛭石经典配方，开袋即用。",
+      "pros": ["无菌无虫卵", "配比科学", "轻便透气"],
+      "rating": 4.5,
+      "price": "¥15-30/10L",
+      "buyLink": "https://s.click.taobao.com/example-soil1",
+      "recommendation": "推荐美乐棵或花彩师品牌"
+    }
+  ],
+  "diaries": [
+    {
+      "title": "从播种到收获：我的樱桃番茄全记录",
+      "slug": "tomato-growing-diary",
+      "summary": "历时70天，从一粒种子到红彤彤的果实。",
+      "category": "practice",
+      "readTime": 8,
+      "tags": ["番茄", "全程记录", "新手经验"],
+      "content": "## Day 1-7：种子育苗\n3月初开始了今年的番茄种植。选择矮生樱桃番茄品种「千禧」，用育苗块在室内播种。第5天就看到小苗破土而出！\n\n**经验：** 育苗期间保持土壤湿润但不要积水。\n\n## Day 21-35：移栽定植\n苗长到15cm高时，移栽到5加仑的青山盆中。盆底铺陶粒做排水层，营养土中混了10%的腐熟羊粪作为底肥。\n\n## Day 51-65：开花结果\n第51天，第一朵黄花绽放！第55天开始看到小小的绿色果实。\n\n## Day 66-70：收获！\n第70天终于等到了第一个成熟的樱桃番茄！味道比超市买的浓郁太多了！",
+      "pinned": true
+    },
+    {
+      "title": "新手最容易踩的5个坑",
+      "slug": "beginner-mistakes",
+      "summary": "新手种菜第一年，这5个坑几乎人人都会踩，看完立省2000元。",
+      "category": "pitfall",
+      "readTime": 6,
+      "tags": ["新手必看", "避坑", "省钱"],
+      "content": "## 坑1：浇水太勤\n新手最常见的错误就是「每天浇水」！\n\n**正确的做法：** 用指头插入土壤2cm，感觉干了再浇。\n\n## 坑2：花盆太大或太小\n盆太大→烂根；盆太小→植物长不大。\n\n## 坑3：随便挖园土种\n太硬、不透气、有虫卵。\n\n## 坑4：不看阳台朝向乱买植物\n北向阳台种番茄→只长叶不结果。\n\n## 坑5：施肥越多越好\n正确做法：「薄肥勤施」。",
+      "pinned": true
+    }
+  ]
+}
