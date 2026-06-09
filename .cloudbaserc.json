@@ -1,0 +1,45 @@
+{
+  "version": "2.0",
+  "envId": "yangtaixiaoyuanding",
+  "$schema": "https://framework-1258016615.tcloudbase.com/schema/latest/schema.json",
+  "region": "ap-guangzhou",
+  "framework": {
+    "plugins": {
+      "client": {
+        "use": "@cloudbase/framework-plugin-website",
+        "inputs": {
+          "outputPath": "out",
+          "cloudPath": "/",
+          "envVariables": {
+            "NEXT_PUBLIC_CMS_API": "{{cmsApi.url}}"
+          }
+        }
+      },
+      "cmsApi": {
+        "use": "@cloudbase/framework-plugin-function",
+        "inputs": {
+          "name": "cms-api",
+          "functionRootPath": "cloudfunctions/cms-api",
+          "triggers": [
+            {
+              "name": "http",
+              "type": "http",
+              "config": {
+                "path": "/api/cms",
+                "method": [
+                  "GET",
+                  "POST",
+                  "PUT",
+                  "DELETE"
+                ]
+              }
+            }
+          ],
+          "envVariables": {
+            "CMS_ADMIN_PASSWORD": "yelifeng19980109"
+          }
+        }
+      }
+    }
+  }
+}
