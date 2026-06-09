@@ -5,7 +5,7 @@
 import { readFileSync, writeFileSync, readdirSync, statSync, existsSync, cpSync } from "fs";
 import { join, dirname } from "path";
 
-const OUT_DIR = "/Users/yelifeng/Documents/trae_projects/plant-/out";
+const OUT_DIR = join(process.cwd(), "out");
 
 console.log("📝 保持原始路径不变...");
 
