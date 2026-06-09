@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
-import { Plus } from "lucide-react";
+import { useState, useEffect, useCallback, useRef, useMemo } from "react";
+import { Plus, Search, X } from "lucide-react";
 import { fetchAdminData, saveToCMS, deleteFromCMS } from "@/lib/api";
 import AdminLayout, { AdminLoading } from "@/components/admin/AdminLayout";
 import ImageUpload from "@/components/admin/ImageUpload";
@@ -27,8 +27,26 @@ export default function AdminGuidesPage() {
   const [msg, setMsg] = useState("");
   const [err, setErr] = useState("");
   const slugManuallyEdited = useRef(false);
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => { loadData(); }, []);
+
+  // 搜索过滤
+  const filteredItems = useMemo(() => {
+    if (!searchQuery.trim()) return items;
+    const q = searchQuery.trim().toLowerCase();
+    return items.filter((item: any) => {
+      if (item.title?.toLowerCase().includes(q)) return true;
+      if (item.id?.toLowerCase().includes(q)) return true;
+      if (item.slug?.toLowerCase().includes(q)) return true;
+      if (item.category && (cats.guideCategory.find(c => c.value === item.category)?.label || item.category)?.toLowerCase().includes(q)) return true;
+      if (item.tags && Array.isArray(item.tags) && item.tags.some((t: string) => t.toLowerCase().includes(q))) return true;
+      if (item.author?.toLowerCase().includes(q)) return true;
+      if (item.summary?.toLowerCase().includes(q)) return true;
+      if (item.relatedPlants && Array.isArray(item.relatedPlants) && item.relatedPlants.some((p: string) => p.toLowerCase().includes(q))) return true;
+      return false;
+    });
+  }, [items, searchQuery, cats.guideCategory]);
 
   const loadData = async () => {
     try { const data = await fetchAdminData("guides"); setItems(data); } catch {}
@@ -124,14 +142,37 @@ export default function AdminGuidesPage() {
 
   return (
     <AdminLayout>
-      <div className="flex items-center justify-between mb-6"><div><h1 className="text-2xl font-bold text-primary-dark dark:text-green-200">📖 种植指南</h1><p className="text-sm text-gray-400 mt-1">共 {items.length} 篇</p></div><button onClick={() => openForm()} className="flex items-center gap-1 rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-white hover:bg-primary-dark"><Plus className="h-4 w-4" /> 新增指南</button></div>
+      <div className="flex items-center justify-between mb-4"><div><h1 className="text-2xl font-bold text-primary-dark dark:text-green-200">📖 种植指南</h1><p className="text-sm text-gray-400 mt-1">共 {items.length} 篇{searchQuery.trim() && `，筛选出 ${filteredItems.length} 篇`}</p></div><button onClick={() => openForm()} className="flex items-center gap-1 rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-white hover:bg-primary-dark"><Plus className="h-4 w-4" /> 新增指南</button></div>
       {msg && <div className="mb-4 rounded-xl bg-green-50 px-4 py-3 text-sm text-green-700 dark:bg-green-900/20 dark:text-green-300">{msg}</div>}
       {err && <div className="mb-4 rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700 dark:bg-red-900/20 dark:text-red-300">{err}</div>}
+
+      {/* 搜索栏 */}
+      <div className="relative mb-4">
+        <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
+        <input
+          type="text"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="搜索标题、分类、标签、作者..."
+          className="w-full rounded-xl border border-gray-200 bg-white py-2.5 pl-10 pr-10 text-sm placeholder:text-gray-400 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary dark:border-green-800/50 dark:bg-[#1a2e22]/80 dark:text-green-100 dark:placeholder:text-gray-500"
+        />
+        {searchQuery && (
+          <button
+            onClick={() => setSearchQuery("")}
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        )}
+      </div>
       <div className="bg-white rounded-2xl shadow-sm ring-1 ring-black/5 overflow-hidden dark:bg-[#1a2e22]/80 dark:ring-white/5">
         <div className="overflow-x-auto"><table className="w-full"><thead><tr className="border-b border-gray-100 dark:border-green-900/30"><th className="text-left px-4 py-3 text-xs font-medium text-gray-500 uppercase">标题</th><th className="text-left px-4 py-3 text-xs font-medium text-gray-500 uppercase hidden sm:table-cell">分类</th><th className="text-left px-4 py-3 text-xs font-medium text-gray-500 uppercase hidden md:table-cell">时长</th><th className="text-left px-4 py-3 text-xs font-medium text-gray-500 uppercase hidden lg:table-cell">日期</th><th className="text-right px-4 py-3 text-xs font-medium text-gray-500 uppercase">操作</th></tr></thead><tbody>
-          {items.map(item => (
-            <tr key={item.id} className="border-b border-gray-50 hover:bg-gray-50 dark:border-green-900/20 dark:hover:bg-green-900/10"><td className="px-4 py-3"><div className="text-sm font-medium text-gray-900 dark:text-green-100">{item.title}{item.status === "draft" && <span className="ml-2 inline-flex items-center rounded-full bg-amber-100 px-2 py-0.5 text-xs text-amber-700 dark:bg-amber-900/30 dark:text-amber-300">草稿</span>}</div></td><td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400 hidden sm:table-cell">{item.category}</td><td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400 hidden md:table-cell">{item.readTime}分钟</td><td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400 hidden lg:table-cell">{item.date}</td><td className="px-4 py-3 text-right"><button onClick={() => openForm(item)} className="text-primary hover:text-primary-dark text-sm mr-2">编辑</button><button onClick={() => handleDelete(item.id)} className="text-red-400 hover:text-red-500 text-sm">删除</button></td></tr>
-          ))}
+          {filteredItems.length === 0 ? (
+            <tr><td colSpan={5} className="px-4 py-12 text-center text-sm text-gray-400">{searchQuery.trim() ? "没有找到匹配的指南" : "暂无指南数据"}</td></tr>
+          ) : (
+            filteredItems.map(item => (
+            <tr key={item.id} className="border-b border-gray-50 hover:bg-gray-50 dark:border-green-900/20 dark:hover:bg-green-900/10"><td className="px-4 py-3"><div className="text-sm font-medium text-gray-900 dark:text-green-100">{item.title}{item.status === "draft" && <span className="ml-2 inline-flex items-center rounded-full bg-amber-100 px-2 py-0.5 text-xs text-amber-700 dark:bg-amber-900/30 dark:text-amber-300">草稿</span>}</div></td><td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400 hidden sm:table-cell">{cats.guideCategory.find(c => c.value === item.category)?.label || item.category}</td><td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400 hidden md:table-cell">{item.readTime}分钟</td><td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400 hidden lg:table-cell">{item.date}</td><td className="px-4 py-3 text-right"><button onClick={() => openForm(item)} className="text-primary hover:text-primary-dark text-sm mr-2">编辑</button><button onClick={() => handleDelete(item.id)} className="text-red-400 hover:text-red-500 text-sm">删除</button></td></tr>
+          )))}
         </tbody></table></div>
       </div>
       {(editing || showAdd) && (

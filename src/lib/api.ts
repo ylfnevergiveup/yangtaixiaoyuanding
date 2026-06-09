@@ -173,9 +173,13 @@ export async function fetchAdminData(collection: string): Promise<any[]> {
 
   if (CMS_API_BASE) {
     try {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 8000); // 8秒超时
       const res = await fetch(`${CMS_API_BASE}/${apiName}?sort=_updatedAt,desc`, {
         cache: 'no-cache',
+        signal: controller.signal,
       });
+      clearTimeout(timeout);
       if (res.ok) {
         const json = await res.json();
         if (json.code === 0 && Array.isArray(json.data)) {
