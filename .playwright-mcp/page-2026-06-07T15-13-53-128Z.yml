@@ -1,0 +1,169 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "阳台小园丁" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: 阳台小园丁
+      - navigation [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "阳台测评" [ref=e12] [cursor=pointer]:
+          - /url: /assessment/
+          - img [ref=e13]
+          - text: 阳台测评
+        - link "植物百科" [ref=e16] [cursor=pointer]:
+          - /url: /plants/
+        - link "场景指南" [ref=e17] [cursor=pointer]:
+          - /url: /guide/
+        - link "种植教程" [ref=e18] [cursor=pointer]:
+          - /url: /guides/
+        - link "好物推荐" [ref=e19] [cursor=pointer]:
+          - /url: /tools/
+        - link "园丁日记" [ref=e20] [cursor=pointer]:
+          - /url: /diary/
+        - link "社区问答" [ref=e21] [cursor=pointer]:
+          - /url: /community/
+      - generic [ref=e22]:
+        - button "搜索" [ref=e23]:
+          - img [ref=e24]
+        - link "登录" [ref=e27] [cursor=pointer]:
+          - /url: /login/
+          - img [ref=e28]
+          - text: 登录
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - img "生菜" [ref=e34]
+      - generic [ref=e36]:
+        - link "返回植物百科" [ref=e37] [cursor=pointer]:
+          - /url: /plants/
+          - img [ref=e38]
+          - text: 返回植物百科
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 蔬菜
+            - generic [ref=e43]: 🌱 新手友好
+          - heading "生菜" [level=1] [ref=e44]
+          - paragraph [ref=e45]: Lactuca sativa
+          - generic [ref=e46]: 生长周期短，播种30天即可收获。摘叶食用可持续收获，是阳台种菜的首选。
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - img [ref=e49]
+            - generic [ref=e55]: 光照需求
+            - generic [ref=e56]: 散射光即可
+          - generic [ref=e57]:
+            - img [ref=e58]
+            - generic [ref=e61]: 浇水频率
+            - generic [ref=e62]: 适中
+          - generic [ref=e63]:
+            - img [ref=e64]
+            - generic [ref=e66]: 种植季节
+            - generic [ref=e67]: 春、秋、冬
+          - generic [ref=e68]:
+            - img [ref=e69]
+            - generic [ref=e72]: 收获周期
+            - generic [ref=e73]: 约 30 天
+        - generic [ref=e74]:
+          - heading "阳台适配指南" [level=2] [ref=e75]:
+            - img [ref=e76]
+            - text: 阳台适配指南
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - generic [ref=e83]: 🏡 阳台适配
+              - generic [ref=e84]: 耐半阴，对光照要求不高，东向或北向阳台也能种
+            - generic [ref=e85]:
+              - img [ref=e86]
+              - generic [ref=e89]: 适合朝向
+              - generic [ref=e90]:
+                - generic [ref=e91]: 朝东 🌅
+                - generic [ref=e92]: 朝北 🌥️
+            - generic [ref=e93]:
+              - img [ref=e94]
+              - generic [ref=e96]: 最低耐受温度
+              - paragraph [ref=e97]: 5°C
+            - generic [ref=e98]:
+              - img [ref=e99]
+              - generic [ref=e105]: 最小盆深
+              - paragraph [ref=e106]: 15 cm
+            - generic [ref=e107]:
+              - img [ref=e108]
+              - generic [ref=e112]: 适合花盆
+              - paragraph [ref=e113]: 长条种植箱或泡沫箱
+        - generic [ref=e114]:
+          - heading "💡 种植小贴士" [level=2] [ref=e115]
+          - list [ref=e116]:
+            - listitem [ref=e117]:
+              - generic [ref=e118]: "1"
+              - generic [ref=e119]: 分批播种可实现持续收获
+            - listitem [ref=e120]:
+              - generic [ref=e121]: "2"
+              - generic [ref=e122]: 摘外围老叶食用，留芯继续生长
+            - listitem [ref=e123]:
+              - generic [ref=e124]: "3"
+              - generic [ref=e125]: 高温易抽薹，夏季建议遮阴
+        - generic [ref=e127]:
+          - heading "相关园丁日记" [level=2] [ref=e128]:
+            - img [ref=e129]
+            - text: 相关园丁日记
+          - link "北向阳台的逆袭：我种的生菜和薄荷 谁说北向阳台种不了菜？选对品种，北阳台也能绿意盎然。 实战记录" [ref=e132] [cursor=pointer]:
+            - /url: /diary/north-balcony-success/
+            - heading "北向阳台的逆袭：我种的生菜和薄荷" [level=3] [ref=e133]
+            - paragraph [ref=e134]: 谁说北向阳台种不了菜？选对品种，北阳台也能绿意盎然。
+            - generic [ref=e135]: 实战记录
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - img [ref=e138]
+            - heading "留言" [level=3] [ref=e140]
+          - generic [ref=e141]:
+            - img [ref=e142]
+            - paragraph [ref=e145]: 登录后即可留言
+            - link "登录 / 注册" [ref=e146] [cursor=pointer]:
+              - /url: /login/
+              - img [ref=e147]
+              - text: 登录 / 注册
+          - generic [ref=e150]:
+            - img [ref=e151]
+            - text: 加载中...
+  - contentinfo [ref=e154]:
+    - generic [ref=e155]:
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - img [ref=e160]
+            - generic [ref=e163]: 阳台小园丁
+          - paragraph [ref=e164]:
+            - text: 让每个阳台都变成绿色小天地。
+            - text: 城市园艺爱好者的知识社区。
+        - generic [ref=e165]:
+          - heading "探索" [level=3] [ref=e166]
+          - list [ref=e167]:
+            - listitem [ref=e168]:
+              - link "植物百科" [ref=e169] [cursor=pointer]:
+                - /url: /plants/
+            - listitem [ref=e170]:
+              - link "种植指南" [ref=e171] [cursor=pointer]:
+                - /url: /guides/
+            - listitem [ref=e172]:
+              - link "种植日历" [ref=e173] [cursor=pointer]:
+                - /url: /calendar/
+        - generic [ref=e174]:
+          - heading "资源" [level=3] [ref=e175]
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "工具推荐" [ref=e178] [cursor=pointer]:
+                - /url: /tools/
+            - listitem [ref=e179]:
+              - link "社区问答" [ref=e180] [cursor=pointer]:
+                - /url: /community/
+            - listitem [ref=e181]:
+              - link "DIY教程" [ref=e182] [cursor=pointer]:
+                - /url: /guides/?category=diy
+        - generic [ref=e183]:
+          - heading "关于" [level=3] [ref=e184]
+          - list [ref=e185]:
+            - listitem [ref=e186]: 为城市园艺爱好者而生
+            - listitem [ref=e187]: © 2026 阳台小园丁
+      - paragraph [ref=e189]: 用心种下每一颗种子，收获满满的绿色幸福 🌱
+  - button "Open Next.js Dev Tools" [ref=e195] [cursor=pointer]:
+    - img [ref=e196]
+  - alert [ref=e199]

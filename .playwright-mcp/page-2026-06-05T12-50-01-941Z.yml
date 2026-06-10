@@ -1,0 +1,158 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "阳台小园丁" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: 阳台小园丁
+      - navigation [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "阳台测评" [ref=e12] [cursor=pointer]:
+          - /url: /assessment/
+          - img [ref=e13]
+          - text: 阳台测评
+        - link "植物百科" [ref=e16] [cursor=pointer]:
+          - /url: /plants/
+        - link "场景指南" [ref=e17] [cursor=pointer]:
+          - /url: /guide/
+        - link "种植教程" [ref=e18] [cursor=pointer]:
+          - /url: /guides/
+        - link "好物推荐" [ref=e19] [cursor=pointer]:
+          - /url: /tools/
+        - link "园丁日记" [ref=e20] [cursor=pointer]:
+          - /url: /diary/
+        - link "社区问答" [ref=e21] [cursor=pointer]:
+          - /url: /community/
+      - generic [ref=e22]:
+        - button "搜索" [ref=e23]:
+          - img [ref=e24]
+        - link "登录" [ref=e27] [cursor=pointer]:
+          - /url: /login/
+          - img [ref=e28]
+          - text: 登录
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - img "番茄" [ref=e34]
+      - generic [ref=e36]:
+        - link "返回植物百科" [ref=e37] [cursor=pointer]:
+          - /url: /plants/
+          - img [ref=e38]
+          - text: 返回植物百科
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 蔬菜
+            - generic [ref=e43]: 🌿 稍有挑战
+          - heading "番茄" [level=1] [ref=e44]
+          - paragraph [ref=e45]: Solanum lycopersicum
+          - generic [ref=e46]: 阳台最受欢迎的蔬菜之一。樱桃番茄品种尤其适合盆栽，果实累累，观赏性极佳。
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - img [ref=e49]
+            - generic [ref=e55]: 光照需求
+            - generic [ref=e56]: 充足直射光
+          - generic [ref=e57]:
+            - img [ref=e58]
+            - generic [ref=e61]: 浇水频率
+            - generic [ref=e62]: 适中
+          - generic [ref=e63]:
+            - img [ref=e64]
+            - generic [ref=e66]: 种植季节
+            - generic [ref=e67]: 春、夏
+          - generic [ref=e68]:
+            - img [ref=e69]
+            - generic [ref=e72]: 收获周期
+            - generic [ref=e73]: 约 60 天
+        - generic [ref=e74]:
+          - heading "阳台适配指南" [level=2] [ref=e75]:
+            - img [ref=e76]
+            - text: 阳台适配指南
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - generic [ref=e83]: 🏡 阳台适配
+              - generic [ref=e84]: 需要充足阳光和较大空间，适合南向或西向大阳台
+            - generic [ref=e85]:
+              - img [ref=e86]
+              - generic [ref=e89]: 适合朝向
+              - generic [ref=e90]:
+                - generic [ref=e91]: 朝南 ☀️
+                - generic [ref=e92]: 朝西 🌇
+            - generic [ref=e93]:
+              - img [ref=e94]
+              - generic [ref=e96]: 最低耐受温度
+              - paragraph [ref=e97]: 15°C
+            - generic [ref=e98]:
+              - img [ref=e99]
+              - generic [ref=e105]: 最小盆深
+              - paragraph [ref=e106]: 30 cm
+            - generic [ref=e107]:
+              - img [ref=e108]
+              - generic [ref=e112]: 适合花盆
+              - paragraph [ref=e113]: 5加仑以上花盆或长条种植箱
+        - generic [ref=e114]:
+          - heading "💡 种植小贴士" [level=2] [ref=e115]
+          - list [ref=e116]:
+            - listitem [ref=e117]:
+              - generic [ref=e118]: "1"
+              - generic [ref=e119]: 选择矮生或樱桃番茄品种更适合盆栽
+            - listitem [ref=e120]:
+              - generic [ref=e121]: "2"
+              - generic [ref=e122]: 需要支撑杆，防止倒伏
+            - listitem [ref=e123]:
+              - generic [ref=e124]: "3"
+              - generic [ref=e125]: 定期摘除侧芽，促进主茎生长
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - img [ref=e128]
+            - heading "留言" [level=3] [ref=e130]
+          - generic [ref=e131]:
+            - img [ref=e132]
+            - paragraph [ref=e135]: 登录后即可留言
+            - link "登录 / 注册" [ref=e136] [cursor=pointer]:
+              - /url: /login/
+              - img [ref=e137]
+              - text: 登录 / 注册
+          - generic [ref=e140]:
+            - img [ref=e141]
+            - text: 加载中...
+  - contentinfo [ref=e144]:
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - img [ref=e150]
+            - generic [ref=e153]: 阳台小园丁
+          - paragraph [ref=e154]:
+            - text: 让每个阳台都变成绿色小天地。
+            - text: 城市园艺爱好者的知识社区。
+        - generic [ref=e155]:
+          - heading "探索" [level=3] [ref=e156]
+          - list [ref=e157]:
+            - listitem [ref=e158]:
+              - link "植物百科" [ref=e159] [cursor=pointer]:
+                - /url: /plants/
+            - listitem [ref=e160]:
+              - link "种植指南" [ref=e161] [cursor=pointer]:
+                - /url: /guides/
+            - listitem [ref=e162]:
+              - link "种植日历" [ref=e163] [cursor=pointer]:
+                - /url: /calendar/
+        - generic [ref=e164]:
+          - heading "资源" [level=3] [ref=e165]
+          - list [ref=e166]:
+            - listitem [ref=e167]:
+              - link "工具推荐" [ref=e168] [cursor=pointer]:
+                - /url: /tools/
+            - listitem [ref=e169]:
+              - link "社区问答" [ref=e170] [cursor=pointer]:
+                - /url: /community/
+            - listitem [ref=e171]:
+              - link "DIY教程" [ref=e172] [cursor=pointer]:
+                - /url: /guides/?category=diy
+        - generic [ref=e173]:
+          - heading "关于" [level=3] [ref=e174]
+          - list [ref=e175]:
+            - listitem [ref=e176]: 为城市园艺爱好者而生
+            - listitem [ref=e177]: © 2026 阳台小园丁
+      - paragraph [ref=e179]: 用心种下每一颗种子，收获满满的绿色幸福 🌱
+  - alert [ref=e180]

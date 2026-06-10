@@ -41,6 +41,10 @@ export const categories = [
   { value: "succulent", label: "多肉" },
   { value: "flower", label: "花卉" },
   { value: "fruit", label: "水果" },
+  { value: "foliage", label: "观叶" },
+  { value: "bulb", label: "球根花卉" },
+  { value: "aquatic", label: "水生植物" },
+  { value: "mushroom", label: "食用菌" },
 ];
 
 // 种植难度

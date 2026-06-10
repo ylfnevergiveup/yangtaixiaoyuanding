@@ -1,0 +1,43 @@
+[    1585ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1738ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1751ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/basil.jpg:0
+[    1752ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/succulent.jpg:0
+[    1754ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/strawberry.jpg:0
+[    1754ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/chili.jpg:0
+[    1755ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/tomato.jpg:0
+[    1756ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/mint.jpg:0
+[    1907ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/data/announcements.json:0
+[    1907ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/data/homepage.json:0
+[    1926ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/lettuce.jpg:0
+[    2217ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/green-bean.jpg:0
+[    2314ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1780752311910-c32b203a.png?sign=1ac5256e756b2223e07c68e9d615c943&t=1780752312:0
+[    2315ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1780671433018-b14bfdac.png?sign=229ed19e33d9d9ee4ca31a80999f6749&t=1780671433:0
+[    2315ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1780661352056-0bb38993.png?sign=663c0a3fd6c796a2a612f9bbb4047843&t=1780661353:0
+[    2315ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1780665151931-d3fcda07.png?sign=93512adb4b6224ffe648a5604a730cab&t=1780665152:0
+[   81594ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=9oBDqJKpf29ddVkJC7zHw' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13330
+[   82596ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=9oBDqJKpf29ddVkJC7zHw' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13330
+[   83598ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=9oBDqJKpf29ddVkJC7zHw' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13330
+[   84599ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=9oBDqJKpf29ddVkJC7zHw' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13330
+[   85602ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=9oBDqJKpf29ddVkJC7zHw' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13330
+[   90606ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=9oBDqJKpf29ddVkJC7zHw' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13330
+[   95609ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=9oBDqJKpf29ddVkJC7zHw' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13330
+[  100612ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=9oBDqJKpf29ddVkJC7zHw' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13330
+[  105617ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=9oBDqJKpf29ddVkJC7zHw' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13330
+[  110620ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=9oBDqJKpf29ddVkJC7zHw' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13330
+[  115628ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  116075ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  116135ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  116166ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/basil.jpg:0
+[  116184ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/succulent.jpg:0
+[  116184ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/strawberry.jpg:0
+[  116234ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/chili.jpg:0
+[  116234ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/tomato.jpg:0
+[  116261ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/mint.jpg:0
+[  116299ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/data/announcements.json:0
+[  116301ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/data/homepage.json:0
+[  116330ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/lavender.jpg:0
+[  116516ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1780662202148-416ddc1a.png?sign=22593dcbadb161af697071ee6524e815&t=1780662202:0
+[  116518ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1780661352056-0bb38993.png?sign=663c0a3fd6c796a2a612f9bbb4047843&t=1780661353:0
+[  116519ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1780665151931-d3fcda07.png?sign=93512adb4b6224ffe648a5604a730cab&t=1780665152:0
+[  116534ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/mint.jpg:0
+[  116535ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/green-bean.jpg:0

@@ -1,14 +1,17 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { Plus } from "lucide-react";
+import { useState, useEffect, useMemo } from "react";
+import { Plus, Check, Filter } from "lucide-react";
 import { fetchAdminData, saveToCMS, deleteFromCMS } from "@/lib/api";
 import AdminLayout, { AdminLoading } from "@/components/admin/AdminLayout";
+import { cn } from "@/lib/utils";
 
 const emptyForm = {
   id: "", title: "", content: "", author: "", date: "", tags: "",
   views: 0, isResolved: false, answers: [], status: "published"
 };
+
+type FilterStatus = "all" | "draft" | "published";
 
 export default function AdminQAPage() {
   const [items, setItems] = useState<any[]>([]);
@@ -18,6 +21,14 @@ export default function AdminQAPage() {
   const [form, setForm] = useState<any>(emptyForm);
   const [msg, setMsg] = useState("");
   const [err, setErr] = useState("");
+  const [filterStatus, setFilterStatus] = useState<FilterStatus>("all");
+
+  const draftCount = items.filter(i => i.status === "draft").length;
+
+  const filteredItems = useMemo(() => {
+    if (filterStatus === "all") return items;
+    return items.filter(i => i.status === filterStatus);
+  }, [items, filterStatus]);
 
   useEffect(() => { loadData(); }, []);
 
@@ -83,6 +94,15 @@ export default function AdminQAPage() {
     }));
   };
 
+  const approveItem = async (item: any) => {
+    const data = { ...item, status: "published" };
+    const result = await saveToCMS("qa", [data]);
+    if (result.success) {
+      setItems((prev: any[]) => prev.map(p => p.id === item.id ? { ...p, status: "published" } : p));
+      setMsg("✅ 已通过审核"); setTimeout(() => setMsg(""), 3000);
+    } else { setErr(`❌ ${result.message}`); }
+  };
+
   const closeForm = () => { setEditing(null); setShowAdd(false); };
 
   const answerCount = (item: any) => {
@@ -94,14 +114,40 @@ export default function AdminQAPage() {
 
   return (
     <AdminLayout>
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-between mb-4">
         <div>
           <h1 className="text-2xl font-bold text-primary-dark dark:text-green-200">❓ 问答管理</h1>
-          <p className="text-sm text-gray-400 mt-1">共 {items.length} 个问题</p>
+          <p className="text-sm text-gray-400 mt-1">
+            共 {items.length} 个问题
+            {draftCount > 0 && <span className="ml-2 text-amber-500 font-medium">{draftCount} 条待审核</span>}
+          </p>
         </div>
         <button onClick={() => openForm()} className="flex items-center gap-1 rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-white hover:bg-primary-dark">
           <Plus className="h-4 w-4" /> 新增问题
         </button>
+      </div>
+
+      {/* 状态筛选标签 */}
+      <div className="flex gap-2 mb-4">
+        {[
+          { key: "all" as FilterStatus, label: "全部" },
+          { key: "draft" as FilterStatus, label: `待审核${draftCount > 0 ? ` (${draftCount})` : ""}` },
+          { key: "published" as FilterStatus, label: "已发布" },
+        ].map(tab => (
+          <button
+            key={tab.key}
+            onClick={() => setFilterStatus(tab.key)}
+            className={cn(
+              "rounded-full px-4 py-1.5 text-sm font-medium transition-all",
+              filterStatus === tab.key
+                ? "bg-primary text-white shadow-sm"
+                : "bg-white text-gray-600 ring-1 ring-gray-200 hover:bg-gray-50 dark:bg-[#1a2e22]/80 dark:text-gray-400 dark:ring-green-800/50 dark:hover:bg-green-900/30",
+              tab.key === "draft" && draftCount > 0 && filterStatus !== "draft" && "ring-amber-300 text-amber-600"
+            )}
+          >
+            {tab.label}
+          </button>
+        ))}
       </div>
 
       {msg && <div className="mb-4 rounded-xl bg-green-50 px-4 py-3 text-sm text-green-700 dark:bg-green-900/20 dark:text-green-300">{msg}</div>}
@@ -121,20 +167,23 @@ export default function AdminQAPage() {
               </tr>
             </thead>
             <tbody>
-              {items.length === 0 ? (
+              {filteredItems.length === 0 ? (
                 <tr>
                   <td colSpan={6} className="px-4 py-12 text-center text-gray-400">
                     <span className="text-3xl block mb-2">❓</span>
-                    暂无问答，点击上方按钮创建第一条
+                    {filterStatus === "draft" ? "没有待审核的问题" : filterStatus === "published" ? "没有已发布的问题" : "暂无问答，点击上方按钮创建第一条"}
                   </td>
                 </tr>
               ) : (
-                items.map((item: any) => (
-                  <tr key={item.id} className="border-b border-gray-50 hover:bg-gray-50 dark:border-green-900/20 dark:hover:bg-green-900/10">
+                filteredItems.map((item: any) => (
+                  <tr key={item.id} className={cn(
+                    "border-b border-gray-50 hover:bg-gray-50 dark:border-green-900/20 dark:hover:bg-green-900/10",
+                    item.status === "draft" && "bg-amber-50/50 dark:bg-amber-900/5"
+                  )}>
                     <td className="px-4 py-3">
                       <div className="text-sm font-medium text-gray-900 dark:text-green-100">
                         {item.title}
-                        {item.status === "draft" && <span className="ml-2 inline-flex items-center rounded-full bg-amber-100 px-2 py-0.5 text-xs text-amber-700 dark:bg-amber-900/30 dark:text-amber-300">草稿</span>}
+                        {item.status === "draft" && <span className="ml-2 inline-flex items-center rounded-full bg-amber-100 px-2 py-0.5 text-xs text-amber-700 dark:bg-amber-900/30 dark:text-amber-300">待审核</span>}
                       </div>
                     </td>
                     <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400 hidden sm:table-cell">{item.author}</td>
@@ -145,7 +194,12 @@ export default function AdminQAPage() {
                         {item.isResolved ? "已解决" : "待答"}
                       </span>
                     </td>
-                    <td className="px-4 py-3 text-right">
+                    <td className="px-4 py-3 text-right whitespace-nowrap">
+                      {item.status === "draft" && (
+                        <button onClick={() => approveItem(item)} className="text-green-600 hover:text-green-700 text-sm mr-2" title="审核通过">
+                          <Check className="h-4 w-4 inline" /> 通过
+                        </button>
+                      )}
                       <button onClick={() => openForm(item)} className="text-primary hover:text-primary-dark text-sm mr-2">编辑</button>
                       <button onClick={() => handleDelete(item.id)} className="text-red-400 hover:text-red-500 text-sm">删除</button>
                     </td>

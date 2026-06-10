@@ -1,0 +1,122 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "阳台小园丁" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: 阳台小园丁
+      - navigation [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "阳台测评" [ref=e12] [cursor=pointer]:
+          - /url: /assessment/
+          - img [ref=e13]
+          - text: 阳台测评
+        - link "植物百科" [ref=e16] [cursor=pointer]:
+          - /url: /plants/
+        - link "场景指南" [ref=e17] [cursor=pointer]:
+          - /url: /guide/
+        - link "种植教程" [ref=e18] [cursor=pointer]:
+          - /url: /guides/
+        - link "好物推荐" [ref=e19] [cursor=pointer]:
+          - /url: /tools/
+        - link "园丁日记" [ref=e20] [cursor=pointer]:
+          - /url: /diary/
+        - link "社区问答" [ref=e21] [cursor=pointer]:
+          - /url: /community/
+      - generic [ref=e22]:
+        - button "搜索" [ref=e23]:
+          - img [ref=e24]
+        - link "登录" [ref=e27] [cursor=pointer]:
+          - /url: /login/
+          - img [ref=e28]
+          - text: 登录
+  - main [ref=e31]:
+    - generic [ref=e33]:
+      - link "返回种植指南" [ref=e34] [cursor=pointer]:
+        - /url: /guides/
+        - img [ref=e35]
+        - text: 返回种植指南
+      - article [ref=e37]:
+        - generic [ref=e39]: 🌱
+        - generic [ref=e40]:
+          - generic [ref=e41]: 新手入门
+          - generic [ref=e42]:
+            - img [ref=e43]
+            - text: 8分钟阅读
+          - generic [ref=e46]:
+            - img [ref=e47]
+            - text: 小园丁
+          - generic [ref=e50]: 2026-04-15
+        - heading "阳台种菜小白入门指南" [level=1] [ref=e51]
+        - generic [ref=e53]:
+          - heading "第一步：确定你的阳台条件" [level=2] [ref=e54]
+          - paragraph [ref=e56]: 在开始种植之前，你需要评估阳台的几个关键条件：光照时长、通风情况和可用空间。南向阳台光照最充足，适合大多数蔬菜和花卉；东向阳台有上午柔和的光线，适合绿叶蔬菜和喜半阴植物；北向阳台光照较少，适合耐阴植物如绿萝、蕨类。
+          - heading "第二步：选择合适的容器" [level=2] [ref=e58]
+          - paragraph [ref=e60]: 容器选择遵循'宁大勿小'原则。一般叶菜类需要15-20cm深的盆，果菜类需要25-35cm深的盆。材质上推荐陶盆（透气好）或加仑盆（轻便耐用）。底部必须有排水孔，这是植物健康生长的关键。
+          - heading "第三步：配制合适的土壤" [level=2] [ref=e62]
+          - paragraph [ref=e64]: 不要直接使用园土！推荐配方：泥炭土（40%）+ 珍珠岩（30%）+ 蛭石（30%），这种配比透气保水又轻盈。如果种植果菜类，可加入少量腐熟羊粪作为底肥。
+          - heading "第四步：选择合适的种子/幼苗" [level=2] [ref=e66]
+          - paragraph [ref=e68]: 新手建议从种子育苗开始，但也可以直接购买幼苗降低难度。推荐入手：樱桃番茄、生菜、薄荷、小葱——这些植物对新手非常友好。
+          - heading "第五步：日常养护要点" [level=2] [ref=e70]
+          - paragraph [ref=e72]: 浇水'见干见湿'，用手指插入土壤2cm感受湿度。施肥'薄肥勤施'，生长季每7-10天施一次液肥。及时关注病虫害，早发现早处理。
+        - generic [ref=e74]:
+          - generic [ref=e75]: "#入门"
+          - generic [ref=e76]: "#选盆"
+          - generic [ref=e77]: "#配土"
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - img [ref=e80]
+          - heading "留言" [level=3] [ref=e82]
+        - generic [ref=e83]:
+          - img [ref=e84]
+          - paragraph [ref=e87]: 登录后即可留言
+          - link "登录 / 注册" [ref=e88] [cursor=pointer]:
+            - /url: /login/
+            - img [ref=e89]
+            - text: 登录 / 注册
+        - generic [ref=e92]:
+          - img [ref=e93]
+          - text: 加载中...
+  - contentinfo [ref=e95]:
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - img [ref=e101]
+            - generic [ref=e104]: 阳台小园丁
+          - paragraph [ref=e105]:
+            - text: 让每个阳台都变成绿色小天地。
+            - text: 城市园艺爱好者的知识社区。
+        - generic [ref=e106]:
+          - heading "探索" [level=3] [ref=e107]
+          - list [ref=e108]:
+            - listitem [ref=e109]:
+              - link "植物百科" [ref=e110] [cursor=pointer]:
+                - /url: /plants/
+            - listitem [ref=e111]:
+              - link "种植指南" [ref=e112] [cursor=pointer]:
+                - /url: /guides/
+            - listitem [ref=e113]:
+              - link "种植日历" [ref=e114] [cursor=pointer]:
+                - /url: /calendar/
+        - generic [ref=e115]:
+          - heading "资源" [level=3] [ref=e116]
+          - list [ref=e117]:
+            - listitem [ref=e118]:
+              - link "工具推荐" [ref=e119] [cursor=pointer]:
+                - /url: /tools/
+            - listitem [ref=e120]:
+              - link "社区问答" [ref=e121] [cursor=pointer]:
+                - /url: /community/
+            - listitem [ref=e122]:
+              - link "DIY教程" [ref=e123] [cursor=pointer]:
+                - /url: /guides/?category=diy
+        - generic [ref=e124]:
+          - heading "关于" [level=3] [ref=e125]
+          - list [ref=e126]:
+            - listitem [ref=e127]: 为城市园艺爱好者而生
+            - listitem [ref=e128]: © 2026 阳台小园丁
+      - paragraph [ref=e130]: 用心种下每一颗种子，收获满满的绿色幸福 🌱
+  - button "Open Next.js Dev Tools" [ref=e136] [cursor=pointer]:
+    - img [ref=e137]

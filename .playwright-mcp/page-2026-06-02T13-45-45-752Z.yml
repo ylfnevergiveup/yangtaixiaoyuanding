@@ -1,0 +1,265 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "阳台小园丁" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: 阳台小园丁
+      - navigation [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "阳台测评" [ref=e12] [cursor=pointer]:
+          - /url: /assessment/
+          - img [ref=e13]
+          - text: 阳台测评
+        - link "植物百科" [ref=e16] [cursor=pointer]:
+          - /url: /plants/
+        - link "场景指南" [ref=e17] [cursor=pointer]:
+          - /url: /guide/
+        - link "种植教程" [ref=e18] [cursor=pointer]:
+          - /url: /guides/
+        - link "好物推荐" [ref=e19] [cursor=pointer]:
+          - /url: /tools/
+        - link "园丁日记" [ref=e20] [cursor=pointer]:
+          - /url: /diary/
+        - link "社区问答" [ref=e21] [cursor=pointer]:
+          - /url: /community/
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - link "← 返回网站" [ref=e64] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e65]: "|"
+          - generic [ref=e66]: 后台管理
+        - button "退出" [ref=e67]:
+          - img [ref=e68]
+          - text: 退出
+      - generic [ref=e72]:
+        - navigation [ref=e73]:
+          - link "仪表盘" [ref=e74] [cursor=pointer]:
+            - /url: /admin/
+            - img [ref=e75]
+            - text: 仪表盘
+          - link "植物百科" [ref=e80] [cursor=pointer]:
+            - /url: /admin/plants/
+            - img [ref=e81]
+            - text: 植物百科
+          - link "种植指南" [ref=e84] [cursor=pointer]:
+            - /url: /admin/guides/
+            - img [ref=e85]
+            - text: 种植指南
+          - link "商品推荐" [ref=e87] [cursor=pointer]:
+            - /url: /admin/products/
+            - img [ref=e88]
+            - text: 商品推荐
+          - link "园丁日记" [ref=e92] [cursor=pointer]:
+            - /url: /admin/diary/
+            - img [ref=e93]
+            - text: 园丁日记
+          - link "图片库" [ref=e95] [cursor=pointer]:
+            - /url: /admin/images/
+            - img [ref=e96]
+            - text: 图片库
+          - link "公告管理" [ref=e100] [cursor=pointer]:
+            - /url: /admin/announcements/
+            - img [ref=e101]
+            - text: 公告管理
+          - link "首页配置" [ref=e104] [cursor=pointer]:
+            - /url: /admin/homepage/
+            - img [ref=e105]
+            - text: 首页配置
+          - link "分类标签" [ref=e107] [cursor=pointer]:
+            - /url: /admin/categories/
+            - img [ref=e108]
+            - text: 分类标签
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - heading "🌱 植物百科" [level=1] [ref=e115]
+              - paragraph [ref=e116]: 共 12 种植物
+            - button "新增植物" [ref=e117]:
+              - img [ref=e118]
+              - text: 新增植物
+          - table [ref=e121]:
+            - rowgroup [ref=e122]:
+              - row "名称 分类 难度 光照 操作" [ref=e123]:
+                - columnheader "名称" [ref=e124]
+                - columnheader "分类" [ref=e125]
+                - columnheader "难度" [ref=e126]
+                - columnheader "光照" [ref=e127]
+                - columnheader "操作" [ref=e128]
+            - rowgroup [ref=e129]:
+              - row "香菜 Coriandrum sativum herb easy partial 编辑 删除" [ref=e130]:
+                - cell "香菜 Coriandrum sativum" [ref=e131]:
+                  - generic [ref=e132]: 香菜
+                  - generic [ref=e133]: Coriandrum sativum
+                - cell "herb" [ref=e134]
+                - cell "easy" [ref=e135]
+                - cell "partial" [ref=e136]
+                - cell "编辑 删除" [ref=e137]:
+                  - generic [ref=e138]:
+                    - button "编辑" [ref=e139]
+                    - button "删除" [ref=e140]
+              - row "薰衣草 Lavandula angustifolia flower medium full 编辑 删除" [ref=e141]:
+                - cell "薰衣草 Lavandula angustifolia" [ref=e142]:
+                  - generic [ref=e143]: 薰衣草
+                  - generic [ref=e144]: Lavandula angustifolia
+                - cell "flower" [ref=e145]
+                - cell "medium" [ref=e146]
+                - cell "full" [ref=e147]
+                - cell "编辑 删除" [ref=e148]:
+                  - generic [ref=e149]:
+                    - button "编辑" [ref=e150]
+                    - button "删除" [ref=e151]
+              - row "四季豆 Phaseolus vulgaris vegetable easy full 编辑 删除" [ref=e152]:
+                - cell "四季豆 Phaseolus vulgaris" [ref=e153]:
+                  - generic [ref=e154]: 四季豆
+                  - generic [ref=e155]: Phaseolus vulgaris
+                - cell "vegetable" [ref=e156]
+                - cell "easy" [ref=e157]
+                - cell "full" [ref=e158]
+                - cell "编辑 删除" [ref=e159]:
+                  - generic [ref=e160]:
+                    - button "编辑" [ref=e161]
+                    - button "删除" [ref=e162]
+              - row "番茄 Solanum lycopersicum vegetable medium full 编辑 删除" [ref=e163]:
+                - cell "番茄 Solanum lycopersicum" [ref=e164]:
+                  - generic [ref=e165]: 番茄
+                  - generic [ref=e166]: Solanum lycopersicum
+                - cell "vegetable" [ref=e167]
+                - cell "medium" [ref=e168]
+                - cell "full" [ref=e169]
+                - cell "编辑 删除" [ref=e170]:
+                  - generic [ref=e171]:
+                    - button "编辑" [ref=e172]
+                    - button "删除" [ref=e173]
+              - row "小葱 Allium fistulosum vegetable easy full 编辑 删除" [ref=e174]:
+                - cell "小葱 Allium fistulosum" [ref=e175]:
+                  - generic [ref=e176]: 小葱
+                  - generic [ref=e177]: Allium fistulosum
+                - cell "vegetable" [ref=e178]
+                - cell "easy" [ref=e179]
+                - cell "full" [ref=e180]
+                - cell "编辑 删除" [ref=e181]:
+                  - generic [ref=e182]:
+                    - button "编辑" [ref=e183]
+                    - button "删除" [ref=e184]
+              - row "微型月季 Rosa chinensis minima flower hard full 编辑 删除" [ref=e185]:
+                - cell "微型月季 Rosa chinensis minima" [ref=e186]:
+                  - generic [ref=e187]: 微型月季
+                  - generic [ref=e188]: Rosa chinensis minima
+                - cell "flower" [ref=e189]
+                - cell "hard" [ref=e190]
+                - cell "full" [ref=e191]
+                - cell "编辑 删除" [ref=e192]:
+                  - generic [ref=e193]:
+                    - button "编辑" [ref=e194]
+                    - button "删除" [ref=e195]
+              - row "生菜 Lactuca sativa vegetable easy partial 编辑 删除" [ref=e196]:
+                - cell "生菜 Lactuca sativa" [ref=e197]:
+                  - generic [ref=e198]: 生菜
+                  - generic [ref=e199]: Lactuca sativa
+                - cell "vegetable" [ref=e200]
+                - cell "easy" [ref=e201]
+                - cell "partial" [ref=e202]
+                - cell "编辑 删除" [ref=e203]:
+                  - generic [ref=e204]:
+                    - button "编辑" [ref=e205]
+                    - button "删除" [ref=e206]
+              - row "薄荷 Mentha haplocalyx herb easy partial 编辑 删除" [ref=e207]:
+                - cell "薄荷 Mentha haplocalyx" [ref=e208]:
+                  - generic [ref=e209]: 薄荷
+                  - generic [ref=e210]: Mentha haplocalyx
+                - cell "herb" [ref=e211]
+                - cell "easy" [ref=e212]
+                - cell "partial" [ref=e213]
+                - cell "编辑 删除" [ref=e214]:
+                  - generic [ref=e215]:
+                    - button "编辑" [ref=e216]
+                    - button "删除" [ref=e217]
+              - row "辣椒 Capsicum annuum vegetable easy full 编辑 删除" [ref=e218]:
+                - cell "辣椒 Capsicum annuum" [ref=e219]:
+                  - generic [ref=e220]: 辣椒
+                  - generic [ref=e221]: Capsicum annuum
+                - cell "vegetable" [ref=e222]
+                - cell "easy" [ref=e223]
+                - cell "full" [ref=e224]
+                - cell "编辑 删除" [ref=e225]:
+                  - generic [ref=e226]:
+                    - button "编辑" [ref=e227]
+                    - button "删除" [ref=e228]
+              - row "草莓 Fragaria × ananassa fruit medium full 编辑 删除" [ref=e229]:
+                - cell "草莓 Fragaria × ananassa" [ref=e230]:
+                  - generic [ref=e231]: 草莓
+                  - generic [ref=e232]: Fragaria × ananassa
+                - cell "fruit" [ref=e233]
+                - cell "medium" [ref=e234]
+                - cell "full" [ref=e235]
+                - cell "编辑 删除" [ref=e236]:
+                  - generic [ref=e237]:
+                    - button "编辑" [ref=e238]
+                    - button "删除" [ref=e239]
+              - row "多肉植物组合 Succulents spp. succulent easy partial 编辑 删除" [ref=e240]:
+                - cell "多肉植物组合 Succulents spp." [ref=e241]:
+                  - generic [ref=e242]: 多肉植物组合
+                  - generic [ref=e243]: Succulents spp.
+                - cell "succulent" [ref=e244]
+                - cell "easy" [ref=e245]
+                - cell "partial" [ref=e246]
+                - cell "编辑 删除" [ref=e247]:
+                  - generic [ref=e248]:
+                    - button "编辑" [ref=e249]
+                    - button "删除" [ref=e250]
+              - row "罗勒 Ocimum basilicum herb easy full 编辑 删除" [ref=e251]:
+                - cell "罗勒 Ocimum basilicum" [ref=e252]:
+                  - generic [ref=e253]: 罗勒
+                  - generic [ref=e254]: Ocimum basilicum
+                - cell "herb" [ref=e255]
+                - cell "easy" [ref=e256]
+                - cell "full" [ref=e257]
+                - cell "编辑 删除" [ref=e258]:
+                  - generic [ref=e259]:
+                    - button "编辑" [ref=e260]
+                    - button "删除" [ref=e261]
+  - contentinfo [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - img [ref=e31]
+            - generic [ref=e34]: 阳台小园丁
+          - paragraph [ref=e35]:
+            - text: 让每个阳台都变成绿色小天地。
+            - text: 城市园艺爱好者的知识社区。
+        - generic [ref=e36]:
+          - heading "探索" [level=3] [ref=e37]
+          - list [ref=e38]:
+            - listitem [ref=e39]:
+              - link "植物百科" [ref=e40] [cursor=pointer]:
+                - /url: /plants/
+            - listitem [ref=e41]:
+              - link "种植指南" [ref=e42] [cursor=pointer]:
+                - /url: /guides/
+            - listitem [ref=e43]:
+              - link "种植日历" [ref=e44] [cursor=pointer]:
+                - /url: /calendar/
+        - generic [ref=e45]:
+          - heading "资源" [level=3] [ref=e46]
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - link "工具推荐" [ref=e49] [cursor=pointer]:
+                - /url: /tools/
+            - listitem [ref=e50]:
+              - link "社区问答" [ref=e51] [cursor=pointer]:
+                - /url: /community/
+            - listitem [ref=e52]:
+              - link "DIY教程" [ref=e53] [cursor=pointer]:
+                - /url: /guides/?category=diy
+        - generic [ref=e54]:
+          - heading "关于" [level=3] [ref=e55]
+          - list [ref=e56]:
+            - listitem [ref=e57]: 为城市园艺爱好者而生
+            - listitem [ref=e58]: © 2026 阳台小园丁
+      - paragraph [ref=e60]: 用心种下每一颗种子，收获满满的绿色幸福 🌱
+  - alert [ref=e262]

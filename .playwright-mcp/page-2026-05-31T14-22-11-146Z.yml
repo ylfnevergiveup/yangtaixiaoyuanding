@@ -1,0 +1,272 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "阳台小园丁" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: 阳台小园丁
+      - navigation [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "阳台测评" [ref=e12] [cursor=pointer]:
+          - /url: /assessment/
+          - img [ref=e13]
+          - text: 阳台测评
+        - link "植物百科" [active] [ref=e16] [cursor=pointer]:
+          - /url: /plants/
+        - link "场景指南" [ref=e17] [cursor=pointer]:
+          - /url: /guide/
+        - link "种植教程" [ref=e18] [cursor=pointer]:
+          - /url: /guides/
+        - link "好物推荐" [ref=e19] [cursor=pointer]:
+          - /url: /tools/
+        - link "园丁日记" [ref=e20] [cursor=pointer]:
+          - /url: /diary/
+        - link "社区问答" [ref=e21] [cursor=pointer]:
+          - /url: /community/
+  - main [ref=e22]:
+    - generic [ref=e401]:
+      - generic [ref=e403]:
+        - generic [ref=e404]:
+          - heading "🌱 植物百科" [level=1] [ref=e405]
+          - paragraph [ref=e406]: 探索适合阳台种植的各类植物
+        - generic [ref=e408]:
+          - img [ref=e409]
+          - textbox "搜索植物名称..." [ref=e412]
+        - generic [ref=e413]:
+          - generic [ref=e414]:
+            - button "全部" [ref=e415]
+            - button "蔬菜" [ref=e416]
+            - button "香草" [ref=e417]
+            - button "多肉" [ref=e418]
+            - button "花卉" [ref=e419]
+            - button "水果" [ref=e420]
+          - generic [ref=e422]:
+            - button "全部难度" [ref=e423]
+            - button "新手友好" [ref=e424]
+            - button "稍有挑战" [ref=e425]
+            - button "进阶玩家" [ref=e426]
+      - generic [ref=e428]:
+        - generic [ref=e429]: 共找到 10 种植物
+        - generic [ref=e430]:
+          - link "香草 🌱 新手 罗勒 Ocimum basilicum 最受欢迎的阳台香草。紫罗勒和甜罗勒都适合盆栽，从顶端采摘可促进分枝。 喜阳 中水 30天收获" [ref=e431] [cursor=pointer]:
+            - /url: /plants/basil/
+            - generic [ref=e432]:
+              - generic [ref=e433]: 香草
+              - generic [ref=e434]: 🌱 新手
+            - heading "罗勒" [level=3] [ref=e435]
+            - paragraph [ref=e436]: Ocimum basilicum
+            - paragraph [ref=e437]: 最受欢迎的阳台香草。紫罗勒和甜罗勒都适合盆栽，从顶端采摘可促进分枝。
+            - generic [ref=e438]:
+              - generic [ref=e439]:
+                - img [ref=e440]
+                - text: 喜阳
+              - generic [ref=e446]:
+                - img [ref=e447]
+                - text: 中水
+              - generic [ref=e450]:
+                - img [ref=e451]
+                - text: 30天收获
+          - link "多肉 🌱 新手 多肉植物组合 Succulents spp. 多肉植物是阳台新手最佳选择。形态多样，养护简单，适合打造迷你景观。 半阴 少水 观赏" [ref=e453] [cursor=pointer]:
+            - /url: /plants/succulent-mix/
+            - generic [ref=e454]:
+              - generic [ref=e455]: 多肉
+              - generic [ref=e456]: 🌱 新手
+            - heading "多肉植物组合" [level=3] [ref=e457]
+            - paragraph [ref=e458]: Succulents spp.
+            - paragraph [ref=e459]: 多肉植物是阳台新手最佳选择。形态多样，养护简单，适合打造迷你景观。
+            - generic [ref=e460]:
+              - generic [ref=e461]:
+                - img [ref=e462]
+                - text: 半阴
+              - generic [ref=e468]:
+                - img [ref=e469]
+                - text: 少水
+              - generic [ref=e472]:
+                - img [ref=e473]
+                - text: 观赏
+          - link "水果 🌿 进阶 草莓 Fragaria × ananassa 阳台种植草莓，既能观赏白花绿叶，又能收获甜蜜果实，非常适合家庭种植。 喜阳 中水 90天收获" [ref=e475] [cursor=pointer]:
+            - /url: /plants/strawberry/
+            - generic [ref=e476]:
+              - generic [ref=e477]: 水果
+              - generic [ref=e478]: 🌿 进阶
+            - heading "草莓" [level=3] [ref=e479]
+            - paragraph [ref=e480]: Fragaria × ananassa
+            - paragraph [ref=e481]: 阳台种植草莓，既能观赏白花绿叶，又能收获甜蜜果实，非常适合家庭种植。
+            - generic [ref=e482]:
+              - generic [ref=e483]:
+                - img [ref=e484]
+                - text: 喜阳
+              - generic [ref=e490]:
+                - img [ref=e491]
+                - text: 中水
+              - generic [ref=e494]:
+                - img [ref=e495]
+                - text: 90天收获
+          - link "蔬菜 🌱 新手 辣椒 Capsicum annuum 阳台种辣椒又好看又实用。朝天椒、五彩椒结果时色彩缤纷，极具观赏价值。 喜阳 中水 70天收获" [ref=e497] [cursor=pointer]:
+            - /url: /plants/chili/
+            - generic [ref=e498]:
+              - generic [ref=e499]: 蔬菜
+              - generic [ref=e500]: 🌱 新手
+            - heading "辣椒" [level=3] [ref=e501]
+            - paragraph [ref=e502]: Capsicum annuum
+            - paragraph [ref=e503]: 阳台种辣椒又好看又实用。朝天椒、五彩椒结果时色彩缤纷，极具观赏价值。
+            - generic [ref=e504]:
+              - generic [ref=e505]:
+                - img [ref=e506]
+                - text: 喜阳
+              - generic [ref=e512]:
+                - img [ref=e513]
+                - text: 中水
+              - generic [ref=e516]:
+                - img [ref=e517]
+                - text: 70天收获
+          - link "香草 🌱 新手 薄荷 Mentha haplocalyx 薄荷是极易种植的入门香草。清凉香气驱蚊提神，泡茶做菜都是好选择。 半阴 多水 20天收获" [ref=e519] [cursor=pointer]:
+            - /url: /plants/mint/
+            - generic [ref=e520]:
+              - generic [ref=e521]: 香草
+              - generic [ref=e522]: 🌱 新手
+            - heading "薄荷" [level=3] [ref=e523]
+            - paragraph [ref=e524]: Mentha haplocalyx
+            - paragraph [ref=e525]: 薄荷是极易种植的入门香草。清凉香气驱蚊提神，泡茶做菜都是好选择。
+            - generic [ref=e526]:
+              - generic [ref=e527]:
+                - img [ref=e528]
+                - text: 半阴
+              - generic [ref=e534]:
+                - img [ref=e535]
+                - text: 多水
+              - generic [ref=e538]:
+                - img [ref=e539]
+                - text: 20天收获
+          - link "蔬菜 🌱 新手 生菜 Lactuca sativa 生长周期短，播种30天即可收获。摘叶食用可持续收获，是阳台种菜的首选。 半阴 中水 30天收获" [ref=e541] [cursor=pointer]:
+            - /url: /plants/lettuce/
+            - generic [ref=e542]:
+              - generic [ref=e543]: 蔬菜
+              - generic [ref=e544]: 🌱 新手
+            - heading "生菜" [level=3] [ref=e545]
+            - paragraph [ref=e546]: Lactuca sativa
+            - paragraph [ref=e547]: 生长周期短，播种30天即可收获。摘叶食用可持续收获，是阳台种菜的首选。
+            - generic [ref=e548]:
+              - generic [ref=e549]:
+                - img [ref=e550]
+                - text: 半阴
+              - generic [ref=e556]:
+                - img [ref=e557]
+                - text: 中水
+              - generic [ref=e560]:
+                - img [ref=e561]
+                - text: 30天收获
+          - link "花卉 🌳 高手 微型月季 Rosa chinensis minima 微型月季是阳台花园的颜值担当。花期长、花色丰富，适合打造浪漫的阳台角落。 喜阳 中水 观赏" [ref=e563] [cursor=pointer]:
+            - /url: /plants/rose/
+            - generic [ref=e564]:
+              - generic [ref=e565]: 花卉
+              - generic [ref=e566]: 🌳 高手
+            - heading "微型月季" [level=3] [ref=e567]
+            - paragraph [ref=e568]: Rosa chinensis minima
+            - paragraph [ref=e569]: 微型月季是阳台花园的颜值担当。花期长、花色丰富，适合打造浪漫的阳台角落。
+            - generic [ref=e570]:
+              - generic [ref=e571]:
+                - img [ref=e572]
+                - text: 喜阳
+              - generic [ref=e578]:
+                - img [ref=e579]
+                - text: 中水
+              - generic [ref=e582]:
+                - img [ref=e583]
+                - text: 观赏
+          - link "蔬菜 🌱 新手 小葱 Allium fistulosum 用葱根水培就能活，几乎没有种植门槛。随吃随剪，是厨房阳台必备。 喜阳 中水 20天收获" [ref=e585] [cursor=pointer]:
+            - /url: /plants/green-onion/
+            - generic [ref=e586]:
+              - generic [ref=e587]: 蔬菜
+              - generic [ref=e588]: 🌱 新手
+            - heading "小葱" [level=3] [ref=e589]
+            - paragraph [ref=e590]: Allium fistulosum
+            - paragraph [ref=e591]: 用葱根水培就能活，几乎没有种植门槛。随吃随剪，是厨房阳台必备。
+            - generic [ref=e592]:
+              - generic [ref=e593]:
+                - img [ref=e594]
+                - text: 喜阳
+              - generic [ref=e600]:
+                - img [ref=e601]
+                - text: 中水
+              - generic [ref=e604]:
+                - img [ref=e605]
+                - text: 20天收获
+          - link "蔬菜 🌱 新手 草莓 喜阳 中水 30天收获" [ref=e607] [cursor=pointer]:
+            - /url: /plants/草莓/
+            - generic [ref=e608]:
+              - generic [ref=e609]: 蔬菜
+              - generic [ref=e610]: 🌱 新手
+            - heading "草莓" [level=3] [ref=e611]
+            - paragraph
+            - paragraph
+            - generic [ref=e612]:
+              - generic [ref=e613]:
+                - img [ref=e614]
+                - text: 喜阳
+              - generic [ref=e620]:
+                - img [ref=e621]
+                - text: 中水
+              - generic [ref=e624]:
+                - img [ref=e625]
+                - text: 30天收获
+          - link "香草 🌿 进阶 番茄（） Solanum lycopersicum 阳台最受欢迎的蔬菜之一。樱桃番茄品种尤其适合盆栽，果实累累，观赏性极佳。 喜阳 中水 60天收获" [ref=e627] [cursor=pointer]:
+            - /url: /plants/tomato/
+            - generic [ref=e628]:
+              - generic [ref=e629]: 香草
+              - generic [ref=e630]: 🌿 进阶
+            - heading "番茄（）" [level=3] [ref=e631]
+            - paragraph [ref=e632]: Solanum lycopersicum
+            - paragraph [ref=e633]: 阳台最受欢迎的蔬菜之一。樱桃番茄品种尤其适合盆栽，果实累累，观赏性极佳。
+            - generic [ref=e634]:
+              - generic [ref=e635]:
+                - img [ref=e636]
+                - text: 喜阳
+              - generic [ref=e642]:
+                - img [ref=e643]
+                - text: 中水
+              - generic [ref=e646]:
+                - img [ref=e647]
+                - text: 60天收获
+  - contentinfo [ref=e364]:
+    - generic [ref=e365]:
+      - generic [ref=e366]:
+        - generic [ref=e367]:
+          - generic [ref=e368]:
+            - img [ref=e370]
+            - generic [ref=e373]: 阳台小园丁
+          - paragraph [ref=e374]:
+            - text: 让每个阳台都变成绿色小天地。
+            - text: 城市园艺爱好者的知识社区。
+        - generic [ref=e375]:
+          - heading "探索" [level=3] [ref=e376]
+          - list [ref=e377]:
+            - listitem [ref=e378]:
+              - link "植物百科" [ref=e379] [cursor=pointer]:
+                - /url: /plants/
+            - listitem [ref=e380]:
+              - link "种植指南" [ref=e381] [cursor=pointer]:
+                - /url: /guides/
+            - listitem [ref=e382]:
+              - link "种植日历" [ref=e383] [cursor=pointer]:
+                - /url: /calendar/
+        - generic [ref=e384]:
+          - heading "资源" [level=3] [ref=e385]
+          - list [ref=e386]:
+            - listitem [ref=e387]:
+              - link "工具推荐" [ref=e388] [cursor=pointer]:
+                - /url: /tools/
+            - listitem [ref=e389]:
+              - link "社区问答" [ref=e390] [cursor=pointer]:
+                - /url: /community/
+            - listitem [ref=e391]:
+              - link "DIY教程" [ref=e392] [cursor=pointer]:
+                - /url: /guides/?category=diy
+        - generic [ref=e393]:
+          - heading "关于" [level=3] [ref=e394]
+          - list [ref=e395]:
+            - listitem [ref=e396]: 为城市园艺爱好者而生
+            - listitem [ref=e397]: © 2026 阳台小园丁
+      - paragraph [ref=e399]: 用心种下每一颗种子，收获满满的绿色幸福 🌱
+  - alert [ref=e400]

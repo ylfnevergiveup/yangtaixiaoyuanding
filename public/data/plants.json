@@ -1,5 +1,2111 @@
 [
   {
+    "_id": "ca7f69d06a297c78001eed8137444866",
+    "id": "mugwort",
+    "name": "艾草",
+    "scientificName": "Artemisia argyi",
+    "category": "herb",
+    "difficulty": "easy",
+    "season": [
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "low",
+    "harvestDays": 60,
+    "description": "<p>艾草是中国传统文化中的神草——端午挂艾驱邪、艾灸温经通络、艾叶做青团清香扑鼻。阳台种一盆，既是草药也是文化传承。</p>",
+    "tips": "<p>1. 播种或分株繁殖，极易成活<br>2. 耐旱耐贫瘠，管理粗放<br>3. 端午节前后采收药效最佳<br>4. 可晒干储存做艾灸或泡脚</p>",
+    "balconyFit": "<p>南向阳台最佳。极其耐旱耐热，种下基本不用管。</p>",
+    "suitableOrientations": [
+      "south",
+      "west",
+      "east"
+    ],
+    "minPotDepth": 20,
+    "suitablePot": "3加仑盆",
+    "minTemp": -15,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781105737743-9fe4be0b.png?sign=5f68c9279753f29706f24243643ec305&t=1781105738",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:35:55.212Z",
+    "_createdAt": "2026-06-10T15:02:16.642Z"
+  },
+  {
+    "_id": "ca7f69d06a297c78001eed845c25e28f",
+    "id": "schizonepeta",
+    "name": "荆芥",
+    "scientificName": "Schizonepeta tenuifolia",
+    "category": "herb",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 40,
+    "description": "<p>荆芥是北方人最爱的调味香草之一，独特的清凉辛香味是凉拌菜和捞面的灵魂。长得快、好管理，一盆能吃整个夏天。</p>",
+    "tips": "<p>1. 撒播即可，出苗后间苗至10cm<br>2. 喜光照充足，半阴也能生长<br>3. 摘心促分枝，越摘越旺<br>4. 开花后叶片变老，及时采摘</p>",
+    "balconyFit": "<p>南向或东向阳台。长势旺盛，一棵够一家人吃。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 15,
+    "suitablePot": "2加仑盆或长条盆",
+    "minTemp": 10,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781105281134-d32c0bfe.png?sign=b539e9f6be8cae39a320645e50fa47f9&t=1781105281",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:28:15.196Z",
+    "_createdAt": "2026-06-10T15:02:16.880Z"
+  },
+  {
+    "_id": "ca7f69d06a297c79001eed8b2d05bd74",
+    "id": "tatsoi",
+    "name": "乌塌菜",
+    "scientificName": "Brassica rapa subsp. narinosa",
+    "category": "vegetable",
+    "difficulty": "easy",
+    "season": [
+      "秋",
+      "冬"
+    ],
+    "sunlight": "partial",
+    "water": "medium",
+    "harvestDays": 40,
+    "description": "<p>乌塌菜是冬季菜园里的黑牡丹，墨绿色的叶片排列成完美的莲座形，颜值爆表还能吃。霜打过后更甜更糯，是冬天阳台上的颜值+美味担当。</p>",
+    "tips": "<p>1. 秋季播种，喜冷凉气候<br>2. 半日照即可，东向阳台也适合<br>3. 霜打后叶片更甜更糯<br>4. 掰外叶采收可持续吃到春天</p>",
+    "balconyFit": "<p>东向或南向阳台。冬季阳台上的颜值冠军，好看又好吃。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 15,
+    "suitablePot": "2加仑盆或长条盆",
+    "minTemp": -5,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781105043001-ae8e70da.png?sign=f0edb3f96d4523b183a9d22148a8ff17&t=1781105043",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:24:10.366Z",
+    "_createdAt": "2026-06-10T15:02:17.140Z"
+  },
+  {
+    "_id": "87ab6b3b6a297c7800048ee048bd3b31",
+    "id": "sapodilla",
+    "name": "人心果",
+    "scientificName": "Manilkara zapota",
+    "category": "fruit",
+    "difficulty": "medium",
+    "season": [
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>人心果是热带珍稀水果，果实外形像猕猴桃但果肉如蜜糖般甜糯。矮化品种四季常绿，花和果能同时挂在树上，观赏价值极高。</p>",
+    "tips": "<p>1. 选嫁接苗，盆栽也能开花结果<br>2. 全日照果实更甜<br>3. 果实变软时采收食用<br>4. 耐盐碱土，管理粗放</p>",
+    "balconyFit": "<p>南向阳台，需要温暖环境。四季常绿+花果同树=高颜值。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 30,
+    "suitablePot": "10加仑大盆",
+    "minTemp": 10,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:16.404Z",
+    "_createdAt": "2026-06-10T15:02:16.404Z"
+  },
+  {
+    "_id": "3aca41eb6a297c780004c7c7267c0eba",
+    "id": "wampee",
+    "name": "黄皮",
+    "scientificName": "Clausena lansium",
+    "category": "fruit",
+    "difficulty": "medium",
+    "season": [
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>黄皮是岭南特色水果，果皮金黄果肉酸甜，有消食化痰的功效。矮化品种树形优美四季常绿，春看花夏品果，是阳台上的岭南味道。</p>",
+    "tips": "<p>1. 选矮化嫁接苗，3-5年可结果<br>2. 全日照果实更甜<br>3. 果实转金黄色时采收<br>4. 春季修剪控高</p>",
+    "balconyFit": "<p>南向阳台，需大盆和充足光照。适合南方地区种植。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 35,
+    "suitablePot": "10加仑以上大盆",
+    "minTemp": 5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:16.152Z",
+    "_createdAt": "2026-06-10T15:02:16.152Z"
+  },
+  {
+    "_id": "ca7f69d06a297c77001eed7857ef6272",
+    "id": "guava",
+    "name": "番石榴",
+    "scientificName": "Psidium guajava",
+    "category": "fruit",
+    "difficulty": "medium",
+    "season": [
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>番石榴（芭乐）是热带水果中的维生素C之王，果肉脆甜香气独特。矮化品种盆栽也能开花结果，叶片揉搓后有特殊清香。</p>",
+    "tips": "<p>1. 选矮化嫁接苗，容易盆栽开花<br>2. 全日照结果多<br>3. 果实坐果后套袋防虫<br>4. 冬季防寒，保持10℃以上</p>",
+    "balconyFit": "<p>南向阳台，需要充足光照和温暖环境。北方冬季需室内越冬。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 30,
+    "suitablePot": "10加仑大盆",
+    "minTemp": 10,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:15.916Z",
+    "_createdAt": "2026-06-10T15:02:15.916Z"
+  },
+  {
+    "_id": "176964606a297c7700315772229afb57",
+    "id": "wintersweet",
+    "name": "腊梅",
+    "scientificName": "Chimonanthus praecox",
+    "category": "flower",
+    "difficulty": "easy",
+    "season": [
+      "秋",
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "low",
+    "harvestDays": 0,
+    "description": "<p>腊梅是最有骨气的花——寒冬腊月百花凋零时，它独自绽放出蜡黄色的花朵，香气凛冽清透，几枝插瓶满室生香。</p>",
+    "tips": "<p>1. 选矮生品种或通过修剪控高<br>2. 耐旱怕涝，干透再浇<br>3. 花后重剪促分枝<br>4. 冬季开花需要低温刺激</p>",
+    "balconyFit": "<p>南向阳台。极耐寒耐旱，冬季阳台上的一抹亮色和清香。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 30,
+    "suitablePot": "7加仑深盆",
+    "minTemp": -15,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:15.662Z",
+    "_createdAt": "2026-06-10T15:02:15.662Z"
+  },
+  {
+    "_id": "3aca41eb6a297c770004c7c23095ba45",
+    "id": "michelia",
+    "name": "白兰花",
+    "scientificName": "Michelia alba",
+    "category": "flower",
+    "difficulty": "medium",
+    "season": [
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>白兰花是江南夏天最熟悉的香气，洁白如玉的小花藏在绿叶间，摘下几朵放在床头或胸前，清香能持续一整天。</p>",
+    "tips": "<p>1. 喜温暖湿润，怕霜冻<br>2. 全日照或半日照均可<br>3. 春季修剪控高，适合盆栽<br>4. 冬季室内越冬或套袋防护</p>",
+    "balconyFit": "<p>南向阳台，冬季需要防寒。花香迷人，值得用心呵护。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 30,
+    "suitablePot": "7加仑大盆",
+    "minTemp": 5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:15.410Z",
+    "_createdAt": "2026-06-10T15:02:15.410Z"
+  },
+  {
+    "_id": "87ab6b3b6a297c7700048ed837c38dcf",
+    "id": "osmanthus",
+    "name": "桂花",
+    "scientificName": "Osmanthus fragrans",
+    "category": "flower",
+    "difficulty": "medium",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>桂花是中国人最爱的香花之一，秋天开花时满阳台都是甜而不腻的桂花香。四季桂品种还能多次开花，一盆香一年。</p>",
+    "tips": "<p>1. 选四季桂矮生品种适合盆栽<br>2. 全日照开花更多更香<br>3. 喜酸性土，怕盐碱<br>4. 花后可采摘做桂花蜜、桂花糕</p>",
+    "balconyFit": "<p>南向阳台。一棵桂花树就是一瓶天然香水。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 30,
+    "suitablePot": "7加仑以上大盆",
+    "minTemp": -5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:15.047Z",
+    "_createdAt": "2026-06-10T15:02:15.047Z"
+  },
+  {
+    "_id": "176964606a297c7600315765668d9a11",
+    "id": "camellia",
+    "name": "山茶花",
+    "scientificName": "Camellia japonica",
+    "category": "flower",
+    "difficulty": "medium",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "partial",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>山茶花是中国传统十大名花之一，冬春开花、花大如碗、层层叠叠。品种繁多从纯白到深红，是阳台上的名门闺秀。</p>",
+    "tips": "<p>1. 喜酸性土，用山泥或松针土<br>2. 喜半阴湿润，怕西晒<br>3. 花蕾期疏蕾，每枝留1-2朵<br>4. 浇水用雨水或放置过的自来水</p>",
+    "balconyFit": "<p>东向阳台最佳，忌西晒。需要酸性土壤和稳定湿度。</p>",
+    "suitableOrientations": [
+      "east",
+      "north"
+    ],
+    "minPotDepth": 25,
+    "suitablePot": "5加仑陶盆",
+    "minTemp": -5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:14.782Z",
+    "_createdAt": "2026-06-10T15:02:14.782Z"
+  },
+  {
+    "_id": "176964606a297c7600315761686cbfe0",
+    "id": "croton",
+    "name": "变叶木",
+    "scientificName": "Codiaeum variegatum",
+    "category": "foliage",
+    "difficulty": "medium",
+    "season": [
+      "春",
+      "夏",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>变叶木是大自然的调色盘——同一棵植株上能同时看到红、黄、橙、绿、紫多种颜色。光照越好色彩越艳丽，一盆就能点亮整个阳台。</p>",
+    "tips": "<p>1. 全日照色彩最艳丽，半阴也能生长<br>2. 喜湿润，叶片常喷雾<br>3. 怕寒冷，冬季保持15℃以上<br>4. 春季修剪促分枝</p>",
+    "balconyFit": "<p>南向阳台光照充足处。色彩之王，一颗就能撑起阳台颜值。</p>",
+    "suitableOrientations": [
+      "south",
+      "west"
+    ],
+    "minPotDepth": 20,
+    "suitablePot": "3加仑盆",
+    "minTemp": 15,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:14.541Z",
+    "_createdAt": "2026-06-10T15:02:14.541Z"
+  },
+  {
+    "_id": "ca7f69d06a297c76001eed6c3e346a46",
+    "id": "happiness-tree",
+    "name": "幸福树",
+    "scientificName": "Radermachera sinica",
+    "category": "foliage",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏",
+      "秋"
+    ],
+    "sunlight": "partial",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>幸福树寓意家庭美满幸福，是中式家居的经典绿植。羽状复叶郁郁葱葱，新叶嫩绿如翡翠，管理简单长势旺盛。</p>",
+    "tips": "<p>1. 喜明亮散射光，也能耐半阴<br>2. 见干见湿浇水，怕积水<br>3. 喜欢温暖湿润，冬季注意防寒<br>4. 春季修剪塑形</p>",
+    "balconyFit": "<p>东向或南向阳台散射光处。寓意好，适合送人自养。</p>",
+    "suitableOrientations": [
+      "east",
+      "south"
+    ],
+    "minPotDepth": 25,
+    "suitablePot": "5加仑盆",
+    "minTemp": 5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:14.300Z",
+    "_createdAt": "2026-06-10T15:02:14.300Z"
+  },
+  {
+    "_id": "176964606a297c760031575d0f535e67",
+    "id": "areca-palm",
+    "name": "散尾葵",
+    "scientificName": "Dypsis lutescens",
+    "category": "foliage",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏",
+      "秋"
+    ],
+    "sunlight": "partial",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>散尾葵是打造阳台热带风情的利器，羽毛状的复叶轻盈飘逸，一棵就能撑起一片度假氛围。也是优秀的室内空气净化器。</p>",
+    "tips": "<p>1. 喜明亮散射光，忌暴晒<br>2. 保持盆土湿润但不积水<br>3. 经常向叶片喷水增加湿度<br>4. 春季修剪枯黄老叶促新叶</p>",
+    "balconyFit": "<p>东向或南向阳台半阴处。植株较大，适合有空间的阳台。</p>",
+    "suitableOrientations": [
+      "east",
+      "south"
+    ],
+    "minPotDepth": 25,
+    "suitablePot": "5加仑以上大盆",
+    "minTemp": 8,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:14.039Z",
+    "_createdAt": "2026-06-10T15:02:14.039Z"
+  },
+  {
+    "_id": "ca7f69d06a297c75001eed65150da444",
+    "id": "peace-lily",
+    "name": "白掌",
+    "scientificName": "Spathiphyllum wallisii",
+    "category": "foliage",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏",
+      "秋"
+    ],
+    "sunlight": "partial",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>白掌是室内净化空气的冠军植物，深绿色的叶片四季常绿，白色佛焰苞像一艘艘小白帆漂在绿叶中。耐阴好养，是新手首选。</p>",
+    "tips": "<p>1. 喜散射光，暴晒会黄叶<br>2. 叶片稍微发软下垂时再浇水<br>3. 经常喷雾清洁叶片<br>4. 花期长，单朵花可开一个月</p>",
+    "balconyFit": "<p>东向或北向阳台。极耐阴，也可室内养护。净化空气小能手。</p>",
+    "suitableOrientations": [
+      "east",
+      "north"
+    ],
+    "minPotDepth": 15,
+    "suitablePot": "2加仑盆",
+    "minTemp": 10,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:13.796Z",
+    "_createdAt": "2026-06-10T15:02:13.796Z"
+  },
+  {
+    "_id": "ca7f69d06a297c75001eed61014bf957",
+    "id": "tremella",
+    "name": "银耳",
+    "scientificName": "Tremella fuciformis",
+    "category": "mushroom",
+    "difficulty": "hard",
+    "season": [
+      "秋"
+    ],
+    "sunlight": "shade",
+    "water": "high",
+    "harvestDays": 30,
+    "description": "<p>银耳是滋补养颜的圣品，晶莹剔透如白牡丹。阳台栽培有一定挑战性但成就感爆棚，一朵就能炖一锅红枣银耳羹。</p>",
+    "tips": "<p>1. 需要菌包培养，温湿度要求严格<br>2. 温度20-25℃、湿度90%以上<br>3. 每天喷雾4-6次或用加湿器<br>4. 银耳充分展开成菊花状时采收</p>",
+    "balconyFit": "<p>北向阳台+加湿器。需要精心管理温湿度，但颜值极高。</p>",
+    "suitableOrientations": [
+      "north"
+    ],
+    "minPotDepth": 10,
+    "suitablePot": "菌包+透明保湿罩",
+    "minTemp": 18,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:13.542Z",
+    "_createdAt": "2026-06-10T15:02:13.542Z"
+  },
+  {
+    "_id": "3aca41eb6a297c750004c7b31af8bb44",
+    "id": "wood-ear",
+    "name": "木耳",
+    "scientificName": "Auricularia auricula-judae",
+    "category": "mushroom",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "shade",
+    "water": "high",
+    "harvestDays": 25,
+    "description": "<p>木耳口感脆嫩，凉拌热炒皆宜。阳台用菌包培养，看着一朵朵黑褐色的耳朵从菌包里冒出来，收获的乐趣比吃还要满足。</p>",
+    "tips": "<p>1. 菌包开袋后划口出耳<br>2. 每天喷水3-5次保湿<br>3. 散射光即可，不需要直射光<br>4. 耳片展开后及时采收</p>",
+    "balconyFit": "<p>北向阳台或卫生间窗边。喜高湿，常喷雾长得快。</p>",
+    "suitableOrientations": [
+      "north"
+    ],
+    "minPotDepth": 8,
+    "suitablePot": "菌包悬挂或平放培养",
+    "minTemp": 15,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:13.280Z",
+    "_createdAt": "2026-06-10T15:02:13.280Z"
+  },
+  {
+    "_id": "176964606a297c750031575678b2adcc",
+    "id": "straw-mushroom",
+    "name": "草菇",
+    "scientificName": "Volvariella volvacea",
+    "category": "mushroom",
+    "difficulty": "medium",
+    "season": [
+      "夏"
+    ],
+    "sunlight": "shade",
+    "water": "high",
+    "harvestDays": 10,
+    "description": "<p>草菇是岭南人最爱的菌菇之一，伞盖未开时像一颗黑色小蛋，鲜嫩爽滑。需要较高温度才能出菇，是夏天专属的美味。</p>",
+    "tips": "<p>1. 需要28-35℃高温才能出菇<br>2. 湿度保持85%以上<br>3. 菌蛋未开伞时采收品质最佳<br>4. 夏季培养10天即可采收</p>",
+    "balconyFit": "<p>北向阳台，夏季高温时最适合。需要频繁喷水保湿。</p>",
+    "suitableOrientations": [
+      "north"
+    ],
+    "minPotDepth": 10,
+    "suitablePot": "菌包培养+保湿罩",
+    "minTemp": 25,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:13.030Z",
+    "_createdAt": "2026-06-10T15:02:13.030Z"
+  },
+  {
+    "_id": "3aca41eb6a297c740004c7ac4adc7447",
+    "id": "king-oyster",
+    "name": "杏鲍菇",
+    "scientificName": "Pleurotus eryngii",
+    "category": "mushroom",
+    "difficulty": "easy",
+    "season": [
+      "秋",
+      "冬"
+    ],
+    "sunlight": "shade",
+    "water": "high",
+    "harvestDays": 20,
+    "description": "<p>杏鲍菇肉质肥厚、口感如鲍鱼，是菌菇中的高档货。阳台用菌包培养非常简单，20天就能收获，一个菌包能出2-3茬。</p>",
+    "tips": "<p>1. 菌包开袋后每天喷水保湿<br>2. 温度15-20℃最适合出菇<br>3. 菌盖直径3-5cm时采收口感最佳<br>4. 采后继续保湿可出下一茬</p>",
+    "balconyFit": "<p>北向阳台或室内阴凉处。需高湿度，放在加湿器旁效果好。</p>",
+    "suitableOrientations": [
+      "north"
+    ],
+    "minPotDepth": 10,
+    "suitablePot": "菌包直接培养",
+    "minTemp": 12,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:12.779Z",
+    "_createdAt": "2026-06-10T15:02:12.779Z"
+  },
+  {
+    "_id": "87ab6b3b6a297c7400048ec207ab87c3",
+    "id": "ranunculus",
+    "name": "花毛茛",
+    "scientificName": "Ranunculus asiaticus",
+    "category": "bulb",
+    "difficulty": "medium",
+    "season": [
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>花毛茛的花层层叠叠像牡丹一样华丽，却比牡丹小巧精致。颜色从纯白、粉红到深红、橙黄应有尽有，是切花市场上的超级明星。</p>",
+    "tips": "<p>1. 秋季种爪子根，先泡水吸水再种<br>2. 喜冷凉，高温会休眠<br>3. 花后保留叶片养根<br>4. 夏季挖出块根干燥储存</p>",
+    "balconyFit": "<p>南向或东向阳台，秋季种植春季赏花。花色极其丰富。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 15,
+    "suitablePot": "3加仑盆",
+    "minTemp": 0,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:12.481Z",
+    "_createdAt": "2026-06-10T15:02:12.481Z"
+  },
+  {
+    "_id": "176964606a297c7400315747110b0439",
+    "id": "freesia",
+    "name": "香雪兰",
+    "scientificName": "Freesia refracta",
+    "category": "bulb",
+    "difficulty": "medium",
+    "season": [
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>香雪兰的花香是春天最迷人的味道之一，清甜不腻、持久悠远。花色丰富从纯白到深紫，剪下插瓶满室生香，是高级香水的原料。</p>",
+    "tips": "<p>1. 秋季种球根，覆土3-5cm<br>2. 出苗后多晒太阳防徒长<br>3. 花后保留叶片养球<br>4. 夏季休眠期保持干燥</p>",
+    "balconyFit": "<p>南向或东向阳台。需要充足光照才能花香浓郁。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 15,
+    "suitablePot": "3加仑盆密植",
+    "minTemp": 5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:12.105Z",
+    "_createdAt": "2026-06-10T15:02:12.105Z"
+  },
+  {
+    "_id": "ca7f69d06a297c73001eed526767293f",
+    "id": "ornamental-onion",
+    "name": "大花葱",
+    "scientificName": "Allium giganteum",
+    "category": "bulb",
+    "difficulty": "easy",
+    "season": [
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>大花葱是球根花卉里的巨人，15cm直径的紫色花球像一颗巨大的棒棒糖插在花盆里，视觉冲击力十足，是阳台上的绝对焦点。</p>",
+    "tips": "<p>1. 秋季种大球根，覆土10cm深<br>2. 需要冬季低温春化<br>3. 花后剪去花茎保留叶片养球<br>4. 球根可多年复花</p>",
+    "balconyFit": "<p>南向阳台，需要深盆。一棵就能撑起一个花盆的气场。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 25,
+    "suitablePot": "5加仑深盆",
+    "minTemp": -15,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:11.863Z",
+    "_createdAt": "2026-06-10T15:02:11.863Z"
+  },
+  {
+    "_id": "87ab6b3b6a297c7300048ebd08de9b4f",
+    "id": "lily-of-the-valley",
+    "name": "铃兰",
+    "scientificName": "Convallaria majalis",
+    "category": "bulb",
+    "difficulty": "medium",
+    "season": [
+      "秋",
+      "春"
+    ],
+    "sunlight": "partial",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>铃兰是Dior先生最爱的花，一串串白色小铃铛垂下来，香气清幽令人陶醉。北欧新娘手捧花中常见它的身影，自带仙气。</p>",
+    "tips": "<p>1. 春秋均可种植根茎，覆土2-3cm<br>2. 喜半阴湿润，怕暴晒<br>3. 全株有毒，注意远离宠物<br>4. 花后分株繁殖</p>",
+    "balconyFit": "<p>东向或北向阳台最佳。喜阴耐寒，适合光照不足的阳台。</p>",
+    "suitableOrientations": [
+      "east",
+      "north"
+    ],
+    "minPotDepth": 12,
+    "suitablePot": "浅盆密植",
+    "minTemp": -20,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:11.590Z",
+    "_createdAt": "2026-06-10T15:02:11.590Z"
+  },
+  {
+    "_id": "176964606a297c730031573851d52e18",
+    "id": "snowdrop",
+    "name": "雪滴花",
+    "scientificName": "Galanthus nivalis",
+    "category": "bulb",
+    "difficulty": "easy",
+    "season": [
+      "秋"
+    ],
+    "sunlight": "partial",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>雪滴花是最勇敢的花——冬末春初冰雪未消时就开出洁白如雪的小花，三片花瓣像水滴一样垂下来，是春天到来的第一个信号。</p>",
+    "tips": "<p>1. 秋季种球根，覆土3-5cm<br>2. 喜半阴湿润环境<br>3. 群植效果最佳<br>4. 花后自然休眠，不需特殊管理</p>",
+    "balconyFit": "<p>东向或北向阳台。耐寒性极强，北方也能安全越冬。</p>",
+    "suitableOrientations": [
+      "east",
+      "north"
+    ],
+    "minPotDepth": 10,
+    "suitablePot": "浅口盆密植",
+    "minTemp": -25,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:11.350Z",
+    "_createdAt": "2026-06-10T15:02:11.350Z"
+  },
+  {
+    "_id": "87ab6b3b6a297c7300048eb9156acfa6",
+    "id": "grape-hyacinth",
+    "name": "葡萄风信子",
+    "scientificName": "Muscari armeniacum",
+    "category": "bulb",
+    "difficulty": "easy",
+    "season": [
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>葡萄风信子是春天最早开花的球根之一，一串串蓝紫色小花像迷你葡萄，精致又可爱。种一盆密植，春天给你一片蓝色花毯。</p>",
+    "tips": "<p>1. 秋季种球根，覆土5cm深<br>2. 需要冬季低温才能开花<br>3. 密植效果最佳，一盆种10-15球<br>4. 花后保留叶片养球，来年复花</p>",
+    "balconyFit": "<p>南向或东向阳台。浅盆密植，早春开花最早。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 12,
+    "suitablePot": "宽口浅盆密植",
+    "minTemp": -15,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:11.093Z",
+    "_createdAt": "2026-06-10T15:02:11.093Z"
+  },
+  {
+    "_id": "176964606a297c720031573459b723dd",
+    "id": "spatterdock",
+    "name": "萍蓬草",
+    "scientificName": "Nuphar pumila",
+    "category": "aquatic",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏"
+    ],
+    "sunlight": "full",
+    "water": "high",
+    "harvestDays": 0,
+    "description": "<p>萍蓬草是缩小版的睡莲，浮在水面的叶片圆润可爱，黄色小花挺出水面，精致小巧适合阳台小水景。</p>",
+    "tips": "<p>1. 根茎种在泥中，水深10-20cm<br>2. 喜充足光照<br>3. 花后分株繁殖<br>4. 冬季保持根茎在水下不结冰即可</p>",
+    "balconyFit": "<p>南向或东向阳台。比睡莲小巧，适合中小型水盆。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 15,
+    "suitablePot": "直径25cm以上水盆",
+    "minTemp": -10,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:10.814Z",
+    "_createdAt": "2026-06-10T15:02:10.814Z"
+  },
+  {
+    "_id": "176964606a297c720031573042425324",
+    "id": "floating-heart",
+    "name": "荇菜",
+    "scientificName": "Nymphoides peltata",
+    "category": "aquatic",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏"
+    ],
+    "sunlight": "full",
+    "water": "high",
+    "harvestDays": 0,
+    "description": "<p>荇菜是诗经里走出来的水生植物，心形叶片浮在水面，夏天开出一朵朵金黄色小花，清新雅致不输睡莲。</p>",
+    "tips": "<p>1. 根茎浅埋泥土中，水深10-30cm<br>2. 全日照开花更多<br>3. 繁殖力强，一盆能蔓延满水面<br>4. 冬季可留根茎在泥中越冬</p>",
+    "balconyFit": "<p>南向或东向阳台水缸。开花期长，是小型水景的亮点。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 20,
+    "suitablePot": "直径30cm以上水盆",
+    "minTemp": -5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:10.561Z",
+    "_createdAt": "2026-06-10T15:02:10.561Z"
+  },
+  {
+    "_id": "87ab6b3b6a297c7200048eb062e215ee",
+    "id": "scirpus",
+    "name": "水葱",
+    "scientificName": "Schoenoplectus tabernaemontani",
+    "category": "aquatic",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏"
+    ],
+    "sunlight": "full",
+    "water": "high",
+    "harvestDays": 0,
+    "description": "<p>水葱是水景中的线条担当，翠绿的圆柱形茎秆笔直挺拔，给阳台水景增添层次感和禅意。几乎不需要打理。</p>",
+    "tips": "<p>1. 种在水盆边缘或浅水区<br>2. 耐寒耐热，几乎无病虫害<br>3. 冬季地上部分枯黄，来年春天重新发芽<br>4. 可与其他水生植物组合造景</p>",
+    "balconyFit": "<p>任何朝向均可，极其耐阴耐晒。水盆种植，高度可达80-120cm。</p>",
+    "suitableOrientations": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "minPotDepth": 15,
+    "suitablePot": "水盆或小水缸",
+    "minTemp": -15,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:10.283Z",
+    "_createdAt": "2026-06-10T15:02:10.283Z"
+  },
+  {
+    "_id": "176964606a297c710031572b0fb3e49e",
+    "id": "water-caltrop",
+    "name": "菱角",
+    "scientificName": "Trapa natans",
+    "category": "aquatic",
+    "difficulty": "easy",
+    "season": [
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "high",
+    "harvestDays": 90,
+    "description": "<p>菱角是南方水乡的经典水生植物，菱形的叶盘浮在水面像一朵朵绿色的花。夏天开小白花，秋天就能捞菱角吃。</p>",
+    "tips": "<p>1. 春季将菱角种子投入水中即可<br>2. 水深20-40cm，需要一定水体<br>3. 全日照结菱多<br>4. 秋季菱角成熟后沉入水底，捞出食用</p>",
+    "balconyFit": "<p>南向阳台大水盆或水缸。生长迅速，夏季能覆盖水面遮阳。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 25,
+    "suitablePot": "直径40cm以上水缸或大盆",
+    "minTemp": 10,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:09.955Z",
+    "_createdAt": "2026-06-10T15:02:09.955Z"
+  },
+  {
+    "_id": "3aca41eb6a297c710004c78b621b3f5d",
+    "id": "arrowhead",
+    "name": "慈姑",
+    "scientificName": "Sagittaria sagittifolia",
+    "category": "aquatic",
+    "difficulty": "easy",
+    "season": [
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "high",
+    "harvestDays": 120,
+    "description": "<p>慈姑是江南水八仙之一，箭形叶片优雅美观，地下球茎粉糯可食。阳台用水盆种植，既能观叶又能收获，一举两得。</p>",
+    "tips": "<p>1. 春季种球茎于淤泥中，水深5-10cm<br>2. 全日照或半日照均可<br>3. 秋季叶片枯黄后挖取球茎<br>4. 也可纯水培观赏</p>",
+    "balconyFit": "<p>南向或东向阳台，水盆或小水缸即可。可食可赏。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 20,
+    "suitablePot": "直径30cm水盆或小水缸",
+    "minTemp": 5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:09.489Z",
+    "_createdAt": "2026-06-10T15:02:09.489Z"
+  },
+  {
+    "_id": "87ab6b3b6a297c7100048ea8354679ff",
+    "id": "lotus",
+    "name": "荷花",
+    "scientificName": "Nelumbo nucifera",
+    "category": "aquatic",
+    "difficulty": "medium",
+    "season": [
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "high",
+    "harvestDays": 0,
+    "description": "<p>荷花是夏季阳台水景的灵魂，碧绿的荷叶和粉嫩的花朵让阳台瞬间有了诗意。用大缸种植，春天种藕，夏天赏花，秋天还能收莲藕。</p>",
+    "tips": "<p>1. 选直径40cm以上的大水缸<br>2. 塘泥+基肥打底，水深保持15-30cm<br>3. 全日照才能多开花<br>4. 冬季枯叶后留水过冬，来年再发</p>",
+    "balconyFit": "<p>南向阳台，需要大水缸和充足光照。选碗莲品种空间需求更小。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 30,
+    "suitablePot": "直径40cm以上大水缸",
+    "minTemp": 0,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T15:02:09.156Z",
+    "_createdAt": "2026-06-10T15:02:09.156Z"
+  },
+  {
+    "_id": "3aca41eb6a2965550002e40b1e457e9c",
+    "id": "agrocybe",
+    "name": "茶树菇",
+    "scientificName": "Agrocybe cylindracea",
+    "category": "mushroom",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "shade",
+    "water": "high",
+    "harvestDays": 20,
+    "description": "<p>茶树菇是南方常见的食用菌，菌柄脆嫩口感独特。阳台用菌包培养出菇快、产量高，是菌菇种植入门首选。</p>",
+    "tips": "<p>1. 菌包开袋后每天喷水保湿<br>2. 温度20-28℃出菇最快<br>3. 菌盖展开但未完全平展时采收<br>4. 采完一茬继续喷水可出第二茬</p>",
+    "balconyFit": "<p>北向阳台或室内散射光处。占地小、周期短，适合新手体验。</p>",
+    "suitableOrientations": [
+      "north"
+    ],
+    "minPotDepth": 8,
+    "suitablePot": "菌包直接培养",
+    "minTemp": 18,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781103374631-71e3c864.png?sign=ac7c5a0e2459db3e85cd57c32099dc9b&t=1781103375",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T14:56:20.752Z",
+    "_createdAt": "2026-06-10T13:23:33.617Z"
+  },
+  {
+    "_id": "87ab6b3b6a29655500033c1427e22b7d",
+    "id": "pachira",
+    "name": "发财树",
+    "scientificName": "Pachira aquatica",
+    "category": "foliage",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏",
+      "秋"
+    ],
+    "sunlight": "partial",
+    "water": "low",
+    "harvestDays": 30,
+    "description": "<p>发财树是经典的室内观叶植物，掌状复叶四季常绿，寓意招财进宝。耐阴耐旱好养活，是新手绿植入门之选。</p>",
+    "tips": "<p>1. 喜散射光，避免暴晒<br>2. 耐旱怕涝，盆土干透再浇<br>3. 定期旋转盆方向防偏冠<br>4. 春季修剪促分枝</p>",
+    "balconyFit": "<p>东向或北向阳台，明亮散射光处。也可室内养护。</p>",
+    "suitableOrientations": [
+      "east",
+      "north"
+    ],
+    "minPotDepth": 20,
+    "suitablePot": "3加仑盆",
+    "minTemp": 8,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781103051514-a10a965b.png?sign=2615d049605be2a0309e9b6854ce20da&t=1781103052",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T14:51:02.022Z",
+    "_createdAt": "2026-06-10T13:23:33.879Z"
+  },
+  {
+    "_id": "11d826726a26ca7d004c37894f5b8775",
+    "id": "periwinkle",
+    "name": "长春花",
+    "scientificName": "Catharanthus roseus",
+    "category": "flower",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 30,
+    "description": "<p>长春花又名日日春，名副其实地全年开花不断。五瓣小花密集绽放，粉色、白色、红色丰富多彩，是阳台上的开花机器。</p>",
+    "tips": "<p>1. 喜光，光照越足开花越多<br>2. 耐旱，土干了再浇<br>3. 花后轻度修剪促新一轮开花<br>4. 自播能力强，种子落在土里自己发芽</p>",
+    "balconyFit": "<p>南向或西向阳台。越晒越开花，夏天不惧酷热。</p>",
+    "suitableOrientations": [
+      "south",
+      "west"
+    ],
+    "minPotDepth": 15,
+    "suitablePot": "2加仑花盆或挂盆",
+    "minTemp": 10,
+    "_updatedAt": "2026-06-10T14:43:10.640Z",
+    "_createdAt": "2026-06-08T13:58:21.803Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781102575660-4fed889e.png?sign=f7372cd434ad6ca330b1beda5e2e8f1d&t=1781102576",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "11d826726a26ca80004c379f0696ff18",
+    "id": "pansy",
+    "name": "三色堇",
+    "scientificName": "Viola × wittrockiana",
+    "category": "flower",
+    "difficulty": "easy",
+    "season": [
+      "秋",
+      "冬",
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 60,
+    "description": "<p>三色堇像一只只彩色蝴蝶停在绿叶间，花瓣上独特的「猫脸」花纹可爱至极。耐寒性强，是秋冬阳台的颜值担当。</p>",
+    "tips": "<p>1. 秋季播种或直接购苗种植<br>2. 耐寒，零下也能存活<br>3. 及时摘除残花延长花期<br>4. 花后可食用，做沙拉装饰</p>",
+    "balconyFit": "<p>秋冬春三季南向阳台开花不断。夏季怕热，可做一年生种植。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 12,
+    "suitablePot": "长条盆或浅盆密植",
+    "minTemp": -5,
+    "_updatedAt": "2026-06-10T14:36:21.343Z",
+    "_createdAt": "2026-06-08T13:58:24.455Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781102169812-43dceeee.png?sign=cce8277b778bae5eee06f74f8ddd0c4b&t=1781102170",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "ca7f69d06a296555001878937837020a",
+    "id": "hericium",
+    "name": "猴头菇",
+    "scientificName": "Hericium erinaceus",
+    "category": "mushroom",
+    "difficulty": "medium",
+    "season": [
+      "秋",
+      "冬"
+    ],
+    "sunlight": "shade",
+    "water": "high",
+    "harvestDays": 25,
+    "description": "<p>猴头菇形似猴头、洁白如雪，是珍贵的食药两用菌。阳台用菌包培养，25天就能收获，肉质鲜美营养丰富。</p>",
+    "tips": "<p>1. 用菌包培养，保持湿度80%以上<br>2. 避免直射光，散射光即可<br>3. 每天喷雾3-5次保持湿润<br>4. 子实体成熟后及时采收</p>",
+    "balconyFit": "<p>北向阳台或室内阴凉处。需要高湿度环境，可放在加湿器旁。</p>",
+    "suitableOrientations": [
+      "north"
+    ],
+    "minPotDepth": 10,
+    "suitablePot": "菌包直接培养或浅托盘",
+    "minTemp": 15,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:33.358Z",
+    "_createdAt": "2026-06-10T13:23:33.358Z"
+  },
+  {
+    "_id": "3aca41eb6a2965540002e40265578482",
+    "id": "bayberry",
+    "name": "杨梅",
+    "scientificName": "Myrica rubra",
+    "category": "fruit",
+    "difficulty": "hard",
+    "season": [
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>杨梅是江南特产水果，果实紫红多汁酸甜可口。阳台种矮化品种，春看新叶夏品鲜果，满满的家乡味。</p>",
+    "tips": "<p>1. 需雌雄异株，选已嫁接的结果苗<br>2. 喜酸性土，用山泥或松针土<br>3. 果实成熟期防鸟啄<br>4. 6-7月果实成熟，紫黑色时采摘</p>",
+    "balconyFit": "<p>南向阳台，需要大盆和酸性土壤。适合江南地区种植爱好者。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 40,
+    "suitablePot": "12加仑以上大盆",
+    "minTemp": -5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:32.868Z",
+    "_createdAt": "2026-06-10T13:23:32.868Z"
+  },
+  {
+    "_id": "176964606a296554002a4a86673daab9",
+    "id": "loquat",
+    "name": "枇杷",
+    "scientificName": "Eriobotrya japonica",
+    "category": "fruit",
+    "difficulty": "medium",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>枇杷树形优美四季常绿，冬春开花初夏结果，果实金黄甜蜜。矮化品种盆栽也能开花结果，还是优秀的观叶植物。</p>",
+    "tips": "<p>1. 选嫁接苗或矮化品种<br>2. 需充足光照，花芽分化在秋季<br>3. 果实坐果后疏果留大果<br>4. 冬季开花，注意防霜冻</p>",
+    "balconyFit": "<p>南向阳台，需要大盆和一定空间。四季常绿是附加价值。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 35,
+    "suitablePot": "10加仑以上大盆",
+    "minTemp": -5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:32.633Z",
+    "_createdAt": "2026-06-10T13:23:32.633Z"
+  },
+  {
+    "_id": "176964606a296554002a4a8440770ec5",
+    "id": "grape-vine",
+    "name": "葡萄",
+    "scientificName": "Vitis vinifera",
+    "category": "fruit",
+    "difficulty": "hard",
+    "season": [
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>阳台种葡萄选矮生品种，搭个小棚架让它爬藤。春夏绿叶成荫，秋天挂着一串串果实，既有收成又能遮阳。</p>",
+    "tips": "<p>1. 选矮生或小型果品种（如巨峰盆栽型）<br>2. 大盆深栽+棚架支撑<br>3. 冬季修剪保留结果枝<br>4. 套袋防鸟防虫</p>",
+    "balconyFit": "<p>南向阳台，需要棚架和大盆。适合有空间且愿意长期投入的进阶玩家。</p>",
+    "suitableOrientations": [
+      "south",
+      "west"
+    ],
+    "minPotDepth": 40,
+    "suitablePot": "15加仑以上大盆+攀爬棚架",
+    "minTemp": -10,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:32.334Z",
+    "_createdAt": "2026-06-10T13:23:32.334Z"
+  },
+  {
+    "_id": "3aca41eb6a2965540002e3f7505f4e7b",
+    "id": "azalea",
+    "name": "杜鹃",
+    "scientificName": "Rhododendron simsii",
+    "category": "flower",
+    "difficulty": "medium",
+    "season": [
+      "春"
+    ],
+    "sunlight": "partial",
+    "water": "high",
+    "harvestDays": 0,
+    "description": "<p>杜鹃是中国十大名花之一，春天开成花球看不到叶子。阳台种一盆西洋杜鹃，花期长达两个月，年味十足。</p>",
+    "tips": "<p>1. 喜酸性土，用杜鹃专用土或松针土<br>2. 喜半阴湿润，怕暴晒和干燥<br>3. 花后及时剪残花促分枝<br>4. 浇水用雨水或放置过的自来水</p>",
+    "balconyFit": "<p>东向或北向阳台，忌西晒。需要保持空气湿度，经常喷雾。</p>",
+    "suitableOrientations": [
+      "east",
+      "north"
+    ],
+    "minPotDepth": 20,
+    "suitablePot": "3加仑透气陶盆",
+    "minTemp": -5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:32.038Z",
+    "_createdAt": "2026-06-10T13:23:32.038Z"
+  },
+  {
+    "_id": "ca7f69d06a296553001878820c8592be",
+    "id": "iris",
+    "name": "鸢尾",
+    "scientificName": "Iris germanica",
+    "category": "flower",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>鸢尾花形优雅如蝴蝶展翅，蓝紫色调是阳台上的高级色。根茎浅栽就能年年开花，适合懒人养护。</p>",
+    "tips": "<p>1. 根茎浅埋，顶芽露出土面<br>2. 喜光照充足，半阴也能开花<br>3. 花后分株繁殖，2-3年分一次<br>4. 冬季地上部分枯黄是正常的</p>",
+    "balconyFit": "<p>南向或东向阳台。低维护高颜值，适合忙碌的都市人。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 20,
+    "suitablePot": "3加仑盆或长条盆",
+    "minTemp": -10,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:31.791Z",
+    "_createdAt": "2026-06-10T13:23:31.791Z"
+  },
+  {
+    "_id": "3aca41eb6a2965530002e3f006260599",
+    "id": "peony",
+    "name": "芍药",
+    "scientificName": "Paeonia lactiflora",
+    "category": "flower",
+    "difficulty": "medium",
+    "season": [
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 0,
+    "description": "<p>芍药是中国传统名花，花朵硕大如碗、层层叠叠，香气浓郁。虽是宿根花卉，盆栽也能开出震撼效果，年年如期绽放。</p>",
+    "tips": "<p>1. 秋季种块根，春季不宜移栽<br>2. 需要冬季低温才能开花<br>3. 花蕾期立支架防倒伏<br>4. 花后剪去残花保留叶片养根</p>",
+    "balconyFit": "<p>南向阳台，需要冬季低温春化。选矮生品种，大盆深栽。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 30,
+    "suitablePot": "5加仑以上深盆",
+    "minTemp": -20,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:31.446Z",
+    "_createdAt": "2026-06-10T13:23:31.446Z"
+  },
+  {
+    "_id": "ca7f69d06a2965530018787369ca8eec",
+    "id": "dahlia",
+    "name": "大丽花",
+    "scientificName": "Dahlia pinnata",
+    "category": "flower",
+    "difficulty": "medium",
+    "season": [
+      "春",
+      "夏"
+    ],
+    "sunlight": "full",
+    "water": "high",
+    "harvestDays": 70,
+    "description": "<p>大丽花是夏秋阳台最耀眼的明星。花朵直径可达15cm以上，菊花形、牡丹形、球形等花型丰富多彩，一盆就能点亮整个阳台。</p>",
+    "tips": "<p>1. 春季种块根，选矮生品种适合盆栽<br>2. 需充足光照和水分<br>3. 花后剪去残花促新花不断<br>4. 冬季地上部分枯死后挖出块根储藏</p>",
+    "balconyFit": "<p>南向阳台，选矮生品种（30-50cm高）。需支架支撑花朵。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 30,
+    "suitablePot": "5加仑以上深盆+支撑杆",
+    "minTemp": 5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:31.201Z",
+    "_createdAt": "2026-06-10T13:23:31.201Z"
+  },
+  {
+    "_id": "87ab6b3b6a29655200033bf722648aa5",
+    "id": "orostachys",
+    "name": "子持莲华",
+    "scientificName": "Orostachys boehmeri",
+    "category": "succulent",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "low",
+    "harvestDays": 0,
+    "description": "<p>子持莲华是日本培育的经典多肉品种，小巧玲珑的莲座形植株会不断伸出走茎繁殖小崽，像一个个小莲花漂浮在土面上。</p>",
+    "tips": "<p>1. 走茎繁殖力极强，一盆能变十盆<br>2. 喜充足光照，半阴也能生长<br>3. 干透浇透，盆土不能积水<br>4. 夏季休眠时外层叶片干枯是正常的</p>",
+    "balconyFit": "<p>东向或南向阳台。体型小巧不占地方，适合桌面盆栽。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 8,
+    "suitablePot": "小巧陶盆",
+    "minTemp": 0,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:30.937Z",
+    "_createdAt": "2026-06-10T13:23:30.937Z"
+  },
+  {
+    "_id": "ca7f69d06a296552001878712fa17b32",
+    "id": "sempervivum",
+    "name": "观音莲",
+    "scientificName": "Sempervivum tectorum",
+    "category": "succulent",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "low",
+    "harvestDays": 0,
+    "description": "<p>观音莲（长生草）是多肉界的耐寒冠军，紫红色的莲座形植株外圈会不断冒出小崽，繁殖力超强。冬态颜色更艳丽。</p>",
+    "tips": "<p>1. 耐寒性极强，-15℃也能安全越冬<br>2. 全日照叶片紧凑，颜色更红<br>3. 侧芽掰下即种，成活率100%<br>4. 夏季高温时适当遮阴</p>",
+    "balconyFit": "<p>南向或西向阳台。耐寒耐热，是新手多肉首选。</p>",
+    "suitableOrientations": [
+      "south",
+      "west"
+    ],
+    "minPotDepth": 8,
+    "suitablePot": "浅口陶盆或拼盘",
+    "minTemp": -15,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:30.684Z",
+    "_createdAt": "2026-06-10T13:23:30.684Z"
+  },
+  {
+    "_id": "ca7f69d06a2965520018786a68f1c466",
+    "id": "echeveria-glauca",
+    "name": "玉蝶",
+    "scientificName": "Echeveria secunda var. glauca",
+    "category": "succulent",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "low",
+    "harvestDays": 0,
+    "description": "<p>玉蝶是多肉中的经典品种，蓝灰色叶片排列成完美的莲座形，如同一朵石化的蓝莲花。耐旱好养，颜值超高。</p>",
+    "tips": "<p>1. 全日照养护，光照不足会摊大饼<br>2. 干透浇透，夏季休眠控水<br>3. 叶插和砍头都容易繁殖<br>4. 冬季保持5℃以上</p>",
+    "balconyFit": "<p>南向阳台阳光最足的位置。多肉拼盘的主角担当。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 8,
+    "suitablePot": "多肉专用浅盆或陶盆",
+    "minTemp": 5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:30.408Z",
+    "_createdAt": "2026-06-10T13:23:30.408Z"
+  },
+  {
+    "_id": "87ab6b3b6a29655200033bea59b2f7b5",
+    "id": "lemon-balm",
+    "name": "香蜂草",
+    "scientificName": "Melissa officinalis",
+    "category": "herb",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "partial",
+    "water": "medium",
+    "harvestDays": 40,
+    "description": "<p>香蜂草是薄荷的近亲，叶片带有清新的柠檬香气。泡茶安神助眠，做沙拉提味，是阳台香草园的优雅成员。</p>",
+    "tips": "<p>1. 播种或扦插均可，成活率极高<br>2. 喜半阴湿润环境，怕强光暴晒<br>3. 定期修剪促分枝，越长越旺<br>4. 夏末开小白花，也可观赏</p>",
+    "balconyFit": "<p>东向或北向阳台最佳，喜半阴环境。地栽会泛滥，盆栽正好控制。</p>",
+    "suitableOrientations": [
+      "east",
+      "north"
+    ],
+    "minPotDepth": 15,
+    "suitablePot": "2加仑盆",
+    "minTemp": -10,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:30.111Z",
+    "_createdAt": "2026-06-10T13:23:30.111Z"
+  },
+  {
+    "_id": "ca7f69d06a2965510018785e56d0ad68",
+    "id": "arugula",
+    "name": "芝麻菜",
+    "scientificName": "Eruca vesicaria",
+    "category": "herb",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "partial",
+    "water": "medium",
+    "harvestDays": 25,
+    "description": "<p>芝麻菜是西餐沙拉中的明星绿叶菜，带有独特的坚果辛香味。长得快、好管理，是阳台种菜入门首选之一。</p>",
+    "tips": "<p>1. 撒播即可，出苗后间苗至10cm<br>2. 喜凉爽，高温易抽薹开花<br>3. 掰外叶采收可多次收获<br>4. 开花后叶片变苦，及时采摘</p>",
+    "balconyFit": "<p>东向或南向阳台，春秋表现最佳。浅盆也能种好。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 12,
+    "suitablePot": "长条浅盆或2加仑盆",
+    "minTemp": 0,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:29.848Z",
+    "_createdAt": "2026-06-10T13:23:29.848Z"
+  },
+  {
+    "_id": "87ab6b3b6a29655100033be05f488e52",
+    "id": "edamame",
+    "name": "毛豆",
+    "scientificName": "Glycine max",
+    "category": "vegetable",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 70,
+    "description": "<p>毛豆就是新鲜的大豆，嫩荚水煮后是绝佳零食和下酒菜。植株不高，适合阳台盆栽，一家人种几盆就够吃一顿。</p>",
+    "tips": "<p>1. 直播点播，每穴2-3粒种子<br>2. 豆科植物有根瘤菌可自固氮，少施氮肥<br>3. 开花结荚期保持水分充足<br>4. 豆荚饱满但未变黄时采收</p>",
+    "balconyFit": "<p>南向或东向阳台。植株矮壮不占空间，密植一盆能收不少。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 20,
+    "suitablePot": "3加仑盆或长条盆",
+    "minTemp": 8,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:29.625Z",
+    "_createdAt": "2026-06-10T13:23:29.625Z"
+  },
+  {
+    "_id": "176964606a296551002a4a4e4ae8e7f0",
+    "id": "chinese-yam",
+    "name": "山药",
+    "scientificName": "Dioscorea polystachya",
+    "category": "vegetable",
+    "difficulty": "hard",
+    "season": [
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 180,
+    "description": "<p>山药是滋补食材中的上品，阳台用深容器栽培也能收获。藤蔓沿着支架攀爬，绿叶成荫也好看。</p>",
+    "tips": "<p>1. 用山药嘴子或零余子（山药豆）繁殖<br>2. 需要深50cm以上的容器<br>3. 搭高架让藤蔓攀爬<br>4. 秋末茎叶枯黄后挖取</p>",
+    "balconyFit": "<p>南向阳台+深容器+高攀爬架。生长周期长但管理简单，适合有耐心的种植者。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 50,
+    "suitablePot": "特深种植桶+高1.5m以上支架",
+    "minTemp": 5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:29.308Z",
+    "_createdAt": "2026-06-10T13:23:29.308Z"
+  },
+  {
+    "_id": "3aca41eb6a2965510002e3d37a71eba0",
+    "id": "pumpkin",
+    "name": "南瓜",
+    "scientificName": "Cucurbita moschata",
+    "category": "vegetable",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏"
+    ],
+    "sunlight": "full",
+    "water": "high",
+    "harvestDays": 80,
+    "description": "<p>阳台种南瓜要用矮生品种，搭个小架子让它爬藤。金黄色的花朵和可爱的果实既是食材也是风景。</p>",
+    "tips": "<p>1. 选择矮生或小型品种（贝贝南瓜等）<br>2. 需大盆（10加仑以上）和支架<br>3. 人工授粉提高坐果率（雄花对雌花）<br>4. 藤蔓可修剪控制长度</p>",
+    "balconyFit": "<p>南向阳台，需要较大空间和支架。选矮生品种成功率高。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 35,
+    "suitablePot": "10加仑以上深盆+攀爬架",
+    "minTemp": 10,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:29.067Z",
+    "_createdAt": "2026-06-10T13:23:29.067Z"
+  },
+  {
+    "_id": "176964606a296550002a4a485593c4cb",
+    "id": "onion",
+    "name": "洋葱",
+    "scientificName": "Allium cepa",
+    "category": "vegetable",
+    "difficulty": "easy",
+    "season": [
+      "秋",
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 100,
+    "description": "<p>洋葱是厨房必备调味菜，阳台种植占空间小、病虫害少。既可以收获鳞茎，嫩苗期也可当青葱食用。</p>",
+    "tips": "<p>1. 直播需疏松沙质土，条播间距10cm<br>2. 苗期保持湿润，鳞茎膨大期减少浇水<br>3. 叶片倒伏变黄时即可收获<br>4. 也可用洋葱底部水培生根观赏</p>",
+    "balconyFit": "<p>南向阳台，全日照条件下鳞茎膨大最好。也可播种在深盆密植收小洋葱。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 20,
+    "suitablePot": "长条盆密植或单棵3加仑盆",
+    "minTemp": -5,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:28.793Z",
+    "_createdAt": "2026-06-10T13:23:28.793Z"
+  },
+  {
+    "_id": "176964606a296550002a4a41227f5b52",
+    "id": "cauliflower",
+    "name": "花椰菜",
+    "scientificName": "Brassica oleracea var. botrytis",
+    "category": "vegetable",
+    "difficulty": "medium",
+    "season": [
+      "秋",
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 65,
+    "description": "<p>花椰菜是甘蓝家族的明星成员，洁白的半球形花球营养丰富。阳台种一棵，看它从一片叶子中慢慢膨大出花球，很有成就感。</p>",
+    "tips": "<p>1. 喜冷凉气候，秋季种植品质最佳<br>2. 花球开始形成时遮光绑叶，保持洁白<br>3. 需肥量较大，生长期每两周追肥一次<br>4. 花球直径15-20cm时及时采收</p>",
+    "balconyFit": "<p>南向或西向阳台最佳。需要25cm以上深度的盆，单棵占盆种。</p>",
+    "suitableOrientations": [
+      "south",
+      "west"
+    ],
+    "minPotDepth": 25,
+    "suitablePot": "3加仑以上深盆",
+    "minTemp": 0,
+    "image": "",
+    "imagePosition": "50% 50%",
+    "featured": false,
+    "status": "published",
+    "_updatedAt": "2026-06-10T13:23:28.479Z",
+    "_createdAt": "2026-06-10T13:23:28.479Z"
+  },
+  {
+    "_id": "11d826726a26ca85004c37d150cdd640",
+    "id": "marigold",
+    "name": "万寿菊",
+    "scientificName": "Tagetes erecta",
+    "category": "flower",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 30,
+    "description": "<p>万寿菊金黄色的花球热情奔放，花期超长且几乎不生虫。它还是天然的「驱虫植物」，种在菜旁边能减少害虫。</p>",
+    "tips": "<p>1. 种子播种出苗快，一周发芽<br>2. 喜光不怕晒，越晒越壮<br>3. 花后摘除残花持续开花<br>4. 与蔬菜间种防虫效果好</p>",
+    "balconyFit": "<p>南向阳台，与蔬菜混种效果最佳。全日照环境下花量最大。</p>",
+    "suitableOrientations": [
+      "south",
+      "west"
+    ],
+    "minPotDepth": 18,
+    "suitablePot": "2加仑以上花盆",
+    "minTemp": 5,
+    "_updatedAt": "2026-06-10T13:22:52.966Z",
+    "_createdAt": "2026-06-08T13:58:29.754Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781097758770-abdc8498.png?sign=1e9d433ecad62b0c869ec708526c38ff&t=1781097759",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "34d5e8e86a26ca8b00b0ac7d4a7f822a",
+    "id": "carnation",
+    "name": "康乃馨",
+    "scientificName": "Dianthus caryophyllus",
+    "category": "flower",
+    "difficulty": "medium",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 30,
+    "description": "<p>康乃馨是母爱的象征，盆栽品种株型紧凑，花色从粉红到深红，花瓣边缘有精致的锯齿，花期持久。</p>",
+    "tips": "<p>1. 选择盆栽品种，植株矮壮<br>2. 喜光，光照充足花色艳丽<br>3. 土壤偏碱性更好，可加少量石灰<br>4. 花后剪掉花梗促进再开花</p>",
+    "balconyFit": "<p>南向或西向阳台，干燥通风环境最佳。</p>",
+    "suitableOrientations": [
+      "south",
+      "west"
+    ],
+    "minPotDepth": 18,
+    "suitablePot": "2加仑花盆",
+    "minTemp": 3,
+    "_updatedAt": "2026-06-10T13:18:16.648Z",
+    "_createdAt": "2026-06-08T13:58:35.038Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781097463662-242b30d5.png?sign=e8ba19829c092ddfaf4d7c240b1d9a38&t=1781097464",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "34d5e8e86a26ca8300b0ac0358711b5e",
+    "id": "impatiens",
+    "name": "凤仙花",
+    "scientificName": "Impatiens walleriana",
+    "category": "flower",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏",
+      "秋"
+    ],
+    "sunlight": "partial",
+    "water": "medium",
+    "harvestDays": 30,
+    "description": "<p>凤仙花（指甲花）是童年的回忆，花瓣可以染指甲。花期极长，从春开到秋，半阴环境下也能花开满盆。</p>",
+    "tips": "<p>1. 种子直播或扦插繁殖<br>2. 半阴处开花最好，强光易萎蔫<br>3. 保持土壤湿润但不能积水<br>4. 果实成熟后会自己弹射种子</p>",
+    "balconyFit": "<p>东向阳台最佳，晨光柔和。也可北向阳台种植。</p>",
+    "suitableOrientations": [
+      "east",
+      "north"
+    ],
+    "minPotDepth": 15,
+    "suitablePot": "2加仑花盆或挂盆",
+    "minTemp": 8,
+    "_updatedAt": "2026-06-10T13:16:28.549Z",
+    "_createdAt": "2026-06-08T13:58:27.098Z",
+    "featured": false,
+    "imagePosition": "50% 50%",
+    "status": "published",
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781097366266-96c44b58.png?sign=42295b791519b1f81aa25217fb594cb7&t=1781097367"
+  },
+  {
+    "_id": "15a233946a26ca8802444d91409a4087",
+    "id": "violet",
+    "name": "紫罗兰",
+    "scientificName": "Matthiola incana",
+    "category": "flower",
+    "difficulty": "medium",
+    "season": [
+      "秋",
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 30,
+    "description": "<p>紫罗兰是经典的芳香花卉，花穗挺拔，香气浓郁迷人。阳台种一盆，整个角落都弥漫着甜美的花香。</p>",
+    "tips": "<p>1. 喜凉爽，怕高温，秋播春开花<br>2. 需要充足光照<br>3. 花序从下往上开，花期持续一个月<br>4. 花后收集种子明年再种</p>",
+    "balconyFit": "<p>南向或东向阳台，秋冬春季观赏。夏季需遮阴度夏。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 20,
+    "suitablePot": "3加仑花盆",
+    "minTemp": -3,
+    "_updatedAt": "2026-06-10T13:08:55.548Z",
+    "_createdAt": "2026-06-08T13:58:32.394Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781096929508-895c79bc.png?sign=5d36df352d38119c4c9cd0142103ca72&t=1781096930",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "15a233946a26ca9002444e301a6ea3e2",
+    "id": "rubber-plant",
+    "name": "橡皮树",
+    "scientificName": "Ficus elastica",
+    "category": "foliage",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏",
+      "秋"
+    ],
+    "sunlight": "partial",
+    "water": "low",
+    "harvestDays": 30,
+    "description": "<p>橡皮树宽大油亮的叶片充满热带风情，黑金刚品种的叶片近乎黑色，极富现代感。极度耐阴耐旱，懒人绿植首选。</p>",
+    "tips": "<p>1. 宁干勿湿，冬季可一个月浇一次<br>2. 叶片定期用湿布擦拭保持光泽<br>3. 太高了可以打顶控制高度<br>4. 汁液白色有微毒，避免接触</p>",
+    "balconyFit": "<p>东向或明亮北向阳台。大型品种空间要够。</p>",
+    "suitableOrientations": [
+      "east",
+      "north"
+    ],
+    "minPotDepth": 25,
+    "suitablePot": "5加仑以上大盆",
+    "minTemp": 8,
+    "_updatedAt": "2026-06-10T05:01:36.835Z",
+    "_createdAt": "2026-06-08T13:58:40.321Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781067672866-15f1d1a4.png?sign=3a6872e8d1c1417e792f6a1f69c69854&t=1781067673",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "11d826726a26ca93004c38751d6a3d84",
+    "id": "fiddle-leaf-fig",
+    "name": "琴叶榕",
+    "scientificName": "Ficus lyrata",
+    "category": "foliage",
+    "difficulty": "medium",
+    "season": [
+      "春",
+      "夏",
+      "秋"
+    ],
+    "sunlight": "partial",
+    "water": "medium",
+    "harvestDays": 30,
+    "description": "<p>琴叶榕是ins上最火的网红绿植，巨大的提琴形叶片线条优美，一棵就能撑起整个空间的颜值。但出了名的难伺候。</p>",
+    "tips": "<p>1. 固定位置不要频繁移动<br>2. 喜明亮散射光，冬季可适当直射<br>3. 土壤干了再浇透，怕涝<br>4. 定期转动花盆防偏冠</p>",
+    "balconyFit": "<p>东向或明亮南向阳台（避免夏日正午直射）。空间要足够大。</p>",
+    "suitableOrientations": [
+      "east",
+      "south"
+    ],
+    "minPotDepth": 30,
+    "suitablePot": "7加仑以上大盆",
+    "minTemp": 12,
+    "_updatedAt": "2026-06-10T04:54:53.981Z",
+    "_createdAt": "2026-06-08T13:58:42.953Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781067285548-b97ffb1f.png?sign=37635fbf16a4c4316e41c2f1d38443d8&t=1781067286",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "5e4631556a26caa80052b5d94d8363cc",
+    "id": "pomegranate",
+    "name": "石榴（矮化）",
+    "scientificName": "Punica granatum (dwarf)",
+    "category": "fruit",
+    "difficulty": "medium",
+    "season": [
+      "春"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 365,
+    "description": "<p>矮化石榴专为盆栽培育，株高仅50-80cm就能开花结果。春夏之交满树火红花朵，秋天挂满红灯笼般的小石榴，观花观果两相宜。</p>",
+    "tips": "<p>1. 需要充足光照才能开花结果<br>2. 春季修剪促发新枝<br>3. 花期适当控水提高坐果率<br>4. 冬季落叶休眠，减少浇水</p>",
+    "balconyFit": "<p>南向阳台，全日照。矮化品种不需太大空间。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 25,
+    "suitablePot": "5加仑以上花盆",
+    "minTemp": -10,
+    "_updatedAt": "2026-06-10T01:02:38.804Z",
+    "_createdAt": "2026-06-08T13:59:04.143Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781053353436-359014df.png?sign=cfa7a712c1e4e54feecb805920b41b28&t=1781053354",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "34d5e8e86a26ca9800b0ad5b7fb3b342",
+    "id": "crocus",
+    "name": "番红花",
+    "scientificName": "Crocus sativus",
+    "category": "bulb",
+    "difficulty": "easy",
+    "season": [
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 30,
+    "description": "<p>番红花是春天的信使，在冬末春初最早破土开花。小巧的杯状花朵有紫、白、黄等色。部分品种的花蕊就是珍贵的藏红花。</p>",
+    "tips": "<p>1. 秋季种球根，覆土5cm深<br>2. 需要冬季低温才能开花<br>3. 群植效果最佳，密植更壮观<br>4. 花后保留叶片养球</p>",
+    "balconyFit": "<p>南向或东向阳台。适合浅盆栽种密植。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 12,
+    "suitablePot": "宽口浅盆密植",
+    "minTemp": -15,
+    "_updatedAt": "2026-06-09T15:54:59.444Z",
+    "_createdAt": "2026-06-08T13:58:48.237Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781020494982-0ed0ac4b.png?sign=fbe5e68c3227457b971b2da72a5a18fe&t=1781020495",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "5e4631556a26ca8d0052b52144a7edf1",
+    "id": "asparagus-fern",
+    "name": "文竹",
+    "scientificName": "Asparagus setaceus",
+    "category": "foliage",
+    "difficulty": "medium",
+    "season": [
+      "春",
+      "夏",
+      "秋"
+    ],
+    "sunlight": "partial",
+    "water": "medium",
+    "harvestDays": 30,
+    "description": "<p>文竹体态轻盈如云似雾，细碎的叶片像微型竹叶，摆在书房案头自带文雅气质。其实它不是竹子而是天门冬科的植物。</p>",
+    "tips": "<p>1. 喜半阴散射光，直射光会黄叶<br>2. 保持空气湿度，经常喷雾<br>3. 修剪黄叶和过密枝条<br>4. 怕烟尘，远离厨房油烟</p>",
+    "balconyFit": "<p>东向或北向阳台，明亮散射光处。需要一定空气湿度。</p>",
+    "suitableOrientations": [
+      "east",
+      "north"
+    ],
+    "minPotDepth": 15,
+    "suitablePot": "透气陶盆",
+    "minTemp": 5,
+    "_updatedAt": "2026-06-09T15:22:15.349Z",
+    "_createdAt": "2026-06-08T13:58:37.690Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781018529770-f11cbf4f.png?sign=c61de7c16e5efe7e250731f526d141f4&t=1781018530",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "5e4631556a26ca950052b5533e8dbcfd",
+    "id": "coleus",
+    "name": "彩叶草",
+    "scientificName": "Coleus scutellarioides",
+    "category": "foliage",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏",
+      "秋"
+    ],
+    "sunlight": "partial",
+    "water": "medium",
+    "harvestDays": 30,
+    "description": "<p>彩叶草的叶片色彩斑斓胜过花朵，红、黄、紫、绿交织成绚丽的图案。品种繁多，几盆不同颜色放在一起就是一道彩虹。</p>",
+    "tips": "<p>1. 扦插极易成活，一盆变十盆<br>2. 光线影响叶色，明亮光下颜色更艳<br>3. 掐顶促分枝，株形更丰满<br>4. 开花后植株老化，及时修剪花穗</p>",
+    "balconyFit": "<p>东向或南向阳台。不同品种混搭观赏效果极佳。</p>",
+    "suitableOrientations": [
+      "east",
+      "south"
+    ],
+    "minPotDepth": 15,
+    "suitablePot": "2加仑花盆，多种几色",
+    "minTemp": 10,
+    "_updatedAt": "2026-06-09T15:15:10.617Z",
+    "_createdAt": "2026-06-08T13:58:45.600Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781018106377-a0e269a0.png?sign=710bd23b62d9ec80552d09be30437f86&t=1781018107",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "15a233946a26ca620244416f47ad16d1",
+    "id": "bok-choy",
+    "name": "小白菜",
+    "scientificName": "Brassica rapa subsp. chinensis",
+    "category": "vegetable",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "partial",
+    "water": "medium",
+    "harvestDays": 30,
+    "description": "<p>小白菜（上海青）是中国人餐桌上的当家绿叶菜，生长快、管理简单，一年可以种好几茬。阳台种上一盆，随吃随摘。</p>",
+    "tips": "<p>1. 撒播或条播均可，出苗后间苗至株距5-8cm<br>2. 保持土壤湿润，快速生长口感才嫩<br>3. 20-30天可采收小苗，40天长成大棵<br>4. 分批播种，实现持续供应</p>",
+    "balconyFit": "<p>春秋两季东向或南向阳台表现最佳。夏季需遮阴防抽薹。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 15,
+    "suitablePot": "长条盆或2加仑盆",
+    "minTemp": 3,
+    "_updatedAt": "2026-06-09T15:07:51.703Z",
+    "_createdAt": "2026-06-08T13:57:54.833Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781017666050-3fb60c62.png?sign=0a96aad34f6756a6f2cf550aaf24e65a&t=1781017666",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "11d826726a26ca9d004c38b1420bf4c7",
+    "id": "graptopetalum",
+    "name": "白牡丹",
+    "scientificName": "Graptopetalum paraguayense",
+    "category": "succulent",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "low",
+    "harvestDays": 30,
+    "description": "<p>白牡丹是多肉中的「普货之王」，价格便宜但颜值不低。叶片排列如白色牡丹花，出了状态叶尖泛粉，温润如玉。</p>",
+    "tips": "<p>1. 叶插成活率极高，一片叶子就是一棵<br>2. 多晒太阳，少浇水<br>3. 夏季适当遮阴防暴晒<br>4. 配土颗粒比例50%以上</p>",
+    "balconyFit": "<p>南向阳台全日照最佳，控水后状态更美。</p>",
+    "suitableOrientations": [
+      "south",
+      "east"
+    ],
+    "minPotDepth": 8,
+    "suitablePot": "多肉专用小盆",
+    "minTemp": 3,
+    "_updatedAt": "2026-06-09T15:01:40.599Z",
+    "_createdAt": "2026-06-08T13:58:53.534Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781017296278-3826f379.png?sign=43760a52c55f8b5bc415559f74f18c0b&t=1781017296",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "11d826726a26caa0004c38c4492071ad",
+    "id": "black-aeonium",
+    "name": "黑法师",
+    "scientificName": "Aeonium arboreum 'Zwartkop'",
+    "category": "succulent",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "low",
+    "harvestDays": 30,
+    "description": "<p>黑法师是多肉中的暗黑系代表，深紫近乎黑色的莲座状叶片神秘而高贵。株形像一棵迷你树，是多肉老桩的经典品种。</p>",
+    "tips": "<p>1. 夏季休眠，严格控水<br>2. 秋冬春季生长，叶片颜色最深<br>3. 光照不足叶片会变绿<br>4. 砍头繁殖，一枝变多枝</p>",
+    "balconyFit": "<p>南向阳台全日照，出状态后黑色更深邃。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 12,
+    "suitablePot": "透气陶盆或紫砂盆",
+    "minTemp": 5,
+    "_updatedAt": "2026-06-09T14:50:14.705Z",
+    "_createdAt": "2026-06-08T13:58:56.176Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781016607182-dcdf5e84.png?sign=2a0507d6200eb4eb4b45fcfcd32a751d&t=1781016607",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "5e4631556a26caaa0052b5f070c3a083",
+    "id": "dragon-fruit",
+    "name": "火龙果",
+    "scientificName": "Hylocereus undatus",
+    "category": "fruit",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "夏"
+    ],
+    "sunlight": "full",
+    "water": "low",
+    "harvestDays": 365,
+    "description": "<p>火龙果是仙人掌科的果树，超级耐旱好养。用种子种一盆火龙果小苗，毛茸茸的像微型仙人掌森林，可爱到爆。盆栽也能开花结果。</p>",
+    "tips": "<p>1. 从火龙果中取种子洗净播种<br>2. 小苗期观赏毛茸茸的丛生状态<br>3. 长大后需要支架攀爬<br>4. 耐旱怕涝，仙人掌一样养</p>",
+    "balconyFit": "<p>南向阳台。从小苗到结果需要2-3年，前期当多肉观赏。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 25,
+    "suitablePot": "5加仑以上大盆+攀爬架",
+    "minTemp": 8,
+    "_updatedAt": "2026-06-09T14:39:30.779Z",
+    "_createdAt": "2026-06-08T13:59:06.875Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781015965676-013379b4.png?sign=72b2650cdceeab64988dc295e307f237&t=1781015966",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "34d5e8e86a26caa200b0afd26202da86",
+    "id": "chihuahua-echeveria",
+    "name": "吉娃娃",
+    "scientificName": "Echeveria chihuahuaensis",
+    "category": "succulent",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "low",
+    "harvestDays": 30,
+    "description": "<p>吉娃娃是多肉中的「小公主」，紧凑的莲座形配上鲜红的叶尖，像涂了口红一样精致可爱。株形小巧不占地方。</p>",
+    "tips": "<p>1. 多晒太阳叶尖才红<br>2. 严格控水，半个月浇一次<br>3. 夏季遮阴通风<br>4. 叶片上白粉不要用手摸</p>",
+    "balconyFit": "<p>南向窗台或阳台，控水+暴晒出最佳状态。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 8,
+    "suitablePot": "多肉专用小盆",
+    "minTemp": 3,
+    "_updatedAt": "2026-06-09T13:41:44.883Z",
+    "_createdAt": "2026-06-08T13:58:58.870Z",
+    "featured": false,
+    "imagePosition": "50% 50%",
+    "status": "published",
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781012499237-9cf9c54c.png?sign=011629829c2ba197cbe0aed8fd6e8b2f&t=1781012499"
+  },
+  {
+    "_id": "5e4631556a26ca680052b40b6499af6f",
+    "id": "carrot",
+    "name": "胡萝卜",
+    "scientificName": "Daucus carota subsp. sativus",
+    "category": "vegetable",
+    "difficulty": "medium",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "medium",
+    "harvestDays": 70,
+    "description": "<p>自己种的胡萝卜比超市的甜十倍！选择短根品种（如手指胡萝卜），在深盆里也能种出漂亮的橙色萝卜。</p>",
+    "tips": "<p>1. 必须用疏松沙质土，板结土长不出直根<br>2. 直播不移植，根系怕打扰<br>3. 间苗距5-8cm，太密长不大<br>4. 施肥少氮多钾，否则只长叶子不长根</p>",
+    "balconyFit": "<p>南向阳台，需要深25cm以上的容器。土壤疏松是成功关键。</p>",
+    "suitableOrientations": [
+      "south",
+      "west"
+    ],
+    "minPotDepth": 25,
+    "suitablePot": "深桶盆或加高种植箱",
+    "minTemp": 3,
+    "_updatedAt": "2026-06-09T13:35:11.794Z",
+    "_createdAt": "2026-06-08T13:58:00.395Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781012105868-02273305.png?sign=62050c41cbab823e511c6cc12d86b0a7&t=1781012106",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
+    "_id": "15a233946a26caa502445902411b5ca5",
+    "id": "echeveria-elegans",
+    "name": "蓝石莲",
+    "scientificName": "Echeveria elegans",
+    "category": "succulent",
+    "difficulty": "easy",
+    "season": [
+      "春",
+      "秋"
+    ],
+    "sunlight": "full",
+    "water": "low",
+    "harvestDays": 30,
+    "description": "<p>蓝石莲（皮氏石莲）披着一层梦幻的蓝白色粉末，叶片边缘微微透明，像冰晶凝结而成。是多肉拼盘中的颜值担当。</p>",
+    "tips": "<p>1. 喜强光，缺光会摊大饼<br>2. 干透浇透，夏季控水<br>3. 叶片白粉是保护层，不要擦掉<br>4. 叶插或分株繁殖</p>",
+    "balconyFit": "<p>南向阳台，阳光越多粉越厚越蓝。</p>",
+    "suitableOrientations": [
+      "south"
+    ],
+    "minPotDepth": 8,
+    "suitablePot": "多肉拼盘或单盆",
+    "minTemp": 3,
+    "_updatedAt": "2026-06-09T13:30:59.978Z",
+    "_createdAt": "2026-06-08T13:59:01.511Z",
+    "featured": false,
+    "image": "https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1781011854940-56e5ffb8.png?sign=d0357dade43ed2b534d077dd589ae5b7&t=1781011855",
+    "imagePosition": "50% 50%",
+    "status": "published"
+  },
+  {
     "_id": "15a233946a25925701e973ee15a41dd4",
     "id": "cucumber",
     "name": "黄瓜",
@@ -309,466 +2415,6 @@
     "status": "published"
   },
   {
-    "_id": "5e4631556a26caaa0052b5f070c3a083",
-    "id": "dragon-fruit",
-    "name": "火龙果",
-    "scientificName": "Hylocereus undatus",
-    "category": "fruit",
-    "difficulty": "easy",
-    "season": [
-      "春",
-      "夏"
-    ],
-    "sunlight": "full",
-    "water": "low",
-    "harvestDays": 365,
-    "description": "<p>火龙果是仙人掌科的果树，超级耐旱好养。用种子种一盆火龙果小苗，毛茸茸的像微型仙人掌森林，可爱到爆。盆栽也能开花结果。</p>",
-    "tips": "<p>1. 从火龙果中取种子洗净播种<br>2. 小苗期观赏毛茸茸的丛生状态<br>3. 长大后需要支架攀爬<br>4. 耐旱怕涝，仙人掌一样养</p>",
-    "balconyFit": "<p>南向阳台。从小苗到结果需要2-3年，前期当多肉观赏。</p>",
-    "suitableOrientations": [
-      "south"
-    ],
-    "minPotDepth": 25,
-    "suitablePot": "5加仑以上大盆+攀爬架",
-    "minTemp": 8,
-    "_updatedAt": "2026-06-08T13:59:06.875Z",
-    "_createdAt": "2026-06-08T13:59:06.875Z"
-  },
-  {
-    "_id": "5e4631556a26caa80052b5d94d8363cc",
-    "id": "pomegranate",
-    "name": "石榴（矮化）",
-    "scientificName": "Punica granatum (dwarf)",
-    "category": "fruit",
-    "difficulty": "medium",
-    "season": [
-      "春"
-    ],
-    "sunlight": "full",
-    "water": "medium",
-    "harvestDays": 365,
-    "description": "<p>矮化石榴专为盆栽培育，株高仅50-80cm就能开花结果。春夏之交满树火红花朵，秋天挂满红灯笼般的小石榴，观花观果两相宜。</p>",
-    "tips": "<p>1. 需要充足光照才能开花结果<br>2. 春季修剪促发新枝<br>3. 花期适当控水提高坐果率<br>4. 冬季落叶休眠，减少浇水</p>",
-    "balconyFit": "<p>南向阳台，全日照。矮化品种不需太大空间。</p>",
-    "suitableOrientations": [
-      "south"
-    ],
-    "minPotDepth": 25,
-    "suitablePot": "5加仑以上花盆",
-    "minTemp": -10,
-    "_updatedAt": "2026-06-08T13:59:04.143Z",
-    "_createdAt": "2026-06-08T13:59:04.143Z"
-  },
-  {
-    "_id": "15a233946a26caa502445902411b5ca5",
-    "id": "echeveria-elegans",
-    "name": "蓝石莲",
-    "scientificName": "Echeveria elegans",
-    "category": "succulent",
-    "difficulty": "easy",
-    "season": [
-      "春",
-      "秋"
-    ],
-    "sunlight": "full",
-    "water": "low",
-    "harvestDays": 0,
-    "description": "<p>蓝石莲（皮氏石莲）披着一层梦幻的蓝白色粉末，叶片边缘微微透明，像冰晶凝结而成。是多肉拼盘中的颜值担当。</p>",
-    "tips": "<p>1. 喜强光，缺光会摊大饼<br>2. 干透浇透，夏季控水<br>3. 叶片白粉是保护层，不要擦掉<br>4. 叶插或分株繁殖</p>",
-    "balconyFit": "<p>南向阳台，阳光越多粉越厚越蓝。</p>",
-    "suitableOrientations": [
-      "south"
-    ],
-    "minPotDepth": 8,
-    "suitablePot": "多肉拼盘或单盆",
-    "minTemp": 3,
-    "_updatedAt": "2026-06-08T13:59:01.511Z",
-    "_createdAt": "2026-06-08T13:59:01.511Z"
-  },
-  {
-    "_id": "34d5e8e86a26caa200b0afd26202da86",
-    "id": "chihuahua-echeveria",
-    "name": "吉娃娃",
-    "scientificName": "Echeveria chihuahuaensis",
-    "category": "succulent",
-    "difficulty": "easy",
-    "season": [
-      "春",
-      "秋"
-    ],
-    "sunlight": "full",
-    "water": "low",
-    "harvestDays": 0,
-    "description": "<p>吉娃娃是多肉中的「小公主」，紧凑的莲座形配上鲜红的叶尖，像涂了口红一样精致可爱。株形小巧不占地方。</p>",
-    "tips": "<p>1. 多晒太阳叶尖才红<br>2. 严格控水，半个月浇一次<br>3. 夏季遮阴通风<br>4. 叶片上白粉不要用手摸</p>",
-    "balconyFit": "<p>南向窗台或阳台，控水+暴晒出最佳状态。</p>",
-    "suitableOrientations": [
-      "south"
-    ],
-    "minPotDepth": 8,
-    "suitablePot": "多肉专用小盆",
-    "minTemp": 3,
-    "_updatedAt": "2026-06-08T13:58:58.870Z",
-    "_createdAt": "2026-06-08T13:58:58.870Z"
-  },
-  {
-    "_id": "11d826726a26caa0004c38c4492071ad",
-    "id": "black-aeonium",
-    "name": "黑法师",
-    "scientificName": "Aeonium arboreum 'Zwartkop'",
-    "category": "succulent",
-    "difficulty": "easy",
-    "season": [
-      "春",
-      "秋"
-    ],
-    "sunlight": "full",
-    "water": "low",
-    "harvestDays": 0,
-    "description": "<p>黑法师是多肉中的暗黑系代表，深紫近乎黑色的莲座状叶片神秘而高贵。株形像一棵迷你树，是多肉老桩的经典品种。</p>",
-    "tips": "<p>1. 夏季休眠，严格控水<br>2. 秋冬春季生长，叶片颜色最深<br>3. 光照不足叶片会变绿<br>4. 砍头繁殖，一枝变多枝</p>",
-    "balconyFit": "<p>南向阳台全日照，出状态后黑色更深邃。</p>",
-    "suitableOrientations": [
-      "south"
-    ],
-    "minPotDepth": 12,
-    "suitablePot": "透气陶盆或紫砂盆",
-    "minTemp": 5,
-    "_updatedAt": "2026-06-08T13:58:56.176Z",
-    "_createdAt": "2026-06-08T13:58:56.176Z"
-  },
-  {
-    "_id": "11d826726a26ca9d004c38b1420bf4c7",
-    "id": "graptopetalum",
-    "name": "白牡丹",
-    "scientificName": "Graptopetalum paraguayense",
-    "category": "succulent",
-    "difficulty": "easy",
-    "season": [
-      "春",
-      "秋"
-    ],
-    "sunlight": "full",
-    "water": "low",
-    "harvestDays": 0,
-    "description": "<p>白牡丹是多肉中的「普货之王」，价格便宜但颜值不低。叶片排列如白色牡丹花，出了状态叶尖泛粉，温润如玉。</p>",
-    "tips": "<p>1. 叶插成活率极高，一片叶子就是一棵<br>2. 多晒太阳，少浇水<br>3. 夏季适当遮阴防暴晒<br>4. 配土颗粒比例50%以上</p>",
-    "balconyFit": "<p>南向阳台全日照最佳，控水后状态更美。</p>",
-    "suitableOrientations": [
-      "south",
-      "east"
-    ],
-    "minPotDepth": 8,
-    "suitablePot": "多肉专用小盆",
-    "minTemp": 3,
-    "_updatedAt": "2026-06-08T13:58:53.534Z",
-    "_createdAt": "2026-06-08T13:58:53.534Z"
-  },
-  {
-    "_id": "34d5e8e86a26ca9800b0ad5b7fb3b342",
-    "id": "crocus",
-    "name": "番红花",
-    "scientificName": "Crocus sativus",
-    "category": "bulb",
-    "difficulty": "easy",
-    "season": [
-      "秋"
-    ],
-    "sunlight": "full",
-    "water": "medium",
-    "harvestDays": 0,
-    "description": "<p>番红花是春天的信使，在冬末春初最早破土开花。小巧的杯状花朵有紫、白、黄等色。部分品种的花蕊就是珍贵的藏红花。</p>",
-    "tips": "<p>1. 秋季种球根，覆土5cm深<br>2. 需要冬季低温才能开花<br>3. 群植效果最佳，密植更壮观<br>4. 花后保留叶片养球</p>",
-    "balconyFit": "<p>南向或东向阳台。适合浅盆栽种密植。</p>",
-    "suitableOrientations": [
-      "south",
-      "east"
-    ],
-    "minPotDepth": 12,
-    "suitablePot": "宽口浅盆密植",
-    "minTemp": -15,
-    "_updatedAt": "2026-06-08T13:58:48.237Z",
-    "_createdAt": "2026-06-08T13:58:48.237Z"
-  },
-  {
-    "_id": "5e4631556a26ca950052b5533e8dbcfd",
-    "id": "coleus",
-    "name": "彩叶草",
-    "scientificName": "Coleus scutellarioides",
-    "category": "foliage",
-    "difficulty": "easy",
-    "season": [
-      "春",
-      "夏",
-      "秋"
-    ],
-    "sunlight": "partial",
-    "water": "medium",
-    "harvestDays": 0,
-    "description": "<p>彩叶草的叶片色彩斑斓胜过花朵，红、黄、紫、绿交织成绚丽的图案。品种繁多，几盆不同颜色放在一起就是一道彩虹。</p>",
-    "tips": "<p>1. 扦插极易成活，一盆变十盆<br>2. 光线影响叶色，明亮光下颜色更艳<br>3. 掐顶促分枝，株形更丰满<br>4. 开花后植株老化，及时修剪花穗</p>",
-    "balconyFit": "<p>东向或南向阳台。不同品种混搭观赏效果极佳。</p>",
-    "suitableOrientations": [
-      "east",
-      "south"
-    ],
-    "minPotDepth": 15,
-    "suitablePot": "2加仑花盆，多种几色",
-    "minTemp": 10,
-    "_updatedAt": "2026-06-08T13:58:45.600Z",
-    "_createdAt": "2026-06-08T13:58:45.600Z"
-  },
-  {
-    "_id": "11d826726a26ca93004c38751d6a3d84",
-    "id": "fiddle-leaf-fig",
-    "name": "琴叶榕",
-    "scientificName": "Ficus lyrata",
-    "category": "foliage",
-    "difficulty": "medium",
-    "season": [
-      "春",
-      "夏",
-      "秋"
-    ],
-    "sunlight": "partial",
-    "water": "medium",
-    "harvestDays": 0,
-    "description": "<p>琴叶榕是ins上最火的网红绿植，巨大的提琴形叶片线条优美，一棵就能撑起整个空间的颜值。但出了名的难伺候。</p>",
-    "tips": "<p>1. 固定位置不要频繁移动<br>2. 喜明亮散射光，冬季可适当直射<br>3. 土壤干了再浇透，怕涝<br>4. 定期转动花盆防偏冠</p>",
-    "balconyFit": "<p>东向或明亮南向阳台（避免夏日正午直射）。空间要足够大。</p>",
-    "suitableOrientations": [
-      "east",
-      "south"
-    ],
-    "minPotDepth": 30,
-    "suitablePot": "7加仑以上大盆",
-    "minTemp": 12,
-    "_updatedAt": "2026-06-08T13:58:42.953Z",
-    "_createdAt": "2026-06-08T13:58:42.953Z"
-  },
-  {
-    "_id": "15a233946a26ca9002444e301a6ea3e2",
-    "id": "rubber-plant",
-    "name": "橡皮树",
-    "scientificName": "Ficus elastica",
-    "category": "foliage",
-    "difficulty": "easy",
-    "season": [
-      "春",
-      "夏",
-      "秋"
-    ],
-    "sunlight": "partial",
-    "water": "low",
-    "harvestDays": 0,
-    "description": "<p>橡皮树宽大油亮的叶片充满热带风情，黑金刚品种的叶片近乎黑色，极富现代感。极度耐阴耐旱，懒人绿植首选。</p>",
-    "tips": "<p>1. 宁干勿湿，冬季可一个月浇一次<br>2. 叶片定期用湿布擦拭保持光泽<br>3. 太高了可以打顶控制高度<br>4. 汁液白色有微毒，避免接触</p>",
-    "balconyFit": "<p>东向或明亮北向阳台。大型品种空间要够。</p>",
-    "suitableOrientations": [
-      "east",
-      "north"
-    ],
-    "minPotDepth": 25,
-    "suitablePot": "5加仑以上大盆",
-    "minTemp": 8,
-    "_updatedAt": "2026-06-08T13:58:40.321Z",
-    "_createdAt": "2026-06-08T13:58:40.321Z"
-  },
-  {
-    "_id": "5e4631556a26ca8d0052b52144a7edf1",
-    "id": "asparagus-fern",
-    "name": "文竹",
-    "scientificName": "Asparagus setaceus",
-    "category": "foliage",
-    "difficulty": "medium",
-    "season": [
-      "春",
-      "夏",
-      "秋"
-    ],
-    "sunlight": "partial",
-    "water": "medium",
-    "harvestDays": 0,
-    "description": "<p>文竹体态轻盈如云似雾，细碎的叶片像微型竹叶，摆在书房案头自带文雅气质。其实它不是竹子而是天门冬科的植物。</p>",
-    "tips": "<p>1. 喜半阴散射光，直射光会黄叶<br>2. 保持空气湿度，经常喷雾<br>3. 修剪黄叶和过密枝条<br>4. 怕烟尘，远离厨房油烟</p>",
-    "balconyFit": "<p>东向或北向阳台，明亮散射光处。需要一定空气湿度。</p>",
-    "suitableOrientations": [
-      "east",
-      "north"
-    ],
-    "minPotDepth": 15,
-    "suitablePot": "透气陶盆",
-    "minTemp": 5,
-    "_updatedAt": "2026-06-08T13:58:37.690Z",
-    "_createdAt": "2026-06-08T13:58:37.690Z"
-  },
-  {
-    "_id": "34d5e8e86a26ca8b00b0ac7d4a7f822a",
-    "id": "carnation",
-    "name": "康乃馨",
-    "scientificName": "Dianthus caryophyllus",
-    "category": "flower",
-    "difficulty": "medium",
-    "season": [
-      "春",
-      "秋"
-    ],
-    "sunlight": "full",
-    "water": "medium",
-    "harvestDays": 0,
-    "description": "<p>康乃馨是母爱的象征，盆栽品种株型紧凑，花色从粉红到深红，花瓣边缘有精致的锯齿，花期持久。</p>",
-    "tips": "<p>1. 选择盆栽品种，植株矮壮<br>2. 喜光，光照充足花色艳丽<br>3. 土壤偏碱性更好，可加少量石灰<br>4. 花后剪掉花梗促进再开花</p>",
-    "balconyFit": "<p>南向或西向阳台，干燥通风环境最佳。</p>",
-    "suitableOrientations": [
-      "south",
-      "west"
-    ],
-    "minPotDepth": 18,
-    "suitablePot": "2加仑花盆",
-    "minTemp": 3,
-    "_updatedAt": "2026-06-08T13:58:35.038Z",
-    "_createdAt": "2026-06-08T13:58:35.038Z"
-  },
-  {
-    "_id": "15a233946a26ca8802444d91409a4087",
-    "id": "violet",
-    "name": "紫罗兰",
-    "scientificName": "Matthiola incana",
-    "category": "flower",
-    "difficulty": "medium",
-    "season": [
-      "秋",
-      "春"
-    ],
-    "sunlight": "full",
-    "water": "medium",
-    "harvestDays": 0,
-    "description": "<p>紫罗兰是经典的芳香花卉，花穗挺拔，香气浓郁迷人。阳台种一盆，整个角落都弥漫着甜美的花香。</p>",
-    "tips": "<p>1. 喜凉爽，怕高温，秋播春开花<br>2. 需要充足光照<br>3. 花序从下往上开，花期持续一个月<br>4. 花后收集种子明年再种</p>",
-    "balconyFit": "<p>南向或东向阳台，秋冬春季观赏。夏季需遮阴度夏。</p>",
-    "suitableOrientations": [
-      "south",
-      "east"
-    ],
-    "minPotDepth": 20,
-    "suitablePot": "3加仑花盆",
-    "minTemp": -3,
-    "_updatedAt": "2026-06-08T13:58:32.394Z",
-    "_createdAt": "2026-06-08T13:58:32.394Z"
-  },
-  {
-    "_id": "11d826726a26ca85004c37d150cdd640",
-    "id": "marigold",
-    "name": "万寿菊",
-    "scientificName": "Tagetes erecta",
-    "category": "flower",
-    "difficulty": "easy",
-    "season": [
-      "春",
-      "夏",
-      "秋"
-    ],
-    "sunlight": "full",
-    "water": "medium",
-    "harvestDays": 0,
-    "description": "<p>万寿菊金黄色的花球热情奔放，花期超长且几乎不生虫。它还是天然的「驱虫植物」，种在菜旁边能减少害虫。</p>",
-    "tips": "<p>1. 种子播种出苗快，一周发芽<br>2. 喜光不怕晒，越晒越壮<br>3. 花后摘除残花持续开花<br>4. 与蔬菜间种防虫效果好</p>",
-    "balconyFit": "<p>南向阳台，与蔬菜混种效果最佳。全日照环境下花量最大。</p>",
-    "suitableOrientations": [
-      "south",
-      "west"
-    ],
-    "minPotDepth": 18,
-    "suitablePot": "2加仑以上花盆",
-    "minTemp": 5,
-    "_updatedAt": "2026-06-08T13:58:29.754Z",
-    "_createdAt": "2026-06-08T13:58:29.754Z"
-  },
-  {
-    "_id": "34d5e8e86a26ca8300b0ac0358711b5e",
-    "id": "impatiens",
-    "name": "凤仙花",
-    "scientificName": "Impatiens walleriana",
-    "category": "flower",
-    "difficulty": "easy",
-    "season": [
-      "春",
-      "夏",
-      "秋"
-    ],
-    "sunlight": "partial",
-    "water": "medium",
-    "harvestDays": 0,
-    "description": "<p>凤仙花（指甲花）是童年的回忆，花瓣可以染指甲。花期极长，从春开到秋，半阴环境下也能花开满盆。</p>",
-    "tips": "<p>1. 种子直播或扦插繁殖<br>2. 半阴处开花最好，强光易萎蔫<br>3. 保持土壤湿润但不能积水<br>4. 果实成熟后会自己弹射种子</p>",
-    "balconyFit": "<p>东向阳台最佳，晨光柔和。也可北向阳台种植。</p>",
-    "suitableOrientations": [
-      "east",
-      "north"
-    ],
-    "minPotDepth": 15,
-    "suitablePot": "2加仑花盆或挂盆",
-    "minTemp": 8,
-    "_updatedAt": "2026-06-08T13:58:27.098Z",
-    "_createdAt": "2026-06-08T13:58:27.098Z"
-  },
-  {
-    "_id": "11d826726a26ca80004c379f0696ff18",
-    "id": "pansy",
-    "name": "三色堇",
-    "scientificName": "Viola × wittrockiana",
-    "category": "flower",
-    "difficulty": "easy",
-    "season": [
-      "秋",
-      "冬",
-      "春"
-    ],
-    "sunlight": "full",
-    "water": "medium",
-    "harvestDays": 60,
-    "description": "<p>三色堇像一只只彩色蝴蝶停在绿叶间，花瓣上独特的「猫脸」花纹可爱至极。耐寒性强，是秋冬阳台的颜值担当。</p>",
-    "tips": "<p>1. 秋季播种或直接购苗种植<br>2. 耐寒，零下也能存活<br>3. 及时摘除残花延长花期<br>4. 花后可食用，做沙拉装饰</p>",
-    "balconyFit": "<p>秋冬春三季南向阳台开花不断。夏季怕热，可做一年生种植。</p>",
-    "suitableOrientations": [
-      "south",
-      "east"
-    ],
-    "minPotDepth": 12,
-    "suitablePot": "长条盆或浅盆密植",
-    "minTemp": -5,
-    "_updatedAt": "2026-06-08T13:58:24.455Z",
-    "_createdAt": "2026-06-08T13:58:24.455Z"
-  },
-  {
-    "_id": "11d826726a26ca7d004c37894f5b8775",
-    "id": "periwinkle",
-    "name": "长春花",
-    "scientificName": "Catharanthus roseus",
-    "category": "flower",
-    "difficulty": "easy",
-    "season": [
-      "春",
-      "夏",
-      "秋"
-    ],
-    "sunlight": "full",
-    "water": "medium",
-    "harvestDays": 0,
-    "description": "<p>长春花又名日日春，名副其实地全年开花不断。五瓣小花密集绽放，粉色、白色、红色丰富多彩，是阳台上的开花机器。</p>",
-    "tips": "<p>1. 喜光，光照越足开花越多<br>2. 耐旱，土干了再浇<br>3. 花后轻度修剪促新一轮开花<br>4. 自播能力强，种子落在土里自己发芽</p>",
-    "balconyFit": "<p>南向或西向阳台。越晒越开花，夏天不惧酷热。</p>",
-    "suitableOrientations": [
-      "south",
-      "west"
-    ],
-    "minPotDepth": 15,
-    "suitablePot": "2加仑花盆或挂盆",
-    "minTemp": 10,
-    "_updatedAt": "2026-06-08T13:58:21.803Z",
-    "_createdAt": "2026-06-08T13:58:21.803Z"
-  },
-  {
     "_id": "15a233946a26ca7b02444c333811c897",
     "id": "chrysanthemum",
     "name": "菊花",
@@ -956,33 +2602,6 @@
     "_createdAt": "2026-06-08T13:58:03.084Z"
   },
   {
-    "_id": "5e4631556a26ca680052b40b6499af6f",
-    "id": "carrot",
-    "name": "胡萝卜",
-    "scientificName": "Daucus carota subsp. sativus",
-    "category": "vegetable",
-    "difficulty": "medium",
-    "season": [
-      "春",
-      "秋"
-    ],
-    "sunlight": "full",
-    "water": "medium",
-    "harvestDays": 70,
-    "description": "<p>自己种的胡萝卜比超市的甜十倍！选择短根品种（如手指胡萝卜），在深盆里也能种出漂亮的橙色萝卜。</p>",
-    "tips": "<p>1. 必须用疏松沙质土，板结土长不出直根<br>2. 直播不移植，根系怕打扰<br>3. 间苗距5-8cm，太密长不大<br>4. 施肥少氮多钾，否则只长叶子不长根</p>",
-    "balconyFit": "<p>南向阳台，需要深25cm以上的容器。土壤疏松是成功关键。</p>",
-    "suitableOrientations": [
-      "south",
-      "west"
-    ],
-    "minPotDepth": 25,
-    "suitablePot": "深桶盆或加高种植箱",
-    "minTemp": 3,
-    "_updatedAt": "2026-06-08T13:58:00.395Z",
-    "_createdAt": "2026-06-08T13:58:00.395Z"
-  },
-  {
     "_id": "15a233946a26ca650244419740824682",
     "id": "potato",
     "name": "土豆",
@@ -1007,33 +2626,6 @@
     "minTemp": 5,
     "_updatedAt": "2026-06-08T13:57:57.521Z",
     "_createdAt": "2026-06-08T13:57:57.521Z"
-  },
-  {
-    "_id": "15a233946a26ca620244416f47ad16d1",
-    "id": "bok-choy",
-    "name": "小白菜",
-    "scientificName": "Brassica rapa subsp. chinensis",
-    "category": "vegetable",
-    "difficulty": "easy",
-    "season": [
-      "春",
-      "秋"
-    ],
-    "sunlight": "partial",
-    "water": "medium",
-    "harvestDays": 30,
-    "description": "<p>小白菜（上海青）是中国人餐桌上的当家绿叶菜，生长快、管理简单，一年可以种好几茬。阳台种上一盆，随吃随摘。</p>",
-    "tips": "<p>1. 撒播或条播均可，出苗后间苗至株距5-8cm<br>2. 保持土壤湿润，快速生长口感才嫩<br>3. 20-30天可采收小苗，40天长成大棵<br>4. 分批播种，实现持续供应</p>",
-    "balconyFit": "<p>春秋两季东向或南向阳台表现最佳。夏季需遮阴防抽薹。</p>",
-    "suitableOrientations": [
-      "south",
-      "east"
-    ],
-    "minPotDepth": 15,
-    "suitablePot": "长条盆或2加仑盆",
-    "minTemp": 3,
-    "_updatedAt": "2026-06-08T13:57:54.833Z",
-    "_createdAt": "2026-06-08T13:57:54.833Z"
   },
   {
     "_id": "15a233946a26ab41023ad98411b1010a",

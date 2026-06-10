@@ -14,6 +14,7 @@ export default function AskQuestionClient() {
   const [content, setContent] = useState("");
   const [tags, setTags] = useState("");
   const [submitting, setSubmitting] = useState(false);
+  const [msg, setMsg] = useState("");
   const [err, setErr] = useState("");
 
   const handleSubmit = async () => {
@@ -47,12 +48,13 @@ export default function AskQuestionClient() {
       views: 0,
       answers: [],
       isResolved: false,
-      status: "published",
+      status: "draft",
     };
 
     const result = await submitToCMS("qa", record);
     if (result.success) {
-      router.push("/community");
+      setMsg("✅ 问题已提交，审核通过后将在社区展示");
+      setTimeout(() => router.push("/community"), 1500);
     } else {
       setErr(`❌ 提交失败: ${result.message}`);
       setSubmitting(false);
@@ -79,6 +81,11 @@ export default function AskQuestionClient() {
           </p>
         </div>
 
+        {msg && (
+          <div className="mb-4 rounded-xl bg-green-50 px-4 py-3 text-sm text-green-700 dark:bg-green-900/20 dark:text-green-300">
+            {msg}
+          </div>
+        )}
         {err && (
           <div className="mb-4 rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700 dark:bg-red-900/20 dark:text-red-300">
             {err}

@@ -1,0 +1,221 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "阳台小园丁" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: 阳台小园丁
+      - navigation [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "阳台测评" [ref=e12] [cursor=pointer]:
+          - /url: /assessment/
+          - img [ref=e13]
+          - text: 阳台测评
+        - link "植物百科" [ref=e16] [cursor=pointer]:
+          - /url: /plants/
+        - link "场景指南" [ref=e17] [cursor=pointer]:
+          - /url: /guide/
+        - link "种植教程" [ref=e18] [cursor=pointer]:
+          - /url: /guides/
+        - link "好物推荐" [ref=e19] [cursor=pointer]:
+          - /url: /tools/
+        - link "园丁日记" [ref=e20] [cursor=pointer]:
+          - /url: /diary/
+        - link "社区问答" [ref=e21] [cursor=pointer]:
+          - /url: /community/
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - heading "🗺️ 场景化种植指南" [level=1] [ref=e27]
+          - paragraph [ref=e28]: 根据你的阳台环境和所在城市，找到最适合的种植方案
+        - generic [ref=e30]:
+          - button "按阳台朝向" [ref=e31]:
+            - img [ref=e32]
+            - text: 按阳台朝向
+          - button "按所在城市" [ref=e35]:
+            - img [ref=e36]
+            - text: 按所在城市
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]: ☀️
+            - generic [ref=e45]:
+              - heading "南向阳台（全天阳光）" [level=2] [ref=e46]
+              - paragraph [ref=e47]: 充足直射光（6-8小时/天）
+          - paragraph [ref=e48]: 光照最充足的阳台类型
+          - paragraph [ref=e50]: ⚠️ 夏季中午需适当遮阴
+          - paragraph [ref=e51]: 推荐植物：
+          - generic [ref=e52]:
+            - link "罗勒 🌱 新手" [ref=e53] [cursor=pointer]:
+              - /url: /plants/basil/
+              - generic [ref=e54]: 罗勒
+              - generic [ref=e55]: 🌱 新手
+            - link "多肉植物组合 🌱 新手" [ref=e56] [cursor=pointer]:
+              - /url: /plants/succulent-mix/
+              - generic [ref=e57]: 多肉植物组合
+              - generic [ref=e58]: 🌱 新手
+            - link "草莓 🌿 进阶" [ref=e59] [cursor=pointer]:
+              - /url: /plants/strawberry/
+              - generic [ref=e60]: 草莓
+              - generic [ref=e61]: 🌿 进阶
+            - link "辣椒 🌱 新手" [ref=e62] [cursor=pointer]:
+              - /url: /plants/chili/
+              - generic [ref=e63]: 辣椒
+              - generic [ref=e64]: 🌱 新手
+          - link "去测评你的阳台 →" [ref=e65] [cursor=pointer]:
+            - /url: /assessment/
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: 🌅
+            - generic [ref=e69]:
+              - heading "东向阳台（上午阳光）" [level=2] [ref=e70]
+              - paragraph [ref=e71]: 上午柔和光照（3-4小时/天）
+          - paragraph [ref=e72]: 上午的柔和光照，适合大多数绿叶蔬菜
+          - paragraph [ref=e74]: ⚠️ 不适合需要全日照的果菜类
+          - paragraph [ref=e75]: 推荐植物：
+          - generic [ref=e76]:
+            - link "罗勒 🌱 新手" [ref=e77] [cursor=pointer]:
+              - /url: /plants/basil/
+              - generic [ref=e78]: 罗勒
+              - generic [ref=e79]: 🌱 新手
+            - link "多肉植物组合 🌱 新手" [ref=e80] [cursor=pointer]:
+              - /url: /plants/succulent-mix/
+              - generic [ref=e81]: 多肉植物组合
+              - generic [ref=e82]: 🌱 新手
+            - link "草莓 🌿 进阶" [ref=e83] [cursor=pointer]:
+              - /url: /plants/strawberry/
+              - generic [ref=e84]: 草莓
+              - generic [ref=e85]: 🌿 进阶
+            - link "薄荷 🌱 新手" [ref=e86] [cursor=pointer]:
+              - /url: /plants/mint/
+              - generic [ref=e87]: 薄荷
+              - generic [ref=e88]: 🌱 新手
+          - link "去测评你的阳台 →" [ref=e89] [cursor=pointer]:
+            - /url: /assessment/
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: 🌇
+            - generic [ref=e93]:
+              - heading "西向阳台（下午暴晒）" [level=2] [ref=e94]
+              - paragraph [ref=e95]: 下午强烈光照（3-5小时/天）
+          - paragraph [ref=e96]: 下午太阳直射夏季温度较高
+          - paragraph [ref=e98]: ⚠️ 夏季下午温度极高需注意遮阳
+          - paragraph [ref=e99]: 推荐植物：
+          - generic [ref=e100]:
+            - link "罗勒 🌱 新手" [ref=e101] [cursor=pointer]:
+              - /url: /plants/basil/
+              - generic [ref=e102]: 罗勒
+              - generic [ref=e103]: 🌱 新手
+            - link "多肉植物组合 🌱 新手" [ref=e104] [cursor=pointer]:
+              - /url: /plants/succulent-mix/
+              - generic [ref=e105]: 多肉植物组合
+              - generic [ref=e106]: 🌱 新手
+            - link "辣椒 🌱 新手" [ref=e107] [cursor=pointer]:
+              - /url: /plants/chili/
+              - generic [ref=e108]: 辣椒
+              - generic [ref=e109]: 🌱 新手
+            - link "小葱 🌱 新手" [ref=e110] [cursor=pointer]:
+              - /url: /plants/green-onion/
+              - generic [ref=e111]: 小葱
+              - generic [ref=e112]: 🌱 新手
+          - link "去测评你的阳台 →" [ref=e113] [cursor=pointer]:
+            - /url: /assessment/
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: 🌥️
+            - generic [ref=e117]:
+              - heading "北向阳台（无直射光）" [level=2] [ref=e118]
+              - paragraph [ref=e119]: 散射光无直射日照
+          - paragraph [ref=e120]: 没有直射阳光只有散射光
+          - paragraph [ref=e122]: ⚠️ 不适合大多数果菜和开花植物
+          - paragraph [ref=e123]: 推荐植物：
+          - generic [ref=e124]:
+            - link "多肉植物组合 🌱 新手" [ref=e125] [cursor=pointer]:
+              - /url: /plants/succulent-mix/
+              - generic [ref=e126]: 多肉植物组合
+              - generic [ref=e127]: 🌱 新手
+            - link "薄荷 🌱 新手" [ref=e128] [cursor=pointer]:
+              - /url: /plants/mint/
+              - generic [ref=e129]: 薄荷
+              - generic [ref=e130]: 🌱 新手
+            - link "生菜 🌱 新手" [ref=e131] [cursor=pointer]:
+              - /url: /plants/lettuce/
+              - generic [ref=e132]: 生菜
+              - generic [ref=e133]: 🌱 新手
+            - link "小葱 🌱 新手" [ref=e134] [cursor=pointer]:
+              - /url: /plants/green-onion/
+              - generic [ref=e135]: 小葱
+              - generic [ref=e136]: 🌱 新手
+          - link "去测评你的阳台 →" [ref=e137] [cursor=pointer]:
+            - /url: /assessment/
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - generic [ref=e140]: 🪟
+            - generic [ref=e141]:
+              - heading "封闭阳台" [level=2] [ref=e142]
+              - paragraph [ref=e143]: 取决于朝向但光线被玻璃过滤
+          - paragraph [ref=e144]: 有玻璃封闭温度较稳定但通风较差
+          - paragraph [ref=e146]: ⚠️ 通风不良易引发病虫害
+          - paragraph [ref=e147]: 推荐植物：
+          - generic [ref=e148]:
+            - link "罗勒 🌱 新手" [ref=e149] [cursor=pointer]:
+              - /url: /plants/basil/
+              - generic [ref=e150]: 罗勒
+              - generic [ref=e151]: 🌱 新手
+            - link "多肉植物组合 🌱 新手" [ref=e152] [cursor=pointer]:
+              - /url: /plants/succulent-mix/
+              - generic [ref=e153]: 多肉植物组合
+              - generic [ref=e154]: 🌱 新手
+            - link "草莓 🌿 进阶" [ref=e155] [cursor=pointer]:
+              - /url: /plants/strawberry/
+              - generic [ref=e156]: 草莓
+              - generic [ref=e157]: 🌿 进阶
+            - link "辣椒 🌱 新手" [ref=e158] [cursor=pointer]:
+              - /url: /plants/chili/
+              - generic [ref=e159]: 辣椒
+              - generic [ref=e160]: 🌱 新手
+          - link "去测评你的阳台 →" [ref=e161] [cursor=pointer]:
+            - /url: /assessment/
+  - contentinfo [ref=e162]:
+    - generic [ref=e163]:
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]:
+            - img [ref=e168]
+            - generic [ref=e171]: 阳台小园丁
+          - paragraph [ref=e172]:
+            - text: 让每个阳台都变成绿色小天地。
+            - text: 城市园艺爱好者的知识社区。
+        - generic [ref=e173]:
+          - heading "探索" [level=3] [ref=e174]
+          - list [ref=e175]:
+            - listitem [ref=e176]:
+              - link "植物百科" [ref=e177] [cursor=pointer]:
+                - /url: /plants/
+            - listitem [ref=e178]:
+              - link "种植指南" [ref=e179] [cursor=pointer]:
+                - /url: /guides/
+            - listitem [ref=e180]:
+              - link "种植日历" [ref=e181] [cursor=pointer]:
+                - /url: /calendar/
+        - generic [ref=e182]:
+          - heading "资源" [level=3] [ref=e183]
+          - list [ref=e184]:
+            - listitem [ref=e185]:
+              - link "工具推荐" [ref=e186] [cursor=pointer]:
+                - /url: /tools/
+            - listitem [ref=e187]:
+              - link "社区问答" [ref=e188] [cursor=pointer]:
+                - /url: /community/
+            - listitem [ref=e189]:
+              - link "DIY教程" [ref=e190] [cursor=pointer]:
+                - /url: /guides/?category=diy
+        - generic [ref=e191]:
+          - heading "关于" [level=3] [ref=e192]
+          - list [ref=e193]:
+            - listitem [ref=e194]: 为城市园艺爱好者而生
+            - listitem [ref=e195]: © 2026 阳台小园丁
+      - paragraph [ref=e197]: 用心种下每一颗种子，收获满满的绿色幸福 🌱
+  - alert [ref=e198]

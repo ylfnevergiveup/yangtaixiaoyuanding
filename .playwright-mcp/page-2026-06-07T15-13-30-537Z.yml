@@ -1,0 +1,254 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "阳台小园丁" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: 阳台小园丁
+      - navigation [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "阳台测评" [ref=e12] [cursor=pointer]:
+          - /url: /assessment/
+          - img [ref=e13]
+          - text: 阳台测评
+        - link "植物百科" [ref=e16] [cursor=pointer]:
+          - /url: /plants/
+        - link "场景指南" [ref=e17] [cursor=pointer]:
+          - /url: /guide/
+        - link "种植教程" [ref=e18] [cursor=pointer]:
+          - /url: /guides/
+        - link "好物推荐" [ref=e19] [cursor=pointer]:
+          - /url: /tools/
+        - link "园丁日记" [ref=e20] [cursor=pointer]:
+          - /url: /diary/
+        - link "社区问答" [ref=e21] [cursor=pointer]:
+          - /url: /community/
+      - generic [ref=e22]:
+        - button "搜索" [ref=e23]:
+          - img [ref=e24]
+        - link "登录" [ref=e27] [cursor=pointer]:
+          - /url: /login/
+          - img [ref=e28]
+          - text: 登录
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - img "番茄" [ref=e34]
+      - generic [ref=e36]:
+        - link "返回植物百科" [ref=e37] [cursor=pointer]:
+          - /url: /plants/
+          - img [ref=e38]
+          - text: 返回植物百科
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 蔬菜
+            - generic [ref=e43]: 🌿 稍有挑战
+          - heading "番茄" [level=1] [ref=e44]
+          - paragraph [ref=e45]: Solanum lycopersicum
+          - paragraph [ref=e47]: 阳台最受欢迎的蔬菜之一。樱桃番茄品种尤其适合盆栽，果实累累，观赏性极佳。
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - img [ref=e50]
+            - generic [ref=e56]: 光照需求
+            - generic [ref=e57]: 充足直射光
+          - generic [ref=e58]:
+            - img [ref=e59]
+            - generic [ref=e62]: 浇水频率
+            - generic [ref=e63]: 适中
+          - generic [ref=e64]:
+            - img [ref=e65]
+            - generic [ref=e67]: 种植季节
+            - generic [ref=e68]: 春、秋
+          - generic [ref=e69]:
+            - img [ref=e70]
+            - generic [ref=e73]: 收获周期
+            - generic [ref=e74]: 约 60 天
+        - generic [ref=e75]:
+          - heading "阳台适配指南" [level=2] [ref=e76]:
+            - img [ref=e77]
+            - text: 阳台适配指南
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - generic [ref=e84]: 🏡 阳台适配
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: 番茄（含圣女果）是强阳性喜温作物，每天需要6-8小时以上直射阳光才能正常开花结果，阳台朝向直接决定了光照时长和强度，是种植成败的第一要素。
+                - paragraph [ref=e87]: 🏆 第一名：正南向阳台（完美适配）
+                - paragraph [ref=e88]: • 核心优势：全天光照最充足、最均匀，夏季直射6-10小时，冬季4-6小时，完全满足番茄生长需求
+                - paragraph [ref=e89]: • 温度特点：夏季中午温度可达35℃以上，冬季比其他朝向高3-5℃
+                - paragraph [ref=e90]: • 适配性：
+                - paragraph [ref=e91]: ◦ 全年可种（广东等南方地区），春播、秋播、冬播都能高产
+                - paragraph [ref=e92]: ◦ 适合所有番茄品种，尤其是无限生长型和大果型
+                - paragraph [ref=e93]: • 注意事项：
+                - paragraph [ref=e94]: ◦ 夏季（6-8月）中午12-2点需适当遮阴，避免叶片和果实被灼伤
+                - paragraph [ref=e95]: ◦ 通风要好，否则高温高湿容易引发病虫害
+                - paragraph [ref=e96]: 🥈 第二名：西南向阳台（次优选择）
+                - paragraph [ref=e97]: • 核心优势：下午光照极强，全天直射5-8小时，光照强度足够
+                - paragraph [ref=e98]: • 温度特点：下午2-5点温度最高，西晒明显，夏季容易超过38℃
+                - paragraph [ref=e99]: • 适配性：
+                - paragraph [ref=e100]: ◦ 适合秋播和冬播，春播后期需注意降温
+                - paragraph [ref=e101]: ◦ 优先选择耐热品种（如千禧、釜山88）
+                - paragraph [ref=e102]: • 注意事项：
+                - paragraph [ref=e103]: ◦ 夏季必须遮阴，否则会严重落花落果
+                - paragraph [ref=e104]: ◦ 浇水要比南向阳台更频繁，避免干旱
+                - paragraph [ref=e105]: 🥉 第三名：东南向阳台（温和友好）
+                - paragraph [ref=e106]: • 核心优势：上午光照充足且温和，全天直射5-7小时，不会出现极端高温
+                - paragraph [ref=e107]: • 温度特点：上午温度上升快，下午温度较低，昼夜温差适中
+                - paragraph [ref=e108]: • 适配性：
+                - paragraph [ref=e109]: ◦ 特别适合春播和夏播，果实口感好
+                - paragraph [ref=e110]: ◦ 适合所有矮生品种和樱桃番茄
+                - paragraph [ref=e111]: • 注意事项：
+                - paragraph [ref=e112]: ◦ 下午光照不足，植株可能会轻微徒长，需要适当控水控肥
+                - paragraph [ref=e113]: ◦ 冬季光照时间较短，收获会延迟5-7天
+                - paragraph [ref=e114]: ⚠️ 第四名：东向/西向阳台（勉强可种）
+                - paragraph [ref=e115]: 东向阳台
+                - paragraph [ref=e116]: • 只有上午有直射光，全天3-5小时，光照时长不足
+                - paragraph [ref=e117]: • 只能种植早熟、耐阴的矮生樱桃番茄品种
+                - paragraph [ref=e118]: • 必须配合补光灯，每天补光4-6小时，否则只长叶不结果
+                - paragraph [ref=e119]: 西向阳台
+                - paragraph [ref=e120]: • 只有下午有直射光，全天3-4小时，且西晒严重
+                - paragraph [ref=e121]: • 夏季温度过高，容易灼伤植株，冬季光照不足
+                - paragraph [ref=e122]: • 同样需要补光，且夏季必须做好遮阴降温
+                - paragraph [ref=e123]: ❌ 第五名：北向阳台（完全不适合）
+                - paragraph [ref=e124]: • 几乎没有直射阳光，只有散射光，全天光照不足2小时
+                - paragraph [ref=e125]: • 番茄会严重徒长，茎秆细弱，不开花不结果，即使结果也会很小且口感极差
+                - paragraph [ref=e126]: • 建议改种耐阴蔬菜（如生菜、菠菜、香菜）
+                - paragraph
+            - generic [ref=e127]:
+              - img [ref=e128]
+              - generic [ref=e131]: 适合朝向
+              - generic [ref=e133]: 朝南 ☀️
+            - generic [ref=e134]:
+              - img [ref=e135]
+              - generic [ref=e137]: 最低耐受温度
+              - paragraph [ref=e138]: 10°C
+            - generic [ref=e139]:
+              - img [ref=e140]
+              - generic [ref=e146]: 最小盆深
+              - paragraph [ref=e147]: 30 cm
+            - generic [ref=e148]:
+              - img [ref=e149]
+              - generic [ref=e153]: 适合花盆
+              - paragraph [ref=e154]: 5加仑以上花盆或长条种植箱
+        - generic [ref=e155]:
+          - heading "💡 种植小贴士" [level=2] [ref=e156]
+          - generic [ref=e157]:
+            - paragraph [ref=e158]: 一、最佳种植季节（精准到月份）
+            - paragraph [ref=e159]: • 南方地区（广东、广西、福建、海南等）：
+            - paragraph [ref=e160]: ◦ 春播：2月中旬-3月上旬（最佳），4-7月收获
+            - paragraph [ref=e161]: ◦ 秋播：8月下旬-9月上旬，11月-次年1月收获
+            - paragraph [ref=e162]: ◦ 冬季：11月上旬播种，需放在室内温暖处，次年2-4月收获
+            - paragraph [ref=e163]: • 长江流域：
+            - paragraph [ref=e164]: ◦ 春播：3月中旬-4月上旬，6-8月收获
+            - paragraph [ref=e165]: ◦ 秋播：7月下旬-8月上旬，10-11月收获
+            - paragraph [ref=e166]: • 北方地区：
+            - paragraph [ref=e167]: ◦ 春播：4月中旬-5月上旬（室内育苗可提前至3月），7-9月收获
+            - paragraph [ref=e168]: ◦ 秋播：不建议露地，室内可6月下旬播种，9-10月收获
+            - paragraph [ref=e169]: 关键提示：番茄最适宜生长温度为20-28℃，低于10℃停止生长，高于35℃会落花落果。
+            - paragraph [ref=e170]: 二、品种选择（阳台专属）
+            - paragraph [ref=e171]: 优先选择矮生、早熟、抗病、株高不超过1米的品种，无需搭架或只需简单支撑：
+            - paragraph [ref=e172]: • 樱桃番茄（圣女果）：千禧、釜山88、黑珍珠、金太阳（单果重10-20g，产量高，口感好）
+            - paragraph [ref=e173]: • 矮生大番茄：矮生红珍珠、小矮人、阳台丰收（单果重100-200g，适合盆栽）
+            - paragraph [ref=e174]: • 特色品种：马蹄番茄（沙瓤）、绿宝石（绿色成熟）、黑美人（紫黑色）
+            - paragraph [ref=e175]: 三、准备工作
+            - paragraph [ref=e176]: 1. 容器选择
+            - paragraph [ref=e177]: • 大小要求：单株番茄需要直径25cm以上、深度30cm以上的花盆，容量≥10L
+            - paragraph [ref=e178]: • 材质：陶盆、塑料盆、加仑盆均可，底部必须有排水孔
+            - paragraph [ref=e179]: • 数量：一个标准阳台（3-4㎡）可种植6-8株
+            - paragraph [ref=e180]: 2. 土壤配比（新手直接用这个配方）
+            - paragraph [ref=e181]: • 通用配方：泥炭土6份+珍珠岩2份+腐熟有机肥2份
+            - paragraph [ref=e182]: • 简易配方：园土4份+腐叶土4份+河沙2份
+            - paragraph [ref=e183]: • 底肥：每盆加入100g腐熟羊粪或鸡粪，与底部土壤混合均匀
+            - paragraph [ref=e184]: 注意：不要直接使用纯园土，容易板结；不要使用未腐熟的生肥，会烧根。
+            - paragraph [ref=e185]: 四、播种与育苗（最关键步骤）
+            - paragraph [ref=e186]: 1. 种子处理
+            - paragraph [ref=e187]: • 用55℃温水浸泡种子15分钟，不断搅拌
+            - paragraph [ref=e188]: • 然后用常温清水浸泡6-8小时
+            - paragraph [ref=e189]: • 捞出后用湿纱布包裹，放在25-30℃环境下催芽，每天用清水冲洗1次
+            - paragraph [ref=e190]: • 2-3天后，种子露白即可播种
+            - paragraph [ref=e191]: 2. 播种
+            - paragraph [ref=e192]: • 在育苗盘或小纸杯里装入育苗土，浇透水
+            - paragraph [ref=e193]: • 每个穴播1粒露白的种子，覆盖0.5-1cm厚的细土
+            - paragraph [ref=e194]: • 盖上保鲜膜，扎几个小孔透气
+            - paragraph [ref=e195]: • 放在25-30℃的温暖处，保持土壤湿润
+            - paragraph [ref=e196]: 3. 育苗管理
+            - paragraph [ref=e197]: • 出苗前：不需要光照，每天检查土壤湿度，干了就喷点水
+            - paragraph [ref=e198]: • 出苗后：立即去掉保鲜膜，移到光照充足的地方
+            - paragraph [ref=e199]: • 间苗：如果一个穴里长出多棵苗，只保留最健壮的1棵
+            - paragraph [ref=e200]: • 假植：当幼苗长出2-3片真叶时，移栽到10cm左右的小盆里
+            - paragraph [ref=e201]: • 定植：当幼苗长出4-6片真叶、高度15-20cm时，移栽到准备好的大花盆里
+            - paragraph [ref=e202]: 定植要点：带土移栽，不要伤根；定植后浇透定根水；放在阴凉处缓苗3-5天，然后移到阳光下。
+            - paragraph [ref=e203]: 五、核心养护管理（新手必看）
+            - paragraph [ref=e204]: 1. 光照需求（绝对不能少）
+            - paragraph [ref=e205]: • 每天需要6-8小时以上的直射阳光，最好是上午9点到下午5点的阳光
+            - paragraph [ref=e206]: • 光照不足会导致植株徒长、开花少、结果少、口感差
+            - paragraph [ref=e207]: • 如果阳台光照不足，需要使用补光灯，每天补光10-12小时，距离植株30-40cm
+            - paragraph [ref=e208]: 2. 浇水频率（精准到天）
+            - paragraph [ref=e209]: 浇水原则：见干见湿，不干不浇，浇则浇透
+            - img
+            - paragraph
+        - generic [ref=e211]:
+          - heading "相关园丁日记" [level=2] [ref=e212]:
+            - img [ref=e213]
+            - text: 相关园丁日记
+          - link "从播种到收获：我的樱桃番茄全记录 历时70天，从一粒种子到红彤彤的果实，分享全过程的经验和教训。 实战记录" [ref=e216] [cursor=pointer]:
+            - /url: /diary/tomato-growing-diary/
+            - heading "从播种到收获：我的樱桃番茄全记录" [level=3] [ref=e217]
+            - paragraph [ref=e218]: 历时70天，从一粒种子到红彤彤的果实，分享全过程的经验和教训。
+            - generic [ref=e219]: 实战记录
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - img [ref=e222]
+            - heading "留言" [level=3] [ref=e224]
+          - generic [ref=e225]:
+            - img [ref=e226]
+            - paragraph [ref=e229]: 登录后即可留言
+            - link "登录 / 注册" [ref=e230] [cursor=pointer]:
+              - /url: /login/
+              - img [ref=e231]
+              - text: 登录 / 注册
+          - generic [ref=e234]:
+            - img [ref=e235]
+            - text: 加载中...
+  - contentinfo [ref=e238]:
+    - generic [ref=e239]:
+      - generic [ref=e240]:
+        - generic [ref=e241]:
+          - generic [ref=e242]:
+            - img [ref=e244]
+            - generic [ref=e247]: 阳台小园丁
+          - paragraph [ref=e248]:
+            - text: 让每个阳台都变成绿色小天地。
+            - text: 城市园艺爱好者的知识社区。
+        - generic [ref=e249]:
+          - heading "探索" [level=3] [ref=e250]
+          - list [ref=e251]:
+            - listitem [ref=e252]:
+              - link "植物百科" [ref=e253] [cursor=pointer]:
+                - /url: /plants/
+            - listitem [ref=e254]:
+              - link "种植指南" [ref=e255] [cursor=pointer]:
+                - /url: /guides/
+            - listitem [ref=e256]:
+              - link "种植日历" [ref=e257] [cursor=pointer]:
+                - /url: /calendar/
+        - generic [ref=e258]:
+          - heading "资源" [level=3] [ref=e259]
+          - list [ref=e260]:
+            - listitem [ref=e261]:
+              - link "工具推荐" [ref=e262] [cursor=pointer]:
+                - /url: /tools/
+            - listitem [ref=e263]:
+              - link "社区问答" [ref=e264] [cursor=pointer]:
+                - /url: /community/
+            - listitem [ref=e265]:
+              - link "DIY教程" [ref=e266] [cursor=pointer]:
+                - /url: /guides/?category=diy
+        - generic [ref=e267]:
+          - heading "关于" [level=3] [ref=e268]
+          - list [ref=e269]:
+            - listitem [ref=e270]: 为城市园艺爱好者而生
+            - listitem [ref=e271]: © 2026 阳台小园丁
+      - paragraph [ref=e273]: 用心种下每一颗种子，收获满满的绿色幸福 🌱
+  - button "Open Next.js Dev Tools" [ref=e279] [cursor=pointer]:
+    - img [ref=e280]
+  - alert [ref=e283]

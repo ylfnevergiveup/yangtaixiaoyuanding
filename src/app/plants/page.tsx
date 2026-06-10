@@ -4,9 +4,29 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Search, Sun, Droplets, CalendarDays } from "lucide-react";
 import CoverImage from "@/components/CoverImage";
-import { plants as localPlants, categories, difficulties } from "@/data/plants";
+import { plants as localPlants, difficulties } from "@/data/plants";
 import { categoryLabels, cn } from "@/lib/utils";
 import { loadJSON } from "@/lib/api";
+
+/** 全量分类兜底——内联到组件确保不依赖 JS 版本 */
+const ALL_CATEGORIES: { value: string; label: string }[] = [
+  { value: "all", label: "全部" },
+  { value: "vegetable", label: "蔬菜" },
+  { value: "herb", label: "香草" },
+  { value: "succulent", label: "多肉" },
+  { value: "flower", label: "花卉" },
+  { value: "fruit", label: "水果" },
+  { value: "foliage", label: "观叶" },
+  { value: "bulb", label: "球根花卉" },
+  { value: "aquatic", label: "水生植物" },
+  { value: "mushroom", label: "食用菌" },
+];
+
+/** 从植物数据中推导实际分类（只保留有数据的分类） */
+function deriveCategories(plantList: any[]): { value: string; label: string }[] {
+  const seen = new Set(plantList.map(p => p.category).filter(Boolean));
+  return ALL_CATEGORIES.filter(c => c.value === "all" || seen.has(c.value));
+}
 
 export default function PlantsPage() {
   const [category, setCategory] = useState("all");
@@ -14,10 +34,15 @@ export default function PlantsPage() {
   const [search, setSearch] = useState("");
   const [plants, setPlants] = useState(localPlants);
   const [loading, setLoading] = useState(true);
+  // 初始显示全部分类，数据加载后收缩为实际分类
+  const [categories, setCategories] = useState(ALL_CATEGORIES);
 
   useEffect(() => {
     loadJSON<any>("plants").then((items) => {
-      if (items.length > 0) setPlants(items);
+      if (items.length > 0) {
+        setPlants(items);
+        setCategories(deriveCategories(items));
+      }
       setLoading(false);
     }).catch(() => setLoading(false));
   }, []);

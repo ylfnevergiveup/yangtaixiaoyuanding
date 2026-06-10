@@ -1,0 +1,16 @@
+- generic [ref=e2]:
+  - img [ref=e5]
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - img [ref=e21]
+      - generic [ref=e23]: 页面访问提示
+      - generic [ref=e24]:
+        - text: 当前域名 yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcloudbaseapp.com 是由腾讯云 CloudBase 提供的测试域名，仅供开发测试使用，内容可能处于未审核状态
+        - text: 请谨慎浏览，请勿泄露个人信息、账号密码或进行涉及财产的操作
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]: 环境ID：yangtaixiaoyuanding-d7b1c10c2d50
+        - generic [ref=e28]: 页面路径：/v2/guides/%E5%B0%8F%E8%91%B1%E9%98%B3%E5%8F%B0%E7%A7%8D%E6%A4%8D%E5%85%A8%E6%94%BB%E7%95%A5%EF%BC%88%E8%B6%85%E9%87%8F%E5%8C%96%E7%89%88%EF%BC%89/
+      - link "我是开发者，如何去掉当前页面？" [ref=e30] [cursor=pointer]:
+        - /url: https://docs.cloudbase.net/service/alias#%E5%A6%82%E4%BD%95%E7%A7%BB%E9%99%A4%E4%B8%AD%E9%97%B4%E9%A1%B5
+    - button "确定访问 (3s)" [disabled] [ref=e32]

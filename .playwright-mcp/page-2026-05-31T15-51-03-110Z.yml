@@ -1,0 +1,115 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "阳台小园丁" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - text: 阳台小园丁
+      - navigation [ref=e9]:
+        - link "首页" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - link "阳台测评" [ref=e11] [cursor=pointer]:
+          - /url: /assessment
+          - img [ref=e12]
+          - text: 阳台测评
+        - link "植物百科" [ref=e15] [cursor=pointer]:
+          - /url: /plants
+        - link "场景指南" [ref=e16] [cursor=pointer]:
+          - /url: /guide
+        - link "种植教程" [ref=e17] [cursor=pointer]:
+          - /url: /guides
+        - link "好物推荐" [ref=e18] [cursor=pointer]:
+          - /url: /tools
+        - link "园丁日记" [ref=e19] [cursor=pointer]:
+          - /url: /diary
+        - link "社区问答" [ref=e20] [cursor=pointer]:
+          - /url: /community
+      - button "菜单" [ref=e21]:
+        - img [ref=e22]
+    - navigation [ref=e24]:
+      - link "首页" [ref=e25] [cursor=pointer]:
+        - /url: /
+        - img [ref=e26]
+        - text: 首页
+      - link "阳台测评" [ref=e29] [cursor=pointer]:
+        - /url: /assessment
+        - img [ref=e30]
+        - text: 阳台测评
+      - link "植物百科" [ref=e33] [cursor=pointer]:
+        - /url: /plants
+        - img [ref=e34]
+        - text: 植物百科
+      - link "场景指南" [ref=e36] [cursor=pointer]:
+        - /url: /guide
+        - img [ref=e37]
+        - text: 场景指南
+      - link "种植教程" [ref=e40] [cursor=pointer]:
+        - /url: /guides
+        - img [ref=e41]
+        - text: 种植教程
+      - link "好物推荐" [ref=e43] [cursor=pointer]:
+        - /url: /tools
+        - img [ref=e44]
+        - text: 好物推荐
+      - link "园丁日记" [ref=e48] [cursor=pointer]:
+        - /url: /diary
+        - img [ref=e49]
+        - text: 园丁日记
+      - link "社区问答" [ref=e51] [cursor=pointer]:
+        - /url: /community
+        - img [ref=e52]
+        - text: 社区问答
+  - main [ref=e54]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - img [ref=e61]
+        - heading "后台管理" [level=1] [ref=e64]
+        - paragraph [ref=e65]: 阳台小园丁 · 内容管理系统
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - img [ref=e69]
+            - text: 管理密码
+          - textbox "请输入密码" [active] [ref=e72]
+        - button "登录" [ref=e73]
+        - paragraph [ref=e74]: "默认密码: admin123"
+  - contentinfo [ref=e75]:
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - img [ref=e81]
+            - text: 阳台小园丁
+          - paragraph [ref=e84]:
+            - text: 让每个阳台都变成绿色小天地。
+            - text: 城市园艺爱好者的知识社区。
+        - generic [ref=e85]:
+          - heading "探索" [level=3] [ref=e86]
+          - list [ref=e87]:
+            - listitem [ref=e88]:
+              - link "植物百科" [ref=e89] [cursor=pointer]:
+                - /url: /plants
+            - listitem [ref=e90]:
+              - link "种植指南" [ref=e91] [cursor=pointer]:
+                - /url: /guides
+            - listitem [ref=e92]:
+              - link "种植日历" [ref=e93] [cursor=pointer]:
+                - /url: /calendar
+        - generic [ref=e94]:
+          - heading "资源" [level=3] [ref=e95]
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - link "工具推荐" [ref=e98] [cursor=pointer]:
+                - /url: /tools
+            - listitem [ref=e99]:
+              - link "社区问答" [ref=e100] [cursor=pointer]:
+                - /url: /community
+            - listitem [ref=e101]:
+              - link "DIY教程" [ref=e102] [cursor=pointer]:
+                - /url: /guides?category=diy
+        - generic [ref=e103]:
+          - heading "关于" [level=3] [ref=e104]
+          - list [ref=e105]:
+            - listitem [ref=e106]: 为城市园艺爱好者而生
+            - listitem [ref=e107]: © 2026 阳台小园丁
+      - paragraph [ref=e109]: 用心种下每一颗种子，收获满满的绿色幸福 🌱

@@ -77,7 +77,7 @@ function QuestionDetailInner() {
 
     if (result.success && result.data) {
       setAnswerContent("");
-      setMsg("✅ 回答成功！");
+      setMsg("✅ 回答已提交，审核通过后展示");
       setTimeout(() => setMsg(""), 3000);
       // Optimistically add answer
       setQuestion((prev) => {
@@ -87,7 +87,7 @@ function QuestionDetailInner() {
           content: answerContent.trim(),
           author: user!.username,
           date: new Date().toISOString().slice(0, 10),
-          status: "published",
+          status: "draft",
         };
         return {
           ...prev,

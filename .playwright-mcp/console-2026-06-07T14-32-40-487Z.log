@@ -1,0 +1,1703 @@
+[     110ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     119ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     663ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/strawberry.jpg:0
+[     663ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/chili.jpg:0
+[     664ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/basil.jpg:0
+[     664ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/succulent.jpg:0
+[     671ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/mint.jpg:0
+[     671ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/tomato.jpg:0
+[     750ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/data/announcements.json:0
+[     750ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/data/homepage.json:0
+[     773ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/green-onion.jpg:0
+[     779ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1780671433018-b14bfdac.png?sign=229ed19e33d9d9ee4ca31a80999f6749&t=1780671433:0
+[     782ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1780585583117-0949a1bf.png?sign=2032b74f5e11c4667024b857b286c471&t=1780585584:0
+[     782ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1780666833461-b2baa8d0.png?sign=3a5b2ab2f1ba4d5b3e088497398825bd&t=1780666834:0
+[     783ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://7961-yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcb.qcloud.la/images/2026-06/1780661352056-0bb38993.png?sign=663c0a3fd6c796a2a612f9bbb4047843&t=1780661353:0
+[     836ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/green-bean.jpg:0
+[     837ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/plants/mint.jpg:0
+[   68600ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   68825ms] [ERROR] ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[   68826ms] [ERROR] ./src/data/guides.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Guide {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/guides.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/guides.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[   68826ms] [ERROR] ./src/data/plants.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Plant {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   name: string;
+  4 |   scientificName: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/plants.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/plants.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[   68827ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=q3mOO9BClNZHexY7:0
+[   68857ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=q3mOO9BClNZHexY7:0
+[   68858ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=q3mOO9BClNZHexY7:0
+[   68934ms] [ERROR] ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[   68934ms] [ERROR] ./src/data/guides.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Guide {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/guides.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/guides.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[   68934ms] [ERROR] ./src/data/plants.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Plant {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   name: string;
+  4 |   scientificName: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/plants.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/plants.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[   68934ms] [ERROR] ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[   68934ms] [ERROR] ./src/data/guides.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Guide {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/guides.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/guides.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[   68936ms] [ERROR] ./src/data/plants.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Plant {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   name: string;
+  4 |   scientificName: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/plants.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/plants.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[   68972ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   69044ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[   69083ms] Error: ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./src/data/diary.ts:1:8)
+    at Object.getCompilationErrors (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/base-server.js:1753:26)
+[   69080ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   69100ms] [ERROR] ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   69100ms] [ERROR] ./src/data/guides.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Guide {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/guides.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/guides.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   69100ms] [ERROR] ./src/data/plants.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Plant {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   name: string;
+  4 |   scientificName: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/plants.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/plants.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   69186ms] [ERROR] ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   69186ms] [ERROR] ./src/data/guides.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Guide {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/guides.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/guides.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   69186ms] [ERROR] ./src/data/plants.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Plant {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   name: string;
+  4 |   scientificName: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/plants.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/plants.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   69198ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   69450ms] [ERROR] ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   69450ms] [ERROR] ./src/data/guides.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Guide {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/guides.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/guides.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   69450ms] [ERROR] ./src/data/plants.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Plant {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   name: string;
+  4 |   scientificName: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/plants.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/plants.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   69511ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  132248ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  133379ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  135050ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  135290ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  135313ms] [WARNING] Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  143992ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  144976ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  145412ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  145444ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[  145455ms] Error: ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./src/data/diary.ts:1:8)
+    at Object.getCompilationErrors (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/base-server.js:1753:26)
+[  145456ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  145504ms] [ERROR] ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  145504ms] [ERROR] ./src/data/guides.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Guide {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/guides.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/guides.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  145504ms] [ERROR] ./src/data/plants.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Plant {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   name: string;
+  4 |   scientificName: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/plants.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/plants.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  145542ms] [ERROR] ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  145542ms] [ERROR] ./src/data/guides.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Guide {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/guides.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/guides.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  145542ms] [ERROR] ./src/data/plants.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Plant {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   name: string;
+  4 |   scientificName: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/plants.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/plants.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  145606ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  145843ms] [ERROR] ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  145843ms] [ERROR] ./src/data/guides.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Guide {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/guides.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/guides.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  145843ms] [ERROR] ./src/data/plants.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Plant {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   name: string;
+  4 |   scientificName: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/plants.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/plants.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  169913ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  170981ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  172241ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  172280ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  172288ms] [WARNING] Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  186624ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  187618ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  188017ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  188039ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[  188052ms] Error: ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yelifeng/Documents/trae_projects/plant-/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yelifeng/Documents/trae_projects/plant-/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yelifeng/Documents/trae_projects/plant-/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+    at Object.getCompilationErrors (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/yelifeng/Documents/trae_projects/plant-/node_modules/next/dist/server/base-server.js:1753:26)
+[  188053ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  188099ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yelifeng/Documents/trae_projects/plant-/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yelifeng/Documents/trae_projects/plant-/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yelifeng/Documents/trae_projects/plant-/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188100ms] [ERROR] ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188100ms] [ERROR] ./src/data/guides.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Guide {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/guides.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/guides.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188100ms] [ERROR] ./src/data/plants.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Plant {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   name: string;
+  4 |   scientificName: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/plants.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/plants.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188100ms] [ERROR] ./src/app/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+   3 | import { useState, useEffect, useCallback } from "react";
+   4 | import Link from "next/link";
+>  5 | import {
+     | ^^^^^^^
+>  6 |   Leaf, BookOpen, CalendarDays, Wrench, MessageCircle, ChevronRight, Sprout, Sun, Droplets...
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  7 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { plants as localPlants } from "@/data/plants";
+   9 | import { guides as localGuides } from "@/data/guides";
+  10 | import { diaryEntries as localDiary } from "@/data/diary";
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188100ms] [ERROR] ./src/components/AnnouncementBar.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState, useEffect } from "react";
+  4 | import Link from "next/link";
+> 5 | import { Megaphone, X, ChevronRight } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { loadJSON } from "@/lib/api";
+  7 |
+  8 | const colorMap: Record<string, string> = {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/AnnouncementBar.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/AnnouncementBar.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188100ms] [ERROR] ./src/components/CoverImage.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import { useState, useRef, useEffect } from "react";
+> 4 | import { ImageOff } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { cn } from "@/lib/utils";
+  6 | import { getCMSApiUrl } from "@/lib/api";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./src/components/CoverImage.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/CoverImage.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188100ms] [ERROR] ./src/components/SearchDialog.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState, useEffect, useRef, useCallback } from "react";
+  4 | import { useRouter } from "next/navigation";
+> 5 | import { Search, BookOpen, CalendarDays, PenLine, Loader2 } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { loadJSON } from "@/lib/api";
+  7 | import { categoryLabels, cn } from "@/lib/utils";
+  8 |
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./src/components/SearchDialog.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./src/components/SearchDialog.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./src/components/SearchDialog.tsx [Client Component Browser]
+    ./src/components/layout/Header.tsx [Client Component Browser]
+    ./src/components/layout/Header.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./src/components/SearchDialog.tsx [Client Component SSR]
+    ./src/components/layout/Header.tsx [Client Component SSR]
+    ./src/components/layout/Header.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188100ms] [ERROR] ./src/components/layout/Footer.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from "next/link";
+> 2 | import { Leaf } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   return (
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188100ms] [ERROR] ./src/components/layout/Header.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | ...
+  4 | ...t } from "react";
+> 5 | ...okOpen, CalendarDays, ShoppingCart, MessageCircle, MapPin, PenLine, User, LogOut, Chevro...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...nts/SearchDialog";
+  7 | ...
+  8 | ...Context";
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Header.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188137ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yelifeng/Documents/trae_projects/plant-/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yelifeng/Documents/trae_projects/plant-/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yelifeng/Documents/trae_projects/plant-/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188137ms] [ERROR] ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188137ms] [ERROR] ./src/data/guides.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Guide {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/guides.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/guides.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188137ms] [ERROR] ./src/data/plants.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Plant {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   name: string;
+  4 |   scientificName: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/plants.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/plants.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188138ms] [ERROR] ./src/app/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+   3 | import { useState, useEffect, useCallback } from "react";
+   4 | import Link from "next/link";
+>  5 | import {
+     | ^^^^^^^
+>  6 |   Leaf, BookOpen, CalendarDays, Wrench, MessageCircle, ChevronRight, Sprout, Sun, Droplets...
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  7 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { plants as localPlants } from "@/data/plants";
+   9 | import { guides as localGuides } from "@/data/guides";
+  10 | import { diaryEntries as localDiary } from "@/data/diary";
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188138ms] [ERROR] ./src/components/AnnouncementBar.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState, useEffect } from "react";
+  4 | import Link from "next/link";
+> 5 | import { Megaphone, X, ChevronRight } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { loadJSON } from "@/lib/api";
+  7 |
+  8 | const colorMap: Record<string, string> = {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/AnnouncementBar.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/AnnouncementBar.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188138ms] [ERROR] ./src/components/CoverImage.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import { useState, useRef, useEffect } from "react";
+> 4 | import { ImageOff } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { cn } from "@/lib/utils";
+  6 | import { getCMSApiUrl } from "@/lib/api";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./src/components/CoverImage.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/CoverImage.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188138ms] [ERROR] ./src/components/SearchDialog.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState, useEffect, useRef, useCallback } from "react";
+  4 | import { useRouter } from "next/navigation";
+> 5 | import { Search, BookOpen, CalendarDays, PenLine, Loader2 } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { loadJSON } from "@/lib/api";
+  7 | import { categoryLabels, cn } from "@/lib/utils";
+  8 |
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./src/components/SearchDialog.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./src/components/SearchDialog.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./src/components/SearchDialog.tsx [Client Component Browser]
+    ./src/components/layout/Header.tsx [Client Component Browser]
+    ./src/components/layout/Header.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./src/components/SearchDialog.tsx [Client Component SSR]
+    ./src/components/layout/Header.tsx [Client Component SSR]
+    ./src/components/layout/Header.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188138ms] [ERROR] ./src/components/layout/Footer.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from "next/link";
+> 2 | import { Leaf } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   return (
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188138ms] [ERROR] ./src/components/layout/Header.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | ...
+  4 | ...t } from "react";
+> 5 | ...okOpen, CalendarDays, ShoppingCart, MessageCircle, MapPin, PenLine, User, LogOut, Chevro...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...nts/SearchDialog";
+  7 | ...
+  8 | ...Context";
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Header.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188202ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  188920ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yelifeng/Documents/trae_projects/plant-/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yelifeng/Documents/trae_projects/plant-/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yelifeng/Documents/trae_projects/plant-/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188920ms] [ERROR] ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188920ms] [ERROR] ./src/data/guides.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Guide {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/guides.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/guides.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188920ms] [ERROR] ./src/data/plants.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Plant {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   name: string;
+  4 |   scientificName: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/plants.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/plants.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188920ms] [ERROR] ./src/app/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+   3 | import { useState, useEffect, useCallback } from "react";
+   4 | import Link from "next/link";
+>  5 | import {
+     | ^^^^^^^
+>  6 |   Leaf, BookOpen, CalendarDays, Wrench, MessageCircle, ChevronRight, Sprout, Sun, Droplets...
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  7 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { plants as localPlants } from "@/data/plants";
+   9 | import { guides as localGuides } from "@/data/guides";
+  10 | import { diaryEntries as localDiary } from "@/data/diary";
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188920ms] [ERROR] ./src/components/AnnouncementBar.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState, useEffect } from "react";
+  4 | import Link from "next/link";
+> 5 | import { Megaphone, X, ChevronRight } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { loadJSON } from "@/lib/api";
+  7 |
+  8 | const colorMap: Record<string, string> = {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/AnnouncementBar.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/AnnouncementBar.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188920ms] [ERROR] ./src/components/CoverImage.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import { useState, useRef, useEffect } from "react";
+> 4 | import { ImageOff } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { cn } from "@/lib/utils";
+  6 | import { getCMSApiUrl } from "@/lib/api";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./src/components/CoverImage.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/CoverImage.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188920ms] [ERROR] ./src/components/SearchDialog.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState, useEffect, useRef, useCallback } from "react";
+  4 | import { useRouter } from "next/navigation";
+> 5 | import { Search, BookOpen, CalendarDays, PenLine, Loader2 } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { loadJSON } from "@/lib/api";
+  7 | import { categoryLabels, cn } from "@/lib/utils";
+  8 |
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./src/components/SearchDialog.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./src/components/SearchDialog.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./src/components/SearchDialog.tsx [Client Component Browser]
+    ./src/components/layout/Header.tsx [Client Component Browser]
+    ./src/components/layout/Header.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./src/components/SearchDialog.tsx [Client Component SSR]
+    ./src/components/layout/Header.tsx [Client Component SSR]
+    ./src/components/layout/Header.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188921ms] [ERROR] ./src/components/layout/Footer.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from "next/link";
+> 2 | import { Leaf } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   return (
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  188921ms] [ERROR] ./src/components/layout/Header.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | ...
+  4 | ...t } from "react";
+> 5 | ...okOpen, CalendarDays, ShoppingCart, MessageCircle, MapPin, PenLine, User, LogOut, Chevro...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...nts/SearchDialog";
+  7 | ...
+  8 | ...Context";
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Header.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193587ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yelifeng/Documents/trae_projects/plant-/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yelifeng/Documents/trae_projects/plant-/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yelifeng/Documents/trae_projects/plant-/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193587ms] [ERROR] ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193587ms] [ERROR] ./src/data/guides.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Guide {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/guides.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/guides.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193587ms] [ERROR] ./src/data/plants.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Plant {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   name: string;
+  4 |   scientificName: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/plants.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/plants.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193587ms] [ERROR] ./src/app/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+   3 | import { useState, useEffect, useCallback } from "react";
+   4 | import Link from "next/link";
+>  5 | import {
+     | ^^^^^^^
+>  6 |   Leaf, BookOpen, CalendarDays, Wrench, MessageCircle, ChevronRight, Sprout, Sun, Droplets...
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  7 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { plants as localPlants } from "@/data/plants";
+   9 | import { guides as localGuides } from "@/data/guides";
+  10 | import { diaryEntries as localDiary } from "@/data/diary";
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193587ms] [ERROR] ./src/components/AnnouncementBar.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState, useEffect } from "react";
+  4 | import Link from "next/link";
+> 5 | import { Megaphone, X, ChevronRight } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { loadJSON } from "@/lib/api";
+  7 |
+  8 | const colorMap: Record<string, string> = {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/AnnouncementBar.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/AnnouncementBar.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193587ms] [ERROR] ./src/components/CoverImage.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import { useState, useRef, useEffect } from "react";
+> 4 | import { ImageOff } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { cn } from "@/lib/utils";
+  6 | import { getCMSApiUrl } from "@/lib/api";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./src/components/CoverImage.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/CoverImage.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193587ms] [ERROR] ./src/components/SearchDialog.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState, useEffect, useRef, useCallback } from "react";
+  4 | import { useRouter } from "next/navigation";
+> 5 | import { Search, BookOpen, CalendarDays, PenLine, Loader2 } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { loadJSON } from "@/lib/api";
+  7 | import { categoryLabels, cn } from "@/lib/utils";
+  8 |
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./src/components/SearchDialog.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./src/components/SearchDialog.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./src/components/SearchDialog.tsx [Client Component Browser]
+    ./src/components/layout/Header.tsx [Client Component Browser]
+    ./src/components/layout/Header.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./src/components/SearchDialog.tsx [Client Component SSR]
+    ./src/components/layout/Header.tsx [Client Component SSR]
+    ./src/components/layout/Header.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193587ms] [ERROR] ./src/components/layout/Footer.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from "next/link";
+> 2 | import { Leaf } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   return (
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193587ms] [ERROR] ./src/components/layout/Header.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | ...
+  4 | ...t } from "react";
+> 5 | ...okOpen, CalendarDays, ShoppingCart, MessageCircle, MapPin, PenLine, User, LogOut, Chevro...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...nts/SearchDialog";
+  7 | ...
+  8 | ...Context";
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Header.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193655ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  193738ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yelifeng/Documents/trae_projects/plant-/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yelifeng/Documents/trae_projects/plant-/src/app'
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yelifeng/Documents/trae_projects/plant-/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193738ms] [ERROR] ./src/data/diary.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface DiaryEntry {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/diary.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/diary.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193738ms] [ERROR] ./src/data/guides.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Guide {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   title: string;
+  4 |   slug: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/guides.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/guides.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193738ms] [ERROR] ./src/data/plants.ts:1:8
+Expected '{', got 'interface'
+> 1 | export interface Plant {
+    |        ^^^^^^^^^
+  2 |   id: string;
+  3 |   name: string;
+  4 |   scientificName: string;
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/data/plants.ts [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/data/plants.ts [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193738ms] [ERROR] ./src/app/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+   3 | import { useState, useEffect, useCallback } from "react";
+   4 | import Link from "next/link";
+>  5 | import {
+     | ^^^^^^^
+>  6 |   Leaf, BookOpen, CalendarDays, Wrench, MessageCircle, ChevronRight, Sprout, Sun, Droplets...
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  7 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { plants as localPlants } from "@/data/plants";
+   9 | import { guides as localGuides } from "@/data/guides";
+  10 | import { diaryEntries as localDiary } from "@/data/diary";
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193738ms] [ERROR] ./src/components/AnnouncementBar.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState, useEffect } from "react";
+  4 | import Link from "next/link";
+> 5 | import { Megaphone, X, ChevronRight } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { loadJSON } from "@/lib/api";
+  7 |
+  8 | const colorMap: Record<string, string> = {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/AnnouncementBar.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/AnnouncementBar.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193738ms] [ERROR] ./src/components/CoverImage.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import { useState, useRef, useEffect } from "react";
+> 4 | import { ImageOff } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { cn } from "@/lib/utils";
+  6 | import { getCMSApiUrl } from "@/lib/api";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./src/components/CoverImage.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/CoverImage.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193738ms] [ERROR] ./src/components/SearchDialog.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState, useEffect, useRef, useCallback } from "react";
+  4 | import { useRouter } from "next/navigation";
+> 5 | import { Search, BookOpen, CalendarDays, PenLine, Loader2 } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { loadJSON } from "@/lib/api";
+  7 | import { categoryLabels, cn } from "@/lib/utils";
+  8 |
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./src/components/SearchDialog.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./src/components/SearchDialog.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./src/components/SearchDialog.tsx [Client Component Browser]
+    ./src/components/layout/Header.tsx [Client Component Browser]
+    ./src/components/layout/Header.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./src/components/SearchDialog.tsx [Client Component SSR]
+    ./src/components/layout/Header.tsx [Client Component SSR]
+    ./src/components/layout/Header.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193738ms] [ERROR] ./src/components/layout/Footer.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from "next/link";
+> 2 | import { Leaf } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   return (
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193738ms] [ERROR] ./src/components/layout/Header.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | ...
+  4 | ...t } from "react";
+> 5 | ...okOpen, CalendarDays, ShoppingCart, MessageCircle, MapPin, PenLine, User, LogOut, Chevro...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...nts/SearchDialog";
+  7 | ...
+  8 | ...Context";
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Header.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  193804ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  204535ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226

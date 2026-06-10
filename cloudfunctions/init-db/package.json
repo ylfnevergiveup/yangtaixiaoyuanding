@@ -1,0 +1,9 @@
+{
+  "name": "init-db",
+  "version": "1.0.0",
+  "description": "CloudBase 数据库初始化 - 从静态 JSON 导入种子数据到 MongoDB",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudbase/node-sdk": "^2.15.0"
+  }
+}

@@ -1,0 +1,170 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "阳台小园丁" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: 阳台小园丁
+      - navigation [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "阳台测评" [ref=e12] [cursor=pointer]:
+          - /url: /assessment/
+          - img [ref=e13]
+          - text: 阳台测评
+        - link "植物百科" [ref=e16] [cursor=pointer]:
+          - /url: /plants/
+        - link "场景指南" [ref=e17] [cursor=pointer]:
+          - /url: /guide/
+        - link "种植教程" [ref=e18] [cursor=pointer]:
+          - /url: /guides/
+        - link "好物推荐" [ref=e19] [cursor=pointer]:
+          - /url: /tools/
+        - link "园丁日记" [ref=e20] [cursor=pointer]:
+          - /url: /diary/
+        - link "社区问答" [ref=e21] [cursor=pointer]:
+          - /url: /community/
+      - generic [ref=e22]:
+        - button "搜索" [ref=e23]:
+          - img [ref=e24]
+        - link "登录" [ref=e27] [cursor=pointer]:
+          - /url: /login/
+          - img [ref=e28]
+          - text: 登录
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - img "小葱" [ref=e34]
+      - generic [ref=e36]:
+        - link "返回植物百科" [ref=e37] [cursor=pointer]:
+          - /url: /plants/
+          - img [ref=e38]
+          - text: 返回植物百科
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 蔬菜
+            - generic [ref=e43]: 🌱 新手友好
+          - heading "小葱" [level=1] [ref=e44]
+          - paragraph [ref=e45]: Allium fistulosum
+          - paragraph [ref=e47]: 小葱是阳台种植入门首选，生长速度快、病虫害少、可多次采收，几乎零失败。随吃随剪，是厨房阳台必备。
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - img [ref=e50]
+            - generic [ref=e56]: 光照需求
+            - generic [ref=e57]: 充足直射光
+          - generic [ref=e58]:
+            - img [ref=e59]
+            - generic [ref=e62]: 浇水频率
+            - generic [ref=e63]: 适中
+          - generic [ref=e64]:
+            - img [ref=e65]
+            - generic [ref=e67]: 种植季节
+            - generic [ref=e68]: 春、夏、秋、冬
+          - generic [ref=e69]:
+            - img [ref=e70]
+            - generic [ref=e73]: 收获周期
+            - generic [ref=e74]: 约 20 天
+        - generic [ref=e75]:
+          - heading "阳台适配指南" [level=2] [ref=e76]:
+            - img [ref=e77]
+            - text: 阳台适配指南
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - generic [ref=e84]: 🏡 阳台适配
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: 适应力极强，任何朝向的阳台都能种。
+                - paragraph [ref=e87]: 南向阳台最为适合，全天光照充足，只需夏季中午适当遮阴即可。
+                - paragraph [ref=e88]: 其次东向，上午有 3-5 小时柔和直射光，下午散射光，不过在冬季生长稍慢。
+                - paragraph [ref=e89]: 再次西向，下午是两点至五点会有直射光，容易叶片易焦枯。
+                - paragraph [ref=e90]: 最后北向，全年几乎无直射，长势会比较缓慢。
+            - generic [ref=e91]:
+              - img [ref=e92]
+              - generic [ref=e95]: 适合朝向
+              - generic [ref=e96]:
+                - generic [ref=e97]: 朝南 ☀️
+                - generic [ref=e98]: 朝东 🌅
+                - generic [ref=e99]: 朝西 🌇
+                - generic [ref=e100]: 朝北 🌥️
+            - generic [ref=e101]:
+              - img [ref=e102]
+              - generic [ref=e104]: 最低耐受温度
+              - paragraph [ref=e105]: 10°C
+            - generic [ref=e106]:
+              - img [ref=e107]
+              - generic [ref=e113]: 最小盆深
+              - paragraph [ref=e114]: 10 cm
+            - generic [ref=e115]:
+              - img [ref=e116]
+              - generic [ref=e120]: 适合花盆
+              - paragraph [ref=e121]: 小容器即可，甚至水培瓶
+        - generic [ref=e122]:
+          - heading "💡 种植小贴士" [level=2] [ref=e123]
+          - generic [ref=e124]:
+            - paragraph [ref=e125]: 葱根留3cm插入水中即可水培
+            - paragraph [ref=e126]: 也可用葱头直接种土里
+            - paragraph [ref=e127]: 剪的时候留2-3cm，会继续生长
+        - generic [ref=e129]:
+          - heading "相关种植指南" [level=2] [ref=e130]:
+            - img [ref=e131]
+            - text: 相关种植指南
+          - link "小葱阳台种植全攻略（超量化版） 暂无简介 新手入门" [ref=e134] [cursor=pointer]:
+            - /url: /guides/%E5%B0%8F%E8%91%B1%E9%98%B3%E5%8F%B0%E7%A7%8D%E6%A4%8D%E5%85%A8%E6%94%BB%E7%95%A5%EF%BC%88%E8%B6%85%E9%87%8F%E5%8C%96%E7%89%88%EF%BC%89/
+            - heading "小葱阳台种植全攻略（超量化版）" [level=3] [ref=e135]
+            - paragraph [ref=e136]: 暂无简介
+            - generic [ref=e137]: 新手入门
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - img [ref=e140]
+            - heading "留言" [level=3] [ref=e142]
+          - generic [ref=e143]:
+            - img [ref=e144]
+            - paragraph [ref=e147]: 登录后即可留言
+            - link "登录 / 注册" [ref=e148] [cursor=pointer]:
+              - /url: /login/
+              - img [ref=e149]
+              - text: 登录 / 注册
+          - generic [ref=e152]:
+            - img [ref=e153]
+            - paragraph [ref=e155]: 暂无留言，来写第一条吧 🌱
+  - contentinfo [ref=e157]:
+    - generic [ref=e158]:
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - img [ref=e163]
+            - generic [ref=e166]: 阳台小园丁
+          - paragraph [ref=e167]:
+            - text: 让每个阳台都变成绿色小天地。
+            - text: 城市园艺爱好者的知识社区。
+        - generic [ref=e168]:
+          - heading "探索" [level=3] [ref=e169]
+          - list [ref=e170]:
+            - listitem [ref=e171]:
+              - link "植物百科" [ref=e172] [cursor=pointer]:
+                - /url: /plants/
+            - listitem [ref=e173]:
+              - link "种植指南" [ref=e174] [cursor=pointer]:
+                - /url: /guides/
+            - listitem [ref=e175]:
+              - link "种植日历" [ref=e176] [cursor=pointer]:
+                - /url: /calendar/
+        - generic [ref=e177]:
+          - heading "资源" [level=3] [ref=e178]
+          - list [ref=e179]:
+            - listitem [ref=e180]:
+              - link "工具推荐" [ref=e181] [cursor=pointer]:
+                - /url: /tools/
+            - listitem [ref=e182]:
+              - link "社区问答" [ref=e183] [cursor=pointer]:
+                - /url: /community/
+            - listitem [ref=e184]:
+              - link "DIY教程" [ref=e185] [cursor=pointer]:
+                - /url: /guides/?category=diy
+        - generic [ref=e186]:
+          - heading "关于" [level=3] [ref=e187]
+          - list [ref=e188]:
+            - listitem [ref=e189]: 为城市园艺爱好者而生
+            - listitem [ref=e190]: © 2026 阳台小园丁
+      - paragraph [ref=e192]: 用心种下每一颗种子，收获满满的绿色幸福 🌱
+  - button "Open Next.js Dev Tools" [ref=e198] [cursor=pointer]:
+    - img [ref=e199]
+  - alert [ref=e202]

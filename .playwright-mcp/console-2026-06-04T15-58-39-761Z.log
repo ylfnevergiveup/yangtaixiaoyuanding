@@ -1,0 +1,1 @@
+[     369ms] [ERROR] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>. @ https://yangtaixiaoyuanding-d7b1c10c2d50-1438704930.tcloudbaseapp.com/v2/admin/plants:0

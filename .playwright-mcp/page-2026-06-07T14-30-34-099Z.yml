@@ -1,0 +1,403 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "阳台小园丁" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: 阳台小园丁
+      - navigation [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "阳台测评" [ref=e12] [cursor=pointer]:
+          - /url: /assessment/
+          - img [ref=e13]
+          - text: 阳台测评
+        - link "植物百科" [ref=e16] [cursor=pointer]:
+          - /url: /plants/
+        - link "场景指南" [ref=e17] [cursor=pointer]:
+          - /url: /guide/
+        - link "种植教程" [ref=e18] [cursor=pointer]:
+          - /url: /guides/
+        - link "好物推荐" [ref=e19] [cursor=pointer]:
+          - /url: /tools/
+        - link "园丁日记" [ref=e20] [cursor=pointer]:
+          - /url: /diary/
+        - link "社区问答" [ref=e21] [cursor=pointer]:
+          - /url: /community/
+      - generic [ref=e22]:
+        - button "搜索" [ref=e23]:
+          - img [ref=e24]
+        - link "登录" [ref=e27] [cursor=pointer]:
+          - /url: /login/
+          - img [ref=e28]
+          - text: 登录
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - button "搜索植物、教程、日记... ⌘K" [ref=e35]:
+          - img [ref=e36]
+          - generic [ref=e39]: 搜索植物、教程、日记...
+          - generic [ref=e40]: ⌘K
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - img [ref=e45]
+              - text: 60000+阳台园艺爱好者的专属营地
+            - heading "在阳台 种下你的绿色生活" [level=1] [ref=e48]:
+              - text: 在阳台
+              - generic [ref=e49]: 种下你的绿色生活
+            - paragraph [ref=e50]: 先测阳台再种菜 🌱 输入你家阳台的朝向和城市，3秒找到最适合你的种植方案。
+            - generic [ref=e51]:
+              - link "开始测评你的阳台" [ref=e52] [cursor=pointer]:
+                - /url: /assessment/
+                - img [ref=e53]
+                - text: 开始测评你的阳台
+                - img [ref=e56]
+              - link "浏览植物百科" [ref=e58] [cursor=pointer]:
+                - /url: /plants/
+          - generic [ref=e60]:
+            - generic [ref=e62]: 🌱
+            - generic [ref=e64]: 🌿
+            - generic [ref=e66]: 🍅
+            - generic [ref=e68]: 🌻
+            - generic [ref=e70]: 🌵
+            - generic [ref=e72]: 🪴
+            - generic [ref=e74]: 🌸
+            - generic [ref=e76]: 🥬
+            - generic [ref=e78]: 🍓
+      - generic [ref=e81]:
+        - link "阳台测评 3秒找到适合方案" [ref=e82] [cursor=pointer]:
+          - /url: /assessment/
+          - img [ref=e84]
+          - heading "阳台测评" [level=3] [ref=e87]
+          - paragraph [ref=e88]: 3秒找到适合方案
+        - link "场景指南 按城市/朝向分类" [ref=e89] [cursor=pointer]:
+          - /url: /guide/
+          - img [ref=e91]
+          - heading "场景指南" [level=3] [ref=e94]
+          - paragraph [ref=e95]: 按城市/朝向分类
+        - link "植物百科 500+植物数据库" [ref=e96] [cursor=pointer]:
+          - /url: /plants/
+          - img [ref=e98]
+          - heading "植物百科" [level=3] [ref=e100]
+          - paragraph [ref=e101]: 500+植物数据库
+        - link "园丁日记 实战经验分享" [ref=e102] [cursor=pointer]:
+          - /url: /diary/
+          - img [ref=e104]
+          - heading "园丁日记" [level=3] [ref=e106]
+          - paragraph [ref=e107]: 实战经验分享
+        - link "种植教程 从入门到精通" [ref=e108] [cursor=pointer]:
+          - /url: /guides/
+          - img [ref=e110]
+          - heading "种植教程" [level=3] [ref=e112]
+          - paragraph [ref=e113]: 从入门到精通
+        - link "好物推荐 阳台好物评测" [ref=e114] [cursor=pointer]:
+          - /url: /tools/
+          - img [ref=e116]
+          - heading "好物推荐" [level=3] [ref=e120]
+          - paragraph [ref=e121]: 阳台好物评测
+        - link "社区问答 花友互助交流" [ref=e122] [cursor=pointer]:
+          - /url: /community/
+          - img [ref=e124]
+          - heading "社区问答" [level=3] [ref=e126]
+          - paragraph [ref=e127]: 花友互助交流
+        - link "种植日历 跟着时节种" [ref=e128] [cursor=pointer]:
+          - /url: /calendar/
+          - img [ref=e130]
+          - heading "种植日历" [level=3] [ref=e132]
+          - paragraph [ref=e133]: 跟着时节种
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - heading "🌱 推荐植物" [level=2] [ref=e138]
+            - paragraph [ref=e139]: 最适合阳台种植的热门选择
+          - link "浏览全部" [ref=e140] [cursor=pointer]:
+            - /url: /plants/
+            - text: 浏览全部
+            - img [ref=e141]
+        - generic [ref=e143]:
+          - link "小葱 蔬菜 🌱 新手 小葱 Allium fistulosum 小葱是阳台种植入门首选，生长速度快、病虫害少、可多次采收，几乎零失败。随吃随剪，是厨房阳台必备。 喜阳 中水 20天收获 🌱 ☀️ 🍂 ❄️ 春/夏/秋/冬播" [ref=e437] [cursor=pointer]:
+            - /url: /plants/green-onion/
+            - generic [ref=e438]:
+              - img "小葱" [ref=e439]
+              - generic [ref=e440]: 蔬菜
+              - generic [ref=e441]: 🌱 新手
+            - generic [ref=e442]:
+              - heading "小葱" [level=3] [ref=e443]
+              - paragraph [ref=e444]: Allium fistulosum
+              - paragraph [ref=e445]: 小葱是阳台种植入门首选，生长速度快、病虫害少、可多次采收，几乎零失败。随吃随剪，是厨房阳台必备。
+              - generic [ref=e446]:
+                - generic [ref=e447]:
+                  - img [ref=e448]
+                  - text: 喜阳
+                - generic [ref=e454]:
+                  - img [ref=e455]
+                  - text: 中水
+                - generic [ref=e458]:
+                  - img [ref=e459]
+                  - text: 20天收获
+                - generic [ref=e461]: 🌱 ☀️ 🍂 ❄️ 春/夏/秋/冬播
+          - link "四季豆 蔬菜 🌱 新手 四季豆 Phaseolus vulgaris 四季豆是阳台垂直种植的好选择，茎蔓攀爬生长，既遮阴又能收获鲜嫩的豆荚。 喜阳 中水 50天收获 🌱 ☀️ 🍂 春/夏/秋播" [ref=e462] [cursor=pointer]:
+            - /url: /plants/green-bean/
+            - generic [ref=e463]:
+              - generic [ref=e464]:
+                - img [ref=e465]
+                - generic [ref=e472]: 四季豆
+              - generic [ref=e473]: 蔬菜
+              - generic [ref=e474]: 🌱 新手
+            - generic [ref=e475]:
+              - heading "四季豆" [level=3] [ref=e476]
+              - paragraph [ref=e477]: Phaseolus vulgaris
+              - paragraph [ref=e478]: 四季豆是阳台垂直种植的好选择，茎蔓攀爬生长，既遮阴又能收获鲜嫩的豆荚。
+              - generic [ref=e479]:
+                - generic [ref=e480]:
+                  - img [ref=e481]
+                  - text: 喜阳
+                - generic [ref=e487]:
+                  - img [ref=e488]
+                  - text: 中水
+                - generic [ref=e491]:
+                  - img [ref=e492]
+                  - text: 50天收获
+                - generic [ref=e494]: 🌱 ☀️ 🍂 春/夏/秋播
+          - link "微型月季 花卉 🌳 高手 微型月季 Rosa chinensis minima 微型月季是阳台花园的颜值担当。花期长、花色丰富，适合打造浪漫的阳台角落。 喜阳 中水 30天收获 🌱 ☀️ 🍂 春/夏/秋播" [ref=e495] [cursor=pointer]:
+            - /url: /plants/rose/
+            - generic [ref=e496]:
+              - img "微型月季" [ref=e497]
+              - generic [ref=e498]: 花卉
+              - generic [ref=e499]: 🌳 高手
+            - generic [ref=e500]:
+              - heading "微型月季" [level=3] [ref=e501]
+              - paragraph [ref=e502]: Rosa chinensis minima
+              - paragraph [ref=e503]: 微型月季是阳台花园的颜值担当。花期长、花色丰富，适合打造浪漫的阳台角落。
+              - generic [ref=e504]:
+                - generic [ref=e505]:
+                  - img [ref=e506]
+                  - text: 喜阳
+                - generic [ref=e512]:
+                  - img [ref=e513]
+                  - text: 中水
+                - generic [ref=e516]:
+                  - img [ref=e517]
+                  - text: 30天收获
+                - generic [ref=e519]: 🌱 ☀️ 🍂 春/夏/秋播
+          - link "番茄 蔬菜 🌿 进阶 番茄 Solanum lycopersicum 阳台最受欢迎的蔬菜之一。樱桃番茄品种尤其适合盆栽，果实累累，观赏性极佳。 喜阳 中水 60天收获 🌱 🍂 春/秋播" [ref=e520] [cursor=pointer]:
+            - /url: /plants/tomato/
+            - generic [ref=e245]:
+              - img "番茄" [ref=e521]
+              - generic [ref=e247]: 蔬菜
+              - generic [ref=e248]: 🌿 进阶
+            - generic [ref=e249]:
+              - heading "番茄" [level=3] [ref=e250]
+              - paragraph [ref=e251]: Solanum lycopersicum
+              - paragraph [ref=e252]: 阳台最受欢迎的蔬菜之一。樱桃番茄品种尤其适合盆栽，果实累累，观赏性极佳。
+              - generic [ref=e253]:
+                - generic [ref=e254]:
+                  - img [ref=e255]
+                  - text: 喜阳
+                - generic [ref=e261]:
+                  - img [ref=e262]
+                  - text: 中水
+                - generic [ref=e265]:
+                  - img [ref=e266]
+                  - text: 60天收获
+                - generic [ref=e268]: 🌱 🍂 春/秋播
+          - link "辣椒 蔬菜 🌱 新手 辣椒 Capsicum annuum 阳台种辣椒又好看又实用。朝天椒、五彩椒结果时色彩缤纷，极具观赏价值。 喜阳 中水 70天收获 🌱 ☀️ 春/夏播" [ref=e219] [cursor=pointer]:
+            - /url: /plants/chili/
+            - generic [ref=e220]:
+              - img "辣椒" [ref=e522]
+              - generic [ref=e222]: 蔬菜
+              - generic [ref=e223]: 🌱 新手
+            - generic [ref=e224]:
+              - heading "辣椒" [level=3] [ref=e225]
+              - paragraph [ref=e226]: Capsicum annuum
+              - paragraph [ref=e227]: 阳台种辣椒又好看又实用。朝天椒、五彩椒结果时色彩缤纷，极具观赏价值。
+              - generic [ref=e228]:
+                - generic [ref=e229]:
+                  - img [ref=e230]
+                  - text: 喜阳
+                - generic [ref=e236]:
+                  - img [ref=e237]
+                  - text: 中水
+                - generic [ref=e240]:
+                  - img [ref=e241]
+                  - text: 70天收获
+                - generic [ref=e243]: 🌱 ☀️ 春/夏播
+          - link "生菜 蔬菜 🌱 新手 生菜 Lactuca sativa 生长周期短，播种30天即可收获。摘叶食用可持续收获，是阳台种菜的首选。 半阴 中水 30天收获 🌱 🍂 ❄️ 春/秋/冬播" [ref=e269] [cursor=pointer]:
+            - /url: /plants/lettuce/
+            - generic [ref=e270]:
+              - generic [ref=e523]:
+                - img [ref=e524]
+                - generic [ref=e531]: 生菜
+              - generic [ref=e272]: 蔬菜
+              - generic [ref=e273]: 🌱 新手
+            - generic [ref=e274]:
+              - heading "生菜" [level=3] [ref=e275]
+              - paragraph [ref=e276]: Lactuca sativa
+              - paragraph [ref=e277]: 生长周期短，播种30天即可收获。摘叶食用可持续收获，是阳台种菜的首选。
+              - generic [ref=e278]:
+                - generic [ref=e279]:
+                  - img [ref=e280]
+                  - text: 半阴
+                - generic [ref=e286]:
+                  - img [ref=e287]
+                  - text: 中水
+                - generic [ref=e290]:
+                  - img [ref=e291]
+                  - text: 30天收获
+                - generic [ref=e293]: 🌱 🍂 ❄️ 春/秋/冬播
+      - generic [ref=e295]:
+        - generic [ref=e296]:
+          - generic [ref=e297]:
+            - heading "📝 园丁日记" [level=2] [ref=e298]
+            - paragraph [ref=e299]: 真实的种植经验分享，帮你少走弯路
+          - link "查看全部" [ref=e300] [cursor=pointer]:
+            - /url: /diary/
+            - text: 查看全部
+            - img [ref=e301]
+        - generic [ref=e303]:
+          - link "⚠️ 避坑指南 新手最容易踩的5个坑，你中了几个？ 新手种菜第一年，这5个坑几乎人人都会踩，看完立省2000元。 新手必看 避坑 省钱" [ref=e312] [cursor=pointer]:
+            - /url: /diary/beginner-mistakes/
+            - generic [ref=e313]: ⚠️ 避坑指南
+            - heading "新手最容易踩的5个坑，你中了几个？" [level=3] [ref=e314]
+            - paragraph [ref=e315]: 新手种菜第一年，这5个坑几乎人人都会踩，看完立省2000元。
+            - generic [ref=e316]:
+              - generic [ref=e317]: 新手必看
+              - generic [ref=e318]: 避坑
+              - generic [ref=e319]: 省钱
+          - link "🌱 实战记录 从播种到收获：我的樱桃番茄全记录 历时70天，从一粒种子到红彤彤的果实，分享全过程的经验和教训。 番茄 全程记录 新手经验" [ref=e304] [cursor=pointer]:
+            - /url: /diary/tomato-growing-diary/
+            - generic [ref=e305]: 🌱 实战记录
+            - heading "从播种到收获：我的樱桃番茄全记录" [level=3] [ref=e306]
+            - paragraph [ref=e307]: 历时70天，从一粒种子到红彤彤的果实，分享全过程的经验和教训。
+            - generic [ref=e308]:
+              - generic [ref=e309]: 番茄
+              - generic [ref=e310]: 全程记录
+              - generic [ref=e311]: 新手经验
+      - generic [ref=e321]:
+        - generic [ref=e322]:
+          - generic [ref=e323]:
+            - heading "📖 种植指南" [level=2] [ref=e324]
+            - paragraph [ref=e325]: 系统学习阳台种植知识
+          - link "查看全部" [ref=e326] [cursor=pointer]:
+            - /url: /guides/
+            - text: 查看全部
+            - img [ref=e327]
+        - generic [ref=e329]:
+          - link "🔧 4分钟阅读 · 2026-04-28 用可乐瓶制作自动浇花器 出差旅行也不怕，简单DIY让你的植物自动喝水。" [ref=e532] [cursor=pointer]:
+            - /url: /guides/diy-watering/
+            - generic [ref=e534]: 🔧
+            - generic [ref=e535]:
+              - generic [ref=e536]: 4分钟阅读
+              - generic [ref=e537]: ·
+              - generic [ref=e538]: 2026-04-28
+            - heading "用可乐瓶制作自动浇花器" [level=3] [ref=e539]
+            - paragraph [ref=e540]: 出差旅行也不怕，简单DIY让你的植物自动喝水。
+          - link "🌿 7分钟阅读 · 2026-05-20 病虫害防治——绿色方法大集合 不用化学农药，用天然方法防治常见阳台植物病虫害。" [ref=e541] [cursor=pointer]:
+            - /url: /guides/pest-control/
+            - generic [ref=e543]: 🌿
+            - generic [ref=e544]:
+              - generic [ref=e545]: 7分钟阅读
+              - generic [ref=e546]: ·
+              - generic [ref=e547]: 2026-05-20
+            - heading "病虫害防治——绿色方法大集合" [level=3] [ref=e548]
+            - paragraph [ref=e549]: 不用化学农药，用天然方法防治常见阳台植物病虫害。
+          - link "🔧 10分钟阅读 · 2026-05-10 自制堆肥——厨余变黑金 用厨房剩菜果皮制作有机堆肥，省钱又环保。" [ref=e348] [cursor=pointer]:
+            - /url: /guides/composting-guide/
+            - generic [ref=e350]: 🔧
+            - generic [ref=e351]:
+              - generic [ref=e352]: 10分钟阅读
+              - generic [ref=e353]: ·
+              - generic [ref=e354]: 2026-05-10
+            - heading "自制堆肥——厨余变黑金" [level=3] [ref=e355]
+            - paragraph [ref=e356]: 用厨房剩菜果皮制作有机堆肥，省钱又环保。
+      - generic [ref=e358]:
+        - generic [ref=e359]:
+          - generic [ref=e360]:
+            - heading "💬 热门问答" [level=2] [ref=e361]
+            - paragraph [ref=e362]: 花友们正在讨论的问题
+          - link "去社区" [ref=e363] [cursor=pointer]:
+            - /url: /community/
+            - text: 去社区
+            - img [ref=e364]
+        - generic [ref=e366]:
+          - link "已解决 番茄叶子发黄卷曲是什么原因？ 3 回答 156 浏览" [ref=e367] [cursor=pointer]:
+            - /url: /community/
+            - generic [ref=e368]: 已解决
+            - paragraph [ref=e369]: 番茄叶子发黄卷曲是什么原因？
+            - generic [ref=e370]:
+              - generic [ref=e371]: 3 回答
+              - generic [ref=e372]: 156 浏览
+          - link "待解答 封闭阳台适合种什么开花植物？ 8 回答 412 浏览" [ref=e373] [cursor=pointer]:
+            - /url: /community/
+            - generic [ref=e374]: 待解答
+            - paragraph [ref=e375]: 封闭阳台适合种什么开花植物？
+            - generic [ref=e376]:
+              - generic [ref=e377]: 8 回答
+              - generic [ref=e378]: 412 浏览
+          - link "待解答 蚜虫爆发了，不想用农药有什么好办法？ 6 回答 198 浏览" [ref=e379] [cursor=pointer]:
+            - /url: /community/
+            - generic [ref=e380]: 待解答
+            - paragraph [ref=e381]: 蚜虫爆发了，不想用农药有什么好办法？
+            - generic [ref=e382]:
+              - generic [ref=e383]: 6 回答
+              - generic [ref=e384]: 198 浏览
+      - generic [ref=e385]:
+        - generic [ref=e386]:
+          - generic [ref=e387]: 🌱
+          - generic [ref=e388]: 🌿
+          - generic [ref=e389]: 🍅
+          - generic [ref=e390]: 🌸
+        - generic [ref=e391]:
+          - heading "今天就开始你的阳台花园吧" [level=2] [ref=e392]
+          - paragraph [ref=e393]: 先测阳台再种菜，让每一个阳台都变成绿色小天地。
+          - generic [ref=e394]:
+            - link "开始测评你的阳台" [ref=e395] [cursor=pointer]:
+              - /url: /assessment/
+              - img [ref=e396]
+              - text: 开始测评你的阳台
+            - link "阅读园丁日记" [ref=e399] [cursor=pointer]:
+              - /url: /diary/
+  - contentinfo [ref=e400]:
+    - generic [ref=e401]:
+      - generic [ref=e402]:
+        - generic [ref=e403]:
+          - generic [ref=e404]:
+            - img [ref=e406]
+            - generic [ref=e409]: 阳台小园丁
+          - paragraph [ref=e410]:
+            - text: 让每个阳台都变成绿色小天地。
+            - text: 城市园艺爱好者的知识社区。
+        - generic [ref=e411]:
+          - heading "探索" [level=3] [ref=e412]
+          - list [ref=e413]:
+            - listitem [ref=e414]:
+              - link "植物百科" [ref=e415] [cursor=pointer]:
+                - /url: /plants/
+            - listitem [ref=e416]:
+              - link "种植指南" [ref=e417] [cursor=pointer]:
+                - /url: /guides/
+            - listitem [ref=e418]:
+              - link "种植日历" [ref=e419] [cursor=pointer]:
+                - /url: /calendar/
+        - generic [ref=e420]:
+          - heading "资源" [level=3] [ref=e421]
+          - list [ref=e422]:
+            - listitem [ref=e423]:
+              - link "工具推荐" [ref=e424] [cursor=pointer]:
+                - /url: /tools/
+            - listitem [ref=e425]:
+              - link "社区问答" [ref=e426] [cursor=pointer]:
+                - /url: /community/
+            - listitem [ref=e427]:
+              - link "DIY教程" [ref=e428] [cursor=pointer]:
+                - /url: /guides/?category=diy
+        - generic [ref=e429]:
+          - heading "关于" [level=3] [ref=e430]
+          - list [ref=e431]:
+            - listitem [ref=e432]: 为城市园艺爱好者而生
+            - listitem [ref=e433]: © 2026 阳台小园丁
+      - paragraph [ref=e435]: 用心种下每一颗种子，收获满满的绿色幸福 🌱
+  - button "Open Next.js Dev Tools" [ref=e555] [cursor=pointer]:
+    - img [ref=e556]
+  - alert [ref=e436]

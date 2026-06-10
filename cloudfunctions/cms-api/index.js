@@ -697,7 +697,7 @@ async function handleRequest(event) {
         content: bodyData.content,
         author: bodyData.author,
         date: new Date().toISOString().slice(0, 10),
-        status: 'published',
+        status: 'draft',
       };
       answers.push(newAnswer);
       await coll.where({ id }).update({ answers, _updatedAt: new Date().toISOString() });
@@ -736,7 +736,6 @@ async function handleRequest(event) {
       let query = coll;
       if (queryString && queryString.sort) {
         const [field, dir] = queryString.sort.split(',');
-        // 自定义排序字段为主排序，_id 作为 tiebreaker
         query = query.orderBy(field, dir === 'desc' ? 'desc' : 'asc').orderBy('_id', 'desc');
       } else {
         // 默认按更新时间倒序，_id 作为 tiebreaker
@@ -744,9 +743,17 @@ async function handleRequest(event) {
       }
       const limit = Math.min(parseInt(queryString?.limit) || 200, 500);
       const skip = parseInt(queryString?.skip) || 0;
-      const result = await query.skip(skip).limit(limit).get();
+
+      let data = [];
+      try {
+        const result = await query.skip(skip).limit(limit).get();
+        data = result.data || [];
+      } catch {
+        // 集合为空或索引不存在时 orderBy 可能失败，回退到无排序查询
+        const result = await coll.skip(skip).limit(limit).get();
+        data = result.data || [];
+      }
       // 未认证请求过滤草稿，已认证（管理员）返回全部
-      const data = result.data || [];
       const filtered = checkAuth(headers) ? data : data.filter(item => item.status !== 'draft');
       return safeResponse({ code: 0, data: filtered });
     }
